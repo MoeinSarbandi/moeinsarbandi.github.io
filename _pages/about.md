@@ -67,8 +67,8 @@ at the University of Pavia (Italy).
 - Sliding Mode Control (Integral SMC, Super-Twisting, Adaptive STW, SM observers)
 - Model Predictive Control (Data-driven MPC / DeePC)
 - Neural Network-Based Control (Adaptive NN, Reinforcement Learning)
-- Nonlinear Observer Design (SOSMO, ASOSMO)
-- Application to Renewable Energy Systems (FOWT pitch & speed control)
+- Nonlinear Observer Design
+- Application to Renewable Energy Systems
 
 **Academic Service:**
 I serve as a peer reviewer for leading journals including 
