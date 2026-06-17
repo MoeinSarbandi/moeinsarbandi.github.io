@@ -1,9 +1,11 @@
 # this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
 cv_pdf: /assets/pdf/cv.pdf
 email: moein.sarbandi@centrale-nantes.fr
+inspirehep_id:
+rss_icon: false
 scholar_userid: gKYz7bcAAAAJ
 orcid_id: 0000-0002-9936-5792
 researchgate_username: Moein-Sarbandi
 linkedin_username: moein-sarbandi-2a3310252
 github_username: MoeinSarbandi
-rss_icon: false
