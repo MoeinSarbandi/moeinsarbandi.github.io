@@ -21,7 +21,7 @@ footer_text: >
   <a href="https://www.ec-nantes.fr" target="_blank">Centrale Nantes</a>, France.
 keywords:  control systems, data-driven control, neural networks, sliding mode control, offshore wind turbines, adaptive control # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🌊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: WT1.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://moeinsarbandi.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
