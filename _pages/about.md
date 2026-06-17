@@ -16,7 +16,7 @@ profile:
     <p>📍 Bâtiment S, Room 312</p>
     <p>École Centrale de Nantes</p>
     <p>Nantes, France</p>
-    <p>📧 <a href="mailto:moein.sarbandi@centrale-nantes.fr">moein.sarbandi@centrale-nantes.fr</a></p>
+    <p>📧 <a href="mailto:moein.sarbandi@ec-nantes.fr">moein.sarbandi@ec-nantes.fr</a></p>
 
 selected_papers: true
 social: true
