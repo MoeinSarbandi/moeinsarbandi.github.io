@@ -26,8 +26,6 @@ cv:
         url: https://www.ec-nantes.fr
         area: Automatic Control — Robust and Data-Driven Control of Floating Offshore Wind Turbines
         studyType: PhD
-        start_date: TBD
-        end_date: TBD
         score: ""
         courses: ""
         highlights:
@@ -39,8 +37,6 @@ cv:
         location: Tehran, Iran
         area: Electrical / Control Engineering
         studyType: TBD
-        start_date: TBD
-        end_date: TBD
         highlights:
           - TBD
 
@@ -48,9 +44,7 @@ cv:
       - company: LS2N (CODEx group) / École Centrale de Nantes
         position: PhD Researcher — MSCA Fellow, DENSE Doctoral Network
         location: Nantes, France
-        start_date: TBD
-        end_date: Present
-        summary: Research on robust and data-driven control of floating offshore wind turbines, supervised by Prof. Franck Plestan and Dr. Mohamed Assaad Hamida. Collaborates with Prof. Johannes Schiffer's group (BTU Cottbus) and Prof. Antonella Ferrara's group (University of Pavia).
+        summary: Research on robust and data-driven control of floating offshore wind turbines, supervised by Prof. Franck Plestan and Dr. Mohamed Assaad Hamida. Collaborates with Prof. Johannes Schiffer's group (BTU Cottbus) and Prof. Antonella Ferrara's group (University of Pavia). Ongoing (start date TBD).
         highlights:
           - Sliding mode control (ISMC, STA, ASTW)
           - Data-driven control (Willems' Fundamental Lemma, DeePC)
@@ -61,14 +55,12 @@ cv:
         position: Teaching Assistant — SIMUS & NOLCO courses
         location: Nantes, France
         start_date: 2025-09-01
-        end_date: Present
+        end_date: present
         summary: Teaching assistant for SIMUS (Introduction to MATLAB & Simulink) and NOLCO (Nonlinear Control Lab for Wind Turbines, EU-CORE Master Programme).
 
       - company: K.N. Toosi University of Technology
         position: Teaching Assistant — Optimal Control course
         location: Tehran, Iran
-        start_date: TBD
-        end_date: TBD
         summary: Teaching assistant under Prof. Hamid Khaloozadeh, supporting homework evaluation and course material organization.
 
     Volunteer:
@@ -86,7 +78,6 @@ cv:
       - title: Marie Skłodowska-Curie Actions (MSCA) Doctoral Network Fellowship
         authors:
           - "European Commission — Horizon Europe"
-        date: TBD
         awarder: DENSE Doctoral Network (Horizon Europe MSCA)
         summary: Competitive early-stage researcher fellowship funding doctoral research on control of floating offshore wind turbines.
 
@@ -292,18 +283,12 @@ cv:
     Projects:
       - name: Adaptive Neural-Network-Based Control for Wind Turbines
         summary: Ongoing PhD research — manuscript in preparation.
-        start_date: TBD
-        end_date: Present
 
       - name: Data-Driven Super-Twisting Control
         summary: Ongoing PhD research — manuscript in preparation.
-        start_date: TBD
-        end_date: Present
 
       - name: Observer Design for Floating Offshore Wind Turbines
         summary: Ongoing PhD research — manuscript in preparation.
-        start_date: TBD
-        end_date: Present
 
     References:
       - name: "PLACEHOLDER — do not fabricate real references"
