@@ -36,21 +36,8 @@ schedule:
         url: /assets/pdf/teaching/simus/exercises.pdf
 ---
 
-## Course Overview
+**Course Overview.** SIMUS introduces students to MATLAB and Simulink as tools for simulating and controlling dynamic systems. Starting from basic block-diagram modeling, the course progresses through state-space representations, integration algorithms, and classical control design, before moving to nonlinear control, observer design, and a comparison of control strategies (PID, pole placement, LQR).
 
-SIMUS introduces students to MATLAB and Simulink as tools for simulating and controlling dynamic systems. Starting from basic block-diagram modeling, the course progresses through state-space representations, integration algorithms, and classical control design, before moving to nonlinear control, observer design, and a comparison of control strategies (PID, pole placement, LQR).
-
-## Topics Covered
-
-- MATLAB/Simulink fundamentals: models, solvers, sampling
-- State-space representations (LTV, LTI, nonlinear, control-affine)
-- Transfer functions and open/closed-loop simulation
-- Discretization effects and zero-order hold
-- State feedback and pole placement (Ackermann's formula)
-- Luenberger observers and observer-controller duality
-- Nonlinear dynamic control (feedback linearization, mobile robot example)
-- PID tuning, LQR design, and comparative performance analysis
-
-## Materials
+**Topics covered:** MATLAB/Simulink fundamentals (models, solvers, sampling); state-space representations (LTV, LTI, nonlinear, control-affine); transfer functions and open/closed-loop simulation; discretization effects and zero-order hold; state feedback and pole placement (Ackermann's formula); Luenberger observers and observer-controller duality; nonlinear dynamic control (feedback linearization, mobile robot example); PID tuning, LQR design, and comparative performance analysis.
 
 Lecture slides, TD session notes, and the course project statement are attached to each session above.
