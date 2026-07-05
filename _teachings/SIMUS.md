@@ -1,0 +1,61 @@
+---
+layout: course
+title: "SIMUS — Introduction to MATLAB & Simulink"
+description: "A hands-on introduction to MATLAB and Simulink for simulating and controlling dynamic systems, from linear state-space models to nonlinear control and observer design."
+instructor: "Moein Sarbandi"
+year: 2025
+term: "Fall"
+location: "École Centrale de Nantes"
+time: "TBD"
+course_id: "simus"
+
+schedule:
+  - week: 1
+    date: "Sep 17, 2025"
+    topic: "Introduction to MATLAB & Simulink"
+    description: "Building and running simple models, solver/sampling options, working with simulation results in MATLAB. Illustrated with an OpenFAST + Simulink + SIL workflow example."
+    materials:
+      - name: "Lecture slides"
+        url: "/assets/pdf/teaching/simus/lecture_intro_matlab_simulink.pdf"
+
+  - week: 2
+    date: "Sep 19, 2025"
+    topic: "Séance TD — Simulation d'un système linéaire"
+    description: "Guided tutorial in French on building a Simulink simulator for a second-order linear system, comparing integration algorithms, and implementing proportional and state-feedback control."
+    materials:
+      - name: "TD session notes (FR)"
+        url: "/assets/pdf/teaching/simus/td_session_fr.pdf"
+
+  - week: 3
+    date: "TBD"
+    topic: "Project — Nonlinear control and observer design"
+    description: "Full project on feedback linearization, state-feedback and observer design, nonlinear dynamic control of a mobile robot, and comparison of PID, pole placement, and LQR controllers."
+    materials:
+      - name: "Project statement"
+        url: "/assets/pdf/teaching/simus/project_statement.pdf"
+      - name: "Practice exercises"
+        url: "/assets/pdf/teaching/simus/exercises.pdf"
+---
+
+## Course Overview
+
+This course introduces MATLAB and Simulink as tools for simulating and controlling dynamic systems.
+
+By the end of the course, students will be able to:
+
+- Build, configure, and run Simulink models of linear and nonlinear systems
+- Represent systems in state-space form and move between transfer-function and state-space representations
+- Design and tune classical controllers: proportional control, pole placement, and LQR
+- Design Luenberger observers and understand observer-controller duality
+- Apply feedback linearization to simple nonlinear systems
+- Compare PID, state-feedback, and LQR controllers on a common benchmark
+
+## Prerequisites
+
+- Basic linear algebra and ordinary differential equations
+- Introductory control theory
+- No prior MATLAB/Simulink experience required
+
+## Materials
+
+Lecture slides, TD session notes, and the course project statement are attached to each session above.
