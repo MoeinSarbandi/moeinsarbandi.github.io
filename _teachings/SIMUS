@@ -35,9 +35,23 @@ schedule:
       - name: Practice exercises
         url: /assets/pdf/teaching/simus/exercises.pdf
 ---
+## Course Overview
 
-**Course Overview.** SIMUS introduces students to MATLAB and Simulink as tools for simulating and controlling dynamic systems. Starting from basic block-diagram modeling, the course progresses through state-space representations, integration algorithms, and classical control design, before moving to nonlinear control, observer design, and a comparison of control strategies (PID, pole placement, LQR).
+This course introduces MATLAB and Simulink as tools for simulating and controlling dynamic systems. By the end of the course, students will be able to:
 
-**Topics covered:** MATLAB/Simulink fundamentals (models, solvers, sampling); state-space representations (LTV, LTI, nonlinear, control-affine); transfer functions and open/closed-loop simulation; discretization effects and zero-order hold; state feedback and pole placement (Ackermann's formula); Luenberger observers and observer-controller duality; nonlinear dynamic control (feedback linearization, mobile robot example); PID tuning, LQR design, and comparative performance analysis.
+- Build, configure, and run Simulink models of linear and nonlinear systems
+- Represent systems in state-space form and move between transfer function and state-space representations
+- Design and tune classical controllers: proportional control, pole placement (Ackermann's formula), and LQR
+- Design Luenberger observers and understand the observer-controller duality
+- Apply feedback linearization to control simple nonlinear systems (e.g., a mobile robot)
+- Compare the performance of PID, state-feedback, and LQR controllers on a common benchmark
+
+## Prerequisites
+
+- Basic linear algebra and ordinary differential equations
+- Introductory control theory (transfer functions, state-space models)
+- No prior MATLAB/Simulink experience required
+
+## Materials
 
 Lecture slides, TD session notes, and the course project statement are attached to each session above.
