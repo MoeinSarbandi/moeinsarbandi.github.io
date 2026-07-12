@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Project 1"
-description: "Comparing Adaptive Gain Laws for a REWS Estimator"
+title: "Comparing Adaptive Gain Laws for a REWS Estimator"
+description: "Supervised Master's Project — EU-CORE Programme"
 img: assets/img/supervision/rews_estimator_results.jpg
 importance: 1
 category: supervision
@@ -19,9 +19,10 @@ Direct measurement of the rotor-effective wind speed (REWS) on a floating offsho
 turbine is not possible in practice, yet it is a key input for both Region II torque/TSR
 tracking and Region III pitch control. The adaptive second-order sliding-mode observer
 (ASOSMO) used here — estimating REWS from rotor-speed measurement alone — is from my
-own prior work (see related publication below). Under a fixed observer structure, fixed
+own prior work (see main reference below). Under a fixed observer structure, fixed
 controller, and identical OpenFAST (NREL 5 MW FOWT) conditions, the students' task was
-to compare different **adaptive gain laws** used to tune that same observer.
+to compare three adaptive gain laws from the literature used to tune that same observer,
+alongside a non-adaptive constant-gain baseline.
 
 **Main Reference:** Sarbandi, M., Viozelange, M., Hamida, M. A., and Plestan, F.:
 *Wind speed estimation using second-order sliding-mode observers: simulation and
@@ -35,32 +36,46 @@ $$
 $$
 
 $$
-\dot{\hat{\mathbf{x}}} = f(\hat{\mathbf{x}}, \mathbf{u}) + \left[\frac{\partial \Phi}{\partial \hat{\mathbf{x}}}\right]^{-1} \begin{bmatrix} -K_1 |\hat{\omega}_r - \omega_r|^{1/2}\, \text{sign}(\hat{\omega}_r - \omega_r) \\ -K_2\, \text{sign}(\hat{\omega}_r - \omega_r) \end{bmatrix}.
+\dot{\hat{\mathbf{x}}} = f(\hat{\mathbf{x}}, \mathbf{u}) + \left[\frac{\partial \Phi}{\partial \hat{\mathbf{x}}}\right]^{-1} \begin{bmatrix} -k_1 |\sigma|^{1/2}\, \text{sgn}(\sigma) \\ -k_2\, \text{sgn}(\sigma) \end{bmatrix}, \qquad \sigma = \hat{\omega}_r - \omega_r.
 $$
 
-**Adaptive gain laws compared.** Four strategies for tuning $K_1, K_2$ were evaluated
-under identical conditions:
+**Three adaptive gain laws were compared for tuning $k_1, k_2$** (with $\psi = -\dot{\sigma}$, obtained via the online differentiator $\frac{s}{1+\tau s}$), alongside a non-adaptive constant-gain baseline:
 
-$$
-\textbf{Reference — 6-parameter ASTW (Shtessel et al., 2012):} \quad
-\dot{K}_1 = \begin{cases} \omega_1 \sqrt{\dfrac{\gamma}{2}}\,\text{sign}(|\sigma| - \mu), & K_1 > K_m \\ \eta, & K_1 \le K_m \end{cases}, \qquad K_2 = 2\varepsilon K_1
-$$
+1. **Shtessel et al. (2012) — reference adaptive law (6 parameters).**
+   *(equation to be added once confirmed — see note below)*
 
-$$
-\textbf{Constant parameter } \alpha: \quad K_1 = K_{1,0} + \alpha \ \text{(fixed offline, no online adaptation)}
-$$
+2. **Mirzaei et al. (2022) — Self-Tuning ASTW (1 parameter + differentiator).**
 
-$$
-\textbf{Self-tuning parameter } \bar{\mu}: \quad \dot{K}_1 = \omega_1 \sqrt{\dfrac{\gamma}{2}}\,\text{sign}(|\sigma| - \bar{\mu}), \qquad K_2 = 2\varepsilon K_1
-$$
+   $$
+   \dot{k}_1 = \begin{cases} \dfrac{\bar\mu}{|\psi|+\varepsilon}, & |\sigma|>\varepsilon \\[4pt] -k_1, & |\sigma|\le\varepsilon \end{cases}
+   \qquad
+   \dot{k}_2 = \begin{cases} \dfrac{\bar\mu}{2|\sigma|^{1/2}}, & |\sigma|>\varepsilon \\[4pt] -k_2, & |\sigma|\le\varepsilon \end{cases}
+   $$
 
-$$
-\textbf{Auto-Tuning:} \quad K_1, K_2 \text{ adjusted online from an estimate of the perturbation bound, without manual parameter choice}
-$$
+   $$
+   \bar\mu = |k_1||\sigma|^{1/2} + |\psi| + |w|, \qquad \dot{w} = k_2\,\text{sgn}(\sigma)
+   $$
 
-*(Please verify these four against your slide — I reconstructed the general form from
-the standard adaptive-STA literature matching your labels, not a pixel copy of the
-embedded equation images.)*
+3. **Mirzaei et al. (2024) — Auto-Tuning ASTW (0 parameters + differentiator).**
+
+   $$
+   \dot{k}_1(t) = \begin{cases} \dfrac{\alpha(t)}{|\psi|+\epsilon(t)}, & |\sigma(t)|>\epsilon(t) \\[4pt] -k_1(t), & |\sigma(t)|\le\epsilon(t) \end{cases}, \quad k_1(0)=k_{01}>0
+   $$
+
+   $$
+   \dot{k}_2(t) = \begin{cases} \dfrac{\alpha(t)}{2|\sigma(t)|^{1/2}}, & |\sigma(t)|>\epsilon(t) \\[4pt] -k_2(t), & |\sigma(t)|\le\epsilon(t) \end{cases}, \quad k_2(0)=k_{02}>0
+   $$
+
+   $$
+   \alpha(t) = k_1(t)|\sigma(t)|^{1/2} + |\psi| + |\Gamma_a|, \qquad
+   \epsilon(t) = \left[\alpha(t) + |\psi| + w(t-T_e)\right]\cdot T_e + k_2(t)\cdot T_e^2
+   $$
+
+   $$
+   \dot{\Gamma}_a = k_2(t)\,\text{sgn}(\sigma(t)), \qquad \Gamma_a(0)=0
+   $$
+
+*(Formula for the Shtessel et al. (2012) reference law will be added once confirmed against the original slide.)*
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -71,8 +86,9 @@ embedded equation images.)*
     The adaptive-gain observer model used as the fixed baseline for the comparison.
 </div>
 
-The students implemented and compared these gain strategies under matched wind/wave
-conditions, evaluating estimation accuracy and robustness.
+The students implemented and compared these gain strategies, plus a constant-gain
+baseline, under matched wind/wave conditions, evaluating estimation accuracy and
+robustness.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -80,8 +96,8 @@ conditions, evaluating estimation accuracy and robustness.
     </div>
 </div>
 <div class="caption">
-    Comparison of the constant-gain, self-tuning, 6-parameter reference, and auto-tuning
-    strategies against the reference wind speed signal.
+    Comparison of the constant-gain baseline against the three adaptive gain laws,
+    versus the reference wind speed signal.
 </div>
 
 <a href="/assets/pdf/supervision/wind_speed_estimator_adaptive_gains.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Download full presentation (PDF)</a>
