@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "Comparing Adaptive Gain Laws for a REWS Estimator"
-description: "Supervised Master's Project — EU-CORE Programme"
+title: "Project 1"
+description: "(Comparing Adaptive Gain Laws for a REWS Estimator
+) Supervised Master's Project — EU-CORE Programme"
 img: assets/img/supervision/rews_estimator_results.jpg
 importance: 1
 category: supervision
@@ -28,6 +29,15 @@ alongside a non-adaptive constant-gain baseline.
 *Wind speed estimation using second-order sliding-mode observers: simulation and
 experimental validation on a floating offshore wind turbine*, Wind Energy Science, 11,
 2405–2425, 2026. [DOI: 10.5194/wes-11-2405-2026](https://wes.copernicus.org/articles/11/2405/2026/wes-11-2405-2026.html)
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/supervision/rews_estimator_model.jpg" title="Project title slide" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Project title slide, EU-CORE Master Programme.
+</div>
 
 The observation model and supertwisting-based estimator read as
 
@@ -80,14 +90,7 @@ $$
 
 *(The $k_2 = 2\varepsilon k_1$ relation in item 1 is inferred from the "6 parameters" list on the slide — please confirm before publishing.)*
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/supervision/rews_estimator_model.jpg" title="Observer model" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The adaptive-gain observer model used as the fixed baseline for the comparison.
-</div>
+
 
 The students implemented and compared these gain strategies, plus a constant-gain
 baseline, under matched wind/wave conditions, evaluating estimation accuracy and
@@ -99,8 +102,9 @@ robustness.
     </div>
 </div>
 <div class="caption">
-    Comparison of the constant-gain baseline against the three adaptive gain laws,
-    versus the reference wind speed signal.
+    RMSE distribution (precision) and normalized error ratio — RMSE, error variance,
+    and mean squared error — for the constant-gain baseline and the three adaptive
+    gain laws, relative to the 6-parameter reference law.
 </div>
 
 <a href="/assets/pdf/supervision/wind_speed_estimator_adaptive_gains.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Download full presentation (PDF)</a>
