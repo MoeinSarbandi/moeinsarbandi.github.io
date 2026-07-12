@@ -39,10 +39,13 @@ $$
 \dot{\hat{\mathbf{x}}} = f(\hat{\mathbf{x}}, \mathbf{u}) + \left[\frac{\partial \Phi}{\partial \hat{\mathbf{x}}}\right]^{-1} \begin{bmatrix} -k_1 |\sigma|^{1/2}\, \text{sgn}(\sigma) \\ -k_2\, \text{sgn}(\sigma) \end{bmatrix}, \qquad \sigma = \hat{\omega}_r - \omega_r.
 $$
 
-**Three adaptive gain laws were compared for tuning $k_1, k_2$** (with $\psi = -\dot{\sigma}$, obtained via the online differentiator $\frac{s}{1+\tau s}$), alongside a non-adaptive constant-gain baseline:
+**Three adaptive gain laws were compared for tuning $k_1, k_2$** (with $\psi = -\hat{\dot{\sigma}}$, obtained via the online differentiator $\frac{s}{1+\tau s}$), alongside a non-adaptive constant-gain baseline:
 
-1. **Shtessel et al. (2012) — reference adaptive law (6 parameters).**
-   *(equation to be added once confirmed — see note below)*
+1. **Shtessel et al. (2012) — reference adaptive law (6 parameters: $\omega_1, \gamma_1, \mu, k_m, \eta, \varepsilon$).**
+
+   $$
+   \dot{k}_1 = \begin{cases} \omega_1\sqrt{\dfrac{\gamma_1}{2}}\,\text{sign}(|\sigma|-\mu), & k_1 > k_m \\[4pt] \eta, & k_1 \le k_m \end{cases}, \qquad k_2 = 2\varepsilon k_1
+   $$
 
 2. **Mirzaei et al. (2022) — Self-Tuning ASTW (1 parameter + differentiator).**
 
@@ -75,7 +78,7 @@ $$
    \dot{\Gamma}_a = k_2(t)\,\text{sgn}(\sigma(t)), \qquad \Gamma_a(0)=0
    $$
 
-*(Formula for the Shtessel et al. (2012) reference law will be added once confirmed against the original slide.)*
+*(The $k_2 = 2\varepsilon k_1$ relation in item 1 is inferred from the "6 parameters" list on the slide — please confirm before publishing.)*
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
