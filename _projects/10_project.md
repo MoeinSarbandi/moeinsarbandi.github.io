@@ -3,7 +3,7 @@ layout: page
 title: "Project 1"
 description: "(Comparing Adaptive Gain Laws for a REWS Estimator
 ) Supervised Master's Project — EU-CORE Programme"
-img: assets/img/supervision/rews_estimator_results.jpg
+img: assets/img/supervision/rews_estimator_model.jpg
 importance: 1
 category: supervision
 ---
@@ -30,8 +30,8 @@ alongside a non-adaptive constant-gain baseline.
 experimental validation on a floating offshore wind turbine*, Wind Energy Science, 11,
 2405–2425, 2026. [DOI: 10.5194/wes-11-2405-2026](https://wes.copernicus.org/articles/11/2405/2026/wes-11-2405-2026.html)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/supervision/rews_estimator_model.jpg" title="Project title slide" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
