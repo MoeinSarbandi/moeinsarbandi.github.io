@@ -26,17 +26,26 @@ directly from high-fidelity OpenFAST simulation data.
 Observers*, 18th International Workshop on Variable Structure Systems (VSS2026),
 Exeter, UK, 2026. (Accepted; DOI to be added once published.)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/supervision/cp_approximation_method.jpg" title="Data-driven approximation approach" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/supervision/cp_approximation_method.jpg" title="Project title slide" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Moving from fixed analytical Cp models to a data-based approximation that captures
-    the non-linear relationship between Cp, tip-speed ratio, and blade pitch angle.
+    Project title slide, École Centrale de Nantes.
 </div>
 
 The students trained and compared three regression models:
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/supervision/cp_approximation_models.jpg" title="Models considered" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The three model architectures considered: a polynomial curve fit, a Random Forest
+    ensemble, and a Radial Basis Function (RBF) network.
+</div>
 
 1. **Polynomial Regression** — a smooth analytical approximation that captures global
    Cp trends across the operating range.
