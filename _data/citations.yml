@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-07-17'
 papers:
   gKYz7bcAAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -13,16 +13,16 @@ papers:
     citations: 2
     title: Design of optimal model-free PI controllers using metaheuristic algorithms for a distillation column
     year: '2025'
-  gKYz7bcAAAAJ:Tyk-4Ss8FVUC:
-    citations: 1
+  gKYz7bcAAAAJ:W7OEmFMy1HYC:
+    citations: 2
     title: 'Wind speed estimation using second-order sliding-mode observers: simulation and experimental validation on a floating offshore wind turbine'
-    year: '2025'
+    year: '2026'
   gKYz7bcAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: "Control of Floating Offshore Wind Turbines via Control Lyapunov Function\u2013Based Quadratic Programming and Adaptive Super-Twisting"
     year: '2026'
   gKYz7bcAAAAJ:d1gkVwhDpl0C:
-    citations: 2
+    citations: 3
     title: Robust Control for Floating Wind Turbines Using Adaptive Super-Twisting Algorithm in Region III
     year: '2025'
   gKYz7bcAAAAJ:u-x6o8ySG0sC:
@@ -30,7 +30,7 @@ papers:
     title: Robust adaptive super-twisting control for floating wind turbines in region III
     year: '2025'
   gKYz7bcAAAAJ:u5HHmVD_uO8C:
-    citations: 12
+    citations: 13
     title: 'Quantifying the impact of sensor precision on power output of a wind turbine: A sensitivity analysis via Monte Carlo simulation study'
     year: '2024'
   gKYz7bcAAAAJ:zYLM7Y9cAGgC:
