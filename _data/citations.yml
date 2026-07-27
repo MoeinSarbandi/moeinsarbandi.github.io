@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-20'
+  last_updated: '2026-07-27'
 papers:
   gKYz7bcAAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -30,7 +30,7 @@ papers:
     title: Robust adaptive super-twisting control for floating wind turbines in region III
     year: '2025'
   gKYz7bcAAAAJ:u5HHmVD_uO8C:
-    citations: 14
+    citations: 13
     title: 'Quantifying the impact of sensor precision on power output of a wind turbine: A sensitivity analysis via Monte Carlo simulation study'
     year: '2024'
   gKYz7bcAAAAJ:zYLM7Y9cAGgC:
