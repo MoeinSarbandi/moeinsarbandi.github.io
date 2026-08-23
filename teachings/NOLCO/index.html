@@ -4,7 +4,7 @@
   }
 </style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/WT1.png?v=5a65270c8dd13c5a1477792a78ee62a7"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://moeinsarbandi.github.io/teachings/NOLCO/"> <script src="/assets/js/theme.js?v=9ccc9fad522eb536ff637c55589c53dc"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Moein</span> Sarbandi </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-nav-dropdown-toggle="true" aria-haspopup="true" aria-expanded="false">submenus </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item " href="/books/">bookshelf</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/blog/">blog</a> </div> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">NOLCO — Nonlinear Control Lab for Wind Turbines</h1> <p class="post-description">A two-part lab on nonlinear control design for variable-speed wind turbines, covering aerodynamic torque/pitch control and PMSG electrical control, from feedback linearization to sliding mode and super-twisting algorithms.</p> </header> <article> <div class="course"> <div class="course-info"> <p><strong>Instructor:</strong> Moein Sarbandi, Prof. Franck Plestan</p> <p><strong>Term:</strong> Fall</p> <p><strong>Location:</strong> École Centrale de Nantes — EU-CORE Master Programme</p> <p><strong>Time:</strong> TBD</p> </div> <h2 id="course-overview">Course Overview</h2> <p>NOLCO is a hands-on lab for the EU-CORE Master Programme (European Master on Control of Renewable Energy Systems), focused on designing nonlinear controllers for variable-speed wind turbines operating in Region III (rated power regulation). By the end of the lab, students will be able to:</p> <ul> <li>Derive and linearize the nonlinear aerodynamic model of a wind turbine rotor</li> <li>Design an input-output linearization controller for rotor-speed regulation</li> <li>Analyze closed-loop robustness under wind-speed disturbances and model uncertainty</li> <li>Design and tune first-order sliding mode and super-twisting controllers, including dynamic-gain variants</li> <li>Model a permanent-magnet synchronous generator (PMSG) in the dq-frame</li> <li>Design a coupled electro-mechanical control scheme integrating aerodynamic and electrical control</li> <li>Design and analyze an adaptive super-twisting controller under parameter uncertainty</li> </ul> <h2 id="prerequisites">Prerequisites</h2> <ul> <li>Nonlinear control theory (feedback linearization, Lyapunov stability)</li> <li>Sliding mode control fundamentals</li> <li>Basic familiarity with Simulink</li> </ul> <h2 id="materials">Materials</h2> <p>The full lab subject (Parts I and II) is attached to each session above, alongside the provided Simulink model used for evaluating all controllers.</p> <h2>Schedule</h2> <table class="table table-sm table-responsive"> <thead> <tr> <th>Week</th> <th>Date</th> <th>Topic</th> <th>Materials</th> </tr> </thead> <tbody> <tr> <td>1</td> <td>TBD</td> <td> <strong>Part I — Aerodynamic control</strong> <div class="schedule-description"> <p>Nonlinear model of the aerodynamic subsystem, region-III power regulation, input-output linearization, and robustness under disturbances. Progresses to first-order sliding mode control with an equivalent control term, a dynamic-gain variant, and a super-twisting algorithm to reduce chattering.</p> </div> </td> <td> <ul class="schedule-materials"> <li> <a href="/assets/pdf/teaching/nolco/lab_subject.pdf" target="_blank">Lab subject (Parts I &amp; II)</a> </li> </ul> </td> </tr> <tr> <td>2</td> <td>TBD</td> <td> <strong>Part II — Electrical part control (PMSG)</strong> <div class="schedule-description"> <p>Introduces the permanent-magnet synchronous generator model and couples it with the aerodynamic subsystem. Covers input-output linearization for full electro-mechanical control, robustness to parameter uncertainty, and an adaptive super-twisting controller with a tuned adaptation law.</p> </div> </td> <td> <ul class="schedule-materials"> <li> <a href="/assets/pdf/teaching/nolco/lab_subject.pdf" target="_blank">Lab subject (Parts I &amp; II)</a> </li> </ul> </td> </tr> </tbody> </table> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Moein Sarbandi. PhD Researcher in Control Systems · <a href="https://www.ls2n.fr" target="_blank" rel="external nofollow noopener">LS2N</a> / <a href="https://www.ec-nantes.fr" target="_blank" rel="external nofollow noopener">Centrale Nantes</a>, France. Last updated: July 12, 2026. </div> </footer> <script>
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Moein</span> Sarbandi </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">NOLCO — Nonlinear Control Lab for Wind Turbines</h1> <p class="post-description">A two-part lab on nonlinear control design for variable-speed wind turbines, covering aerodynamic torque/pitch control and PMSG electrical control, from feedback linearization to sliding mode and super-twisting algorithms.</p> </header> <article> <div class="course"> <div class="course-info"> <p><strong>Instructor:</strong> Moein Sarbandi, Prof. Franck Plestan</p> <p><strong>Term:</strong> Fall</p> <p><strong>Location:</strong> École Centrale de Nantes — EU-CORE Master Programme</p> <p><strong>Time:</strong> TBD</p> </div> <h2 id="course-overview">Course Overview</h2> <p>NOLCO is a hands-on lab for the EU-CORE Master Programme (European Master on Control of Renewable Energy Systems), focused on designing nonlinear controllers for variable-speed wind turbines operating in Region III (rated power regulation). By the end of the lab, students will be able to:</p> <ul> <li>Derive and linearize the nonlinear aerodynamic model of a wind turbine rotor</li> <li>Design an input-output linearization controller for rotor-speed regulation</li> <li>Analyze closed-loop robustness under wind-speed disturbances and model uncertainty</li> <li>Design and tune first-order sliding mode and super-twisting controllers, including dynamic-gain variants</li> <li>Model a permanent-magnet synchronous generator (PMSG) in the dq-frame</li> <li>Design a coupled electro-mechanical control scheme integrating aerodynamic and electrical control</li> <li>Design and analyze an adaptive super-twisting controller under parameter uncertainty</li> </ul> <h2 id="prerequisites">Prerequisites</h2> <ul> <li>Nonlinear control theory (feedback linearization, Lyapunov stability)</li> <li>Sliding mode control fundamentals</li> <li>Basic familiarity with Simulink</li> </ul> <h2 id="materials">Materials</h2> <p>The full lab subject (Parts I and II) is attached to each session above, alongside the provided Simulink model used for evaluating all controllers.</p> <h2>Schedule</h2> <table class="table table-sm table-responsive"> <thead> <tr> <th>Week</th> <th>Date</th> <th>Topic</th> <th>Materials</th> </tr> </thead> <tbody> <tr> <td>1</td> <td>TBD</td> <td> <strong>Part I — Aerodynamic control</strong> <div class="schedule-description"> <p>Nonlinear model of the aerodynamic subsystem, region-III power regulation, input-output linearization, and robustness under disturbances. Progresses to first-order sliding mode control with an equivalent control term, a dynamic-gain variant, and a super-twisting algorithm to reduce chattering.</p> </div> </td> <td> <ul class="schedule-materials"> <li> <a href="/assets/pdf/teaching/nolco/lab_subject.pdf" target="_blank">Lab subject (Parts I &amp; II)</a> </li> </ul> </td> </tr> <tr> <td>2</td> <td>TBD</td> <td> <strong>Part II — Electrical part control (PMSG)</strong> <div class="schedule-description"> <p>Introduces the permanent-magnet synchronous generator model and couples it with the aerodynamic subsystem. Covers input-output linearization for full electro-mechanical control, robustness to parameter uncertainty, and an adaptive super-twisting controller with a tuned adaptation law.</p> </div> </td> <td> <ul class="schedule-materials"> <li> <a href="/assets/pdf/teaching/nolco/lab_subject.pdf" target="_blank">Lab subject (Parts I &amp; II)</a> </li> </ul> </td> </tr> </tbody> </table> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Moein Sarbandi. PhD Researcher in Control Systems · <a href="https://www.ls2n.fr" target="_blank" rel="external nofollow noopener">LS2N</a> / <a href="https://www.ec-nantes.fr" target="_blank" rel="external nofollow noopener">Centrale Nantes</a>, France. Last updated: August 23, 2026. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
@@ -22,419 +22,28 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "publications",
-          description: "",
+          description: "Journal articles, conference papers, and selected research outputs in control systems and wind energy.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.",
+          description: "Academic curriculum vitae covering research, publications, teaching, service, and awards.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+          description: "Courses, laboratories, supervision, and teaching materials in automatic control.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-interactive-tables",
-        
-          title: "displaying beautiful interactive tables",
-        
-        description: "an example of how to use interactive tables in al-folio",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march & april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
-      },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
@@ -505,6 +114,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teachings-nolco-nonlinear-control-of-wind-turbines",
+          title: 'NOLCO — Nonlinear Control of Wind Turbines',
+          description: "A course and laboratory on nonlinear control design for variable-speed wind turbines in the EU-CORE Master Programme.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/NOLCO-2026/";
             },},{id: "teachings-nolco-nonlinear-control-lab-for-wind-turbines",
           title: 'NOLCO — Nonlinear Control Lab for Wind Turbines',
           description: "A two-part lab on nonlinear control design for variable-speed wind turbines, covering aerodynamic torque/pitch control and PMSG electrical control, from feedback linearization to sliding mode and super-twisting algorithms.",
@@ -520,14 +134,12 @@ ninja.data = [{
           description: "A hands-on introduction to MATLAB and Simulink for simulating and controlling dynamic systems, from linear state-space models to nonlinear control and observer design.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/SIMUS/";
+            },},{id: "teachings-system-identification",
+          title: 'System Identification',
+          description: "Undergraduate/graduate teaching support in system identification, including course instruction, homework design and grading, and course website maintenance.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/SystemIdentification/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -535,11 +147,25 @@ ninja.data = [{
           window.open("mailto:%6D%6F%65%69%6E.%73%61%72%62%61%6E%64%69@%65%63-%6E%61%6E%74%65%73.%66%72", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://github.com/MoeinSarbandi", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/moein-sarbandi-2a3310252", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-9936-5792", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -547,6 +173,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=gKYz7bcAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
