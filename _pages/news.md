@@ -1,6 +1,9 @@
 ---
+published: false
+sitemap: false
 layout: page
 title: news
+nav: false
 permalink: /news/
 ---
 

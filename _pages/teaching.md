@@ -2,13 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Courses, laboratories, supervision, and teaching materials in automatic control.
 nav: true
-nav_order: 6
+nav_order: 4
 calendar: false
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
-
+My teaching covers MATLAB/Simulink, nonlinear control of wind turbines, optimal control, and system identification. I have taught and designed coursework at École Centrale Nantes and previously served as a teaching assistant at K. N. Toosi University of Technology.
 
 {% include courses.liquid %}

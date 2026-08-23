@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Moein
-middle_name: 
+middle_name:
 last_name: Sarbandi
 contact_note: >
   The best way to reach me is via email.
@@ -19,12 +19,12 @@ footer_text: >
   PhD Researcher in Control Systems · 
   <a href="https://www.ls2n.fr" target="_blank">LS2N</a> / 
   <a href="https://www.ec-nantes.fr" target="_blank">Centrale Nantes</a>, France.
-keywords:  control systems, data-driven control, neural networks, sliding mode control, offshore wind turbines, adaptive control # add your own keywords or leave empty
+keywords: control systems, data-driven control, neural networks, sliding mode control, offshore wind turbines, adaptive control # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: WT1.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://moeinsarbandi.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -92,7 +92,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false
 bib_search: true
 
 # Dimensions
@@ -134,10 +134,10 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -164,17 +164,7 @@ disqus_shortname: # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -191,13 +181,13 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
-    output: true
+    output: false
   projects:
-    output: true
+    output: false
   teachings:
     output: true
 
@@ -295,6 +285,12 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
+      path: ""
+      type: posts
+    values:
+      published: false
+      sitemap: false
+  - scope:
       path: "assets"
     values:
       sitemap: false
@@ -330,13 +326,13 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [] # enables year, tag and category archives (remove if you need to disable one of them).
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
   books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
@@ -347,7 +343,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Sarbandi]
-  first_name: [Moein,]
+  first_name: [Moein]
 
   style: apa
   locale: en
@@ -410,7 +406,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit:  # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.

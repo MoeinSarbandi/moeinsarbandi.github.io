@@ -3,18 +3,17 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Marie Skłodowska-Curie PhD Fellow in Automatic Control · 
-  <a href="https://www.ec-nantes.fr" target="_blank">Centrale Nantes</a> · 
-  <a href="https://dense-dn.eu/" target="_blank">DENSE Doctoral Network</a> · 
+  Marie Skłodowska-Curie PhD Fellow in Automatic Control ·
+  <a href="https://www.ec-nantes.fr" target="_blank">Centrale Nantes</a> ·
+  <a href="https://dense-dn.eu/" target="_blank">DENSE Doctoral Network</a> ·
   <a href="https://www.ls2n.fr" target="_blank">LS2N Research Laboratory</a>
-  
+
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p>📍 Bâtiment S, Room 312</p>
-    <p>École Centrale de Nantes</p>
+    <p>École Centrale Nantes</p>
     <p>Nantes, France</p>
     <p>📧 <a href="mailto:moein.sarbandi@ec-nantes.fr">moein.sarbandi@ec-nantes.fr</a></p>
 
@@ -32,52 +31,25 @@ latest_posts:
   limit: 3
 ---
 
-<!-- template instructions removed -->
+I am an MSCA doctoral researcher in Automatic Control at the [Laboratory of Digital Sciences of Nantes (LS2N)](https://www.ls2n.fr/) (CODEx group), [École Centrale Nantes](https://www.ec-nantes.fr), funded by the [DENSE Doctoral Network](https://dense-dn.eu/) under Horizon Europe. My PhD research is supervised by [Prof. Franck Plestan](https://scholar.google.fr/citations?user=fJNH7aQAAAAJ&hl=en) and [Dr. Mohamed Assaad Hamida](https://scholar.google.com/citations?user=Bx-jJ64AAAAJ&hl=en).
 
-I am a PhD researcher at the <a href="http://ls2n.fr/" target="_blank">Laboratory of Digital Sciences of Nantes (LS2N)</a> 
-(CODEx group) at <a href="https://www.ec-nantes.fr" target="_blank">Centrale Nantes</a>, France, 
-funded by the <a href="https://dense-dn.eu/" target="_blank">DENSE Doctoral Network</a> — 
-a Marie Skłodowska-Curie Actions Doctoral Network (HORIZON EUROPE).
+My work develops robust, data-driven, and learning-enhanced control methods for uncertain nonlinear systems, with a primary application to floating offshore wind turbines. I combine adaptive sliding-mode design, neural-network-augmented control, data-driven methods, and nonlinear observers, with validation in MATLAB/Simulink, OpenFAST, and experimental software-in-the-loop platforms.
 
-I work under the supervision of 
-<a href="https://scholar.google.fr/citations?user=fJNH7aQAAAAJ&hl=en" target="_blank">Prof. Franck Plestan</a> 
-and 
-<a href="https://scholar.google.com/citations?user=Bx-jJ64AAAAJ&hl=en" target="_blank">Dr. Mohamed Assaad Hamida</a>.
+### Research interests
 
-My research lies at the intersection of **data-driven control**, **adaptive control**, and 
-**robust nonlinear control**, with applications to **renewable energy systems** — particularly 
-floating offshore wind turbines (FOWTs). I develop controllers and observers grounded in 
-rigorous stability guarantees, validated through high-fidelity OpenFAST co-simulation 
-with MATLAB/Simulink.
+- **Adaptive and robust nonlinear control:** integral sliding-mode control, super-twisting algorithms, adaptive-gain methods, and CLF-QP
+- **Data-driven control:** Willems' Fundamental Lemma, robust informativity using QMI/S-lemma tools, Koopman-operator methods, and DeePC
+- **Learning-based control:** online neural networks integrated with classical sliding-mode designs
+- **Predictive control:** model predictive control and data-enabled predictive control
+- **Nonlinear observers:** second-order sliding-mode observers for state, disturbance, wind-speed, and aerodynamic-parameter estimation
+- **Applications:** renewable-energy systems, especially floating offshore wind turbines
 
-On the theoretical side, my work spans:
-- **Sliding Mode Control**: Integral SMC, Super-Twisting, Adaptive Super-Twisting
-- **Data-Driven Methods**: Willems' Fundamental Lemma, Hankel matrices, robust informativity frameworks
-- **Nonlinear Observer Design**: second-order sliding mode observers (SOSMO/ASOSMO)
-- **Adaptive Neural Network Control**: with Lyapunov-based stability guarantees
+### Research mobility and collaboration
 
-I have the privilege of collaborating with 
-<a href="https://scholar.google.com/citations?user=Zk26WrgAAAAJ&hl=en" target="_blank">Prof. Johannes Schiffer's group</a> 
-at BTU Cottbus (Germany) and 
-<a href="https://scholar.google.com/citations?user=r5JuMskAAAAJ&hl=en" target="_blank">Prof. Antonella Ferrara's group</a> 
-at the University of Pavia (Italy).
+I completed a research secondment at BTU Cottbus-Senftenberg with [Prof. Johannes Schiffer's group](https://scholar.google.com/citations?user=Zk26WrgAAAAJ&hl=en), focusing on data-driven control within the DENSE network. I also collaborate with [Prof. Antonella Ferrara's group](https://scholar.google.com/citations?user=r5JuMskAAAAJ&hl=en) at the University of Pavia.
 
-**Research Interests:**
-- Data-Driven Control (Willems' Fundamental Lemma, Koopman operator, robust informativity)
-- Sliding Mode Control (Integral SMC, Super-Twisting, Adaptive STW, SM observers)
-- Model Predictive Control (Data-driven MPC / DeePC)
-- Neural Network-Based Control (Adaptive NN, Reinforcement Learning)
-- Nonlinear Observer Design (SOSMO, ASOSMO)
-- Application to Renewable Energy Systems (FOWT pitch & speed control)
+### Academic service
 
-**Academic Service:**
-I serve as a peer reviewer for leading journals including 
-*IEEE Transactions on Cybernetics*, *ISA Transactions*, *Wind Engineering*, and *Energy Reports* 
-(25+ reviews), as well as for major conferences including IFAC World Congress 2026 
-and American Control Conference (ACC 2026). I am a member of IEEE.
+I have completed more than 30 journal reviews for _Automatica_, _IEEE Transactions on Cybernetics_, _ISA Transactions_, _Wind Engineering_, and _Energy Reports_. I have also reviewed submissions for the IFAC World Congress 2026 and the American Control Conference 2026.
 
-**Open to Opportunities:**
-I am currently in the final stage of my PhD and actively seeking **Postdoctoral positions** 
-in control systems and renewable energy, as well as **R&D roles in industry** 
-(energy, robotics, autonomous systems). 
-Feel free to <a href="mailto:moein.sarbandi@centrale-nantes.fr">reach out</a>!
+My publications and verified researcher record are available through [ORCID](https://orcid.org/0000-0002-9936-5792) and the links below. I welcome research collaborations in nonlinear control, data-driven methods, wind energy, robotics, and autonomous systems.

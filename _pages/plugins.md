@@ -1,4 +1,6 @@
 ---
+published: false
+sitemap: false
 layout: page
 title: plugins
 permalink: /plugins/

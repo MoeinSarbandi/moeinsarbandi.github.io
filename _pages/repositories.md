@@ -1,4 +1,6 @@
 ---
+published: false
+sitemap: false
 layout: page
 permalink: /repositories/
 title: repositories

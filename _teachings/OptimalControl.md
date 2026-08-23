@@ -3,8 +3,8 @@ layout: course
 title: Optimal Control
 description: A graduate course on optimal control theory covering dynamic programming, Pontryagin's minimum principle, and linear quadratic methods, with homework assignments and a final project.
 instructor: Prof. Hamid Khaloozadeh (Instructor), Moein Sarbandi (Teaching Assistant)
-year: 2023
-term: Fall
+year: 2022
+term: "2021-2022"
 location: K.N. Toosi University of Technology
 time: TBD
 course_id: optimal-control
@@ -65,8 +65,9 @@ schedule:
       - name: Final Project (GitHub)
         url: https://github.com/MoeinSarbandi/Optimal-Control/tree/main/Final_project
 ---
+
 **Course Overview.** This course covers optimal control theory as applied to dynamic systems, including dynamic programming, Pontryagin's minimum principle, and linear quadratic regulator (LQR) and linear quadratic Gaussian (LQG) methods, taught by Prof. Hamid Khaloozadeh in the Department of Systems and Control at K.N. Toosi University of Technology.
 
-**Role.** Moein Sarbandi served as the Teaching Assistant for this course, supporting homework evaluation and course material organization.
+**Role.** Moein Sarbandi served as the Teaching Assistant for this course during 2021-2022, contributing to course teaching, project design and grading, and exam and quiz design and grading.
 
 **Materials.** All homework assignments and the final project are hosted in the course's GitHub repository, linked in each session above. The full repository, including the README and reference list, is available at github.com/MoeinSarbandi/Optimal-Control.

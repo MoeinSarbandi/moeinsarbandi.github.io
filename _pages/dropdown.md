@@ -1,7 +1,9 @@
 ---
+published: false
+sitemap: false
 layout: page
 title: submenus
-nav: fasle
+nav: false
 nav_order: 8
 dropdown: true
 children:
