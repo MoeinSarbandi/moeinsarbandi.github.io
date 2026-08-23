@@ -140,14 +140,14 @@ cv:
         keywords: "Renewable-energy systems, particularly floating offshore wind turbines"
 
     Honors and Awards:
-      - title: Ranked 2nd among MSc students in Control Engineering
+      - title: Ranked 2nd among all MSc students in Control Engineering
         date: 2022-01-01
         awarder: K. N. Toosi University of Technology
-        summary: Ranked second among all MSc students in the Control Engineering programme.
-      - title: Ranked in the top 1.2% nationally in the MSc entrance examination
+        summary: University-wide academic ranking, Tehran Province, Iran.
+      - title: Ranked among the top 1.2% nationally in the MSc entrance examination
         date: 2019-08-01
         awarder: National Organization of Educational Testing, Iran
-        summary: Ranked in the top 1.2% among approximately 14,000 participants in Electrical Engineering.
+        summary: National university entrance examination for the MSc degree in Electrical Engineering, among approximately 14,000 participants nationwide.
 
     Publications:
       - title: Data-Driven Super-Twisting Control of Unstable Canonical Systems under Non-A-Priori Bounded Time- and State-Dependent Perturbations
@@ -227,10 +227,10 @@ cv:
       - bullet: "Organizing committee member: Wind Energy Science Conference 2025, Nantes"
 
     Talks and Presentations:
-      - bullet: "EU-CORE Winter School 2026, École Centrale Nantes — Data-Based Control Application to Wind Turbines (February 2026)"
-      - bullet: "Journées Scientifiques de l'Éolien 2026, École Centrale Méditerranée — Novel Wind Speed Estimation Method for Wind Turbines Using the Sliding-Mode Approach (February 2026)"
-      - bullet: "GDR MACS Workshop on Data-Driven Control and Analysis of Dynamical Systems, ENSEEIHT Toulouse — Data-Based Sliding-Mode Control Applied to Floating Offshore Wind Turbines (October 2025)"
-      - bullet: "EU-CORE orientation session, École Centrale Nantes — Introduction to OpenFAST with MATLAB/Simulink (2025)"
+      - bullet: "Data-Based Control Application to Wind Turbines — [EU-CORE Winter School 2026](https://www.ec-nantes.fr/centrale-nantes/news/eu-core-winter-school-2026), École Centrale Nantes, Nantes, France (February 2026)"
+      - bullet: "Novel Wind Speed Estimation Method for Wind Turbines Using the Sliding-Mode Approach — [Journées Scientifiques de l'Éolien 2026](https://www.jse-2026.fr/), École Centrale Méditerranée, Marseille, France (February 2026)"
+      - bullet: "Data-Based Sliding-Mode Control — Application to Floating Offshore Wind Turbines — [GDR MACS Workshop on Data-Driven Control and Analysis of Dynamical Systems](https://pkergus.github.io/workshop_datadriven.html), ENSEEIHT, Toulouse, France (October 2025)"
+      - bullet: "Tutorial: Introduction to OpenFAST with MATLAB/Simulink — Orientation Session for Incoming EU-CORE Students, École Centrale Nantes, Nantes, France (2025)"
 
     Certificates:
       - name: Nonlinear and Data-Driven Model Predictive Control
