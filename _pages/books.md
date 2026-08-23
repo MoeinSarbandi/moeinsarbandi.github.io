@@ -1,4 +1,6 @@
 ---
+published: false
+sitemap: false
 layout: book-shelf
 title: bookshelf
 permalink: /books/

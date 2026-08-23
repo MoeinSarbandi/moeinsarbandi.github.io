@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: 
+description: Journal articles, conference papers, and selected research outputs in control systems and wind energy.
 nav: true
 nav_order: 2
 ---

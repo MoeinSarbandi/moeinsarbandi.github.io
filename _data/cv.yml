@@ -1,300 +1,288 @@
 cv:
   name: Moein Sarbandi
-  label: PhD Researcher in Advanced Control Systems (MSCA Fellow)
+  label: MSCA Doctoral Researcher in Automatic Control
   email: moein.sarbandi@ec-nantes.fr
+  website: https://moeinsarbandi.github.io
   location: Nantes, France
   image: ""
-  summary: PhD researcher at LS2N (CODEx group) / École Centrale de Nantes, funded by the DENSE Doctoral Network (Marie Skłodowska-Curie Actions, Horizon Europe). Research spans sliding mode control, data-driven control, adaptive neural network control, and nonlinear observer design, applied to floating offshore wind turbines.
+  summary: PhD researcher at LS2N (CODEx group), École Centrale Nantes, funded by the DENSE Doctoral Network under the Marie Skłodowska-Curie Actions. My research develops robust, data-driven, and learning-enhanced control methods for uncertain nonlinear systems, with applications to floating offshore wind turbines.
 
   social_networks:
+    - network: ORCID
+      username: 0000-0002-9936-5792
     - network: GitHub
       username: MoeinSarbandi
     - network: LinkedIn
       username: moein-sarbandi-2a3310252
 
   address:
-    street: "École Centrale de Nantes, 1 Rue de la Noë"
     city: Nantes
     region: Pays de la Loire
-    postalCode: "44300"
     countryCode: FR
 
   sections:
     Education:
-      - institution: École Centrale de Nantes / Nantes Université
+      - institution: École Centrale Nantes
         location: Nantes, France
         url: https://www.ec-nantes.fr
-        area: Automatic Control — Robust and Data-Driven Control of Floating Offshore Wind Turbines
+        area: Automatic Control
         studyType: PhD
-        score: ""
-        courses: ""
+        start_date: 2024-10-01
+        end_date: 2027-12-31
         highlights:
-          - Marie Skłodowska-Curie Actions (MSCA) Doctoral Fellow, DENSE Doctoral Network (Horizon Europe)
-          - Member of the LS2N Laboratory (CODEx group)
-          - Supervised by Prof. Franck Plestan and Dr. Mohamed Assaad Hamida
+          - "Thesis: Robust, Data-Driven, and Learning-Based Control of Uncertain Nonlinear Systems, with Application to Floating Wind Turbines"
+          - "Supervisors: Prof. Franck Plestan and Dr. Mohamed Assaad Hamida"
+          - Marie Skłodowska-Curie Actions Doctoral Fellow in the DENSE Doctoral Network
 
-      - institution: K.N. Toosi University of Technology
+      - institution: K. N. Toosi University of Technology
         location: Tehran, Iran
-        area: Electrical / Control Engineering
-        studyType: TBD
+        area: Electrical Engineering — Control
+        studyType: MSc
+        start_date: 2019-09-01
+        end_date: 2022-09-01
         highlights:
-          - TBD
+          - "Average: 18.36/20; CGPA: 3.88/4"
+          - "Thesis: Sensitivity Analysis of Components of a Wind Turbine Using Monte Carlo Simulation"
+          - "Supervisor: Prof. Hamid Khaloozadeh"
 
     Experience:
-      - company: LS2N (CODEx group) / École Centrale de Nantes
+      - company: LS2N (CODEx group), École Centrale Nantes
         position: PhD Researcher — MSCA Fellow, DENSE Doctoral Network
         location: Nantes, France
-        summary: Research on robust and data-driven control of floating offshore wind turbines, supervised by Prof. Franck Plestan and Dr. Mohamed Assaad Hamida. Collaborates with Prof. Johannes Schiffer's group (BTU Cottbus) and Prof. Antonella Ferrara's group (University of Pavia). Ongoing (start date TBD).
+        start_date: 2024-10-01
+        end_date: present
+        summary: Robust, data-driven, and learning-based control of uncertain nonlinear systems, with application to floating offshore wind turbines.
         highlights:
-          - Sliding mode control (ISMC, STA, ASTW)
-          - Data-driven control (Willems' Fundamental Lemma, DeePC)
-          - Adaptive neural network control
-          - Nonlinear observer design (SOSMO/ASOSMO)
+          - Adaptive and robust sliding-mode control, CLF-QP, and nonlinear observer design
+          - Data-driven control using Willems' Fundamental Lemma, robust informativity, Koopman methods, and DeePC
+          - Neural-network-augmented control with rigorous stability guarantees
+          - Validation using MATLAB/Simulink, OpenFAST, and experimental software-in-the-loop platforms
 
-      - company: École Centrale de Nantes
-        position: Teaching Assistant — SIMUS & NOLCO courses
+      - company: Cyprus University of Technology
+        position: Research Secondment (planned)
+        location: Cyprus
+        start_date: 2026-11-01
+        end_date: 2026-11-30
+        summary: DENSE network secondment hosted by Dr. Petros Aristidou, planned alongside MEDPOWER 2026.
+
+      - company: École Centrale Nantes — EU-CORE Master Programme
+        position: Course and Lab Instructor — NOLCO
+        location: Nantes, France
+        start_date: 2026-09-01
+        end_date: 2026-12-31
+        summary: Scheduled co-instructor with Prof. Franck Plestan for nonlinear control of wind turbines; role expanded from laboratory instruction to course and lab instruction.
+
+      - company: Brandenburg University of Technology Cottbus-Senftenberg (BTU)
+        position: Research Secondment
+        location: Cottbus, Germany
+        start_date: 2025-04-01
+        end_date: 2025-05-31
+        summary: Data-driven control research within the DENSE network, hosted by Prof. Johannes Schiffer and Dr. Juan E. Machado.
+
+      - company: École Centrale Nantes — EU-CORE Master Programme
+        position: Supervisor of MSc Students
+        location: Nantes, France
+        start_date: 2025-01-01
+        end_date: present
+        summary: Define research projects and hold weekly supervision meetings with students in the European Master in Control of Renewable Energy Systems.
+
+      - company: École Centrale Nantes
+        position: Course Instructor — SIMUS (Introduction to MATLAB & Simulink)
         location: Nantes, France
         start_date: 2025-09-01
-        end_date: present
-        summary: Teaching assistant for SIMUS (Introduction to MATLAB & Simulink) and NOLCO (Nonlinear Control Lab for Wind Turbines, EU-CORE Master Programme).
-
-      - company: K.N. Toosi University of Technology
-        position: Teaching Assistant — Optimal Control course
-        location: Tehran, Iran
-        summary: Teaching assistant under Prof. Hamid Khaloozadeh, supporting homework evaluation and course material organization.
-
-    Volunteer:
-      - company: "PLACEHOLDER — People's Climate March (demo content, no real volunteer info known — replace or delete)"
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        end_date: 2025-12-31
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Course teaching, homework design and grading, and exam design and grading
 
-    Awards:
-      - title: Marie Skłodowska-Curie Actions (MSCA) Doctoral Network Fellowship
-        authors:
-          - "European Commission — Horizon Europe"
-        awarder: DENSE Doctoral Network (Horizon Europe MSCA)
-        summary: Competitive early-stage researcher fellowship funding doctoral research on control of floating offshore wind turbines.
+      - company: École Centrale Nantes — EU-CORE Master Programme
+        position: Lab Instructor — NOLCO (Nonlinear Control Lab for Wind Turbines)
+        location: Nantes, France
+        start_date: 2025-09-01
+        end_date: 2025-12-31
+        highlights:
+          - Co-instructor with Prof. Franck Plestan
+          - Two-part laboratory covering aerodynamic control and PMSG electrical control
 
-      - title: PLACEHOLDER — Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: This entry is still demo content — replace with a real second award, or delete this entry.
+      - company: K. N. Toosi University of Technology
+        position: Teaching Assistant — Optimal Control
+        location: Tehran, Iran
+        start_date: 2021-01-01
+        end_date: 2022-12-31
+        highlights:
+          - Course teaching, project design and grading, and exam and quiz design and grading
+
+      - company: K. N. Toosi University of Technology
+        position: Teaching Assistant — System Identification
+        location: Tehran, Iran
+        start_date: 2021-01-01
+        end_date: 2021-12-31
+        highlights:
+          - Course teaching, homework design and grading, and course website maintenance
+
+    Academic Interests:
+      - name: Adaptive and Robust Nonlinear Control
+        icon: fa-solid fa-sliders
+        keywords: "Integral sliding-mode control, super-twisting, adaptive-gain methods, CLF-QP"
+      - name: Data-Driven Control
+        icon: fa-solid fa-database
+        keywords: "Willems' Fundamental Lemma, robust informativity, QMI/S-lemma, Koopman-operator methods"
+      - name: Learning-Based Control
+        icon: fa-solid fa-brain
+        keywords: "Online neural networks integrated with classical sliding-mode design"
+      - name: Predictive Control
+        icon: fa-solid fa-chart-line
+        keywords: "Model predictive control and data-enabled predictive control (DeePC)"
+      - name: Nonlinear Observer Design
+        icon: fa-solid fa-eye
+        keywords: "Second-order sliding-mode observers for state and disturbance estimation"
+      - name: Applications
+        icon: fa-solid fa-wind
+        keywords: "Renewable-energy systems, particularly floating offshore wind turbines"
+
+    Honors and Awards:
+      - title: Ranked 2nd among MSc students in Control Engineering
+        date: 2022-01-01
+        awarder: K. N. Toosi University of Technology
+        summary: Ranked second among all MSc students in the Control Engineering programme.
+      - title: Ranked in the top 1.2% nationally in the MSc entrance examination
+        date: 2019-08-01
+        awarder: National Organization of Educational Testing, Iran
+        summary: Ranked in the top 1.2% among approximately 14,000 participants in Electrical Engineering.
 
     Publications:
-      - title: Robust control based on a new wind speed observer for floating wind turbines
-        authors:
-          - Sarbandi, M.
-          - Hamida, M. A.
-          - Plestan, F.
+      - title: Data-Driven Super-Twisting Control of Unstable Canonical Systems under Non-A-Priori Bounded Time- and State-Dependent Perturbations
+        publisher: Manuscript in preparation
+        releaseDate: 2026-01-01
+        summary: With J. E. Machado, J. Mendoza-Avila, M. A. Hamida, J. Schiffer, and F. Plestan.
+
+      - title: Adaptive Data-Based Integral Sliding Mode Control With Online Neural Networks for Floating Offshore Wind Turbines
+        publisher: Under review at IEEE Transactions on Control Systems Technology
+        releaseDate: 2026-01-01
+        summary: Manuscript 26-0872; with M. A. Hamida, N. Sacchi, E. Vacchini, A. Ferrara, and F. Plestan.
+
+      - title: "Wind Speed Estimation Using Second-Order Sliding-Mode Observers: Simulation and Experimental Validation on a Floating Offshore Wind Turbine"
+        publisher: Wind Energy Science, vol. 11, pp. 2405-2425
+        releaseDate: 2026-07-08
+        url: https://doi.org/10.5194/wes-11-2405-2026
+        summary: Published research article; corresponding author.
+
+      - title: Design of Tube Model Predictive Control for Heave Disturbance Mitigation in a Nonlinear Offshore Managed Pressure Drilling System
+        publisher: Journal of Ocean Engineering and Marine Energy, vol. 12, pp. 155-166
+        releaseDate: 2026-02-01
+        url: https://doi.org/10.1007/s40722-025-00438-1
+
+      - title: Design of Optimal Model-Free PI Controllers Using Metaheuristic Algorithms for a Distillation Column
+        publisher: International Journal of Dynamics and Control, vol. 13, article 312
+        releaseDate: 2025-08-28
+        url: https://doi.org/10.1007/s40435-025-01822-3
+
+      - title: "Quantifying the Impact of Sensor Precision on Power Output of a Wind Turbine: A Sensitivity Analysis via Monte Carlo Simulation Study"
+        publisher: Wind Engineering, vol. 48, no. 4, pp. 497-517
+        releaseDate: 2024-01-03
+        url: https://doi.org/10.1177/0309524X231211315
+
+      - title: Nonlinear Control Framework for Grid-Connected PMSG-Based Floating Wind Turbines in the Above-Rated Wind Speed Region through OpenFAST Validation
+        publisher: Submitted to the 15th MEDPOWER Conference, Paphos, Cyprus
+        releaseDate: 2026-11-01
+        summary: Submitted; scheduled presentation by Moein Sarbandi.
+
+      - title: Robust Control Based on a New Wind Speed Observer for Floating Wind Turbines
         publisher: 23rd IFAC World Congress, Busan, Republic of Korea
         releaseDate: 2026-08-01
-        summary: Accepted, to be published.
+        summary: Accepted; presented by Moein Sarbandi.
 
       - title: Online Power Coefficient Estimation in Wind Turbines via Adaptive Sliding-Mode Observers
-        authors:
-          - Sarbandi, M.
-          - Shahir, M. M.
-          - Hamida, M. A.
-          - Plestan, F.
-        publisher: 18th International Workshop on Variable Structure Systems (VSS2026), Exeter, UK
+        publisher: 18th International Workshop on Variable Structure Systems (VSS 2026), Exeter, UK
         releaseDate: 2026-07-01
-        summary: Accepted, to be published.
+        summary: Accepted; presented by M. M. Shahir.
 
-      - title: Control of Floating Offshore Wind Turbines via Control Lyapunov Function–Based Quadratic Programming and Adaptive Super-Twisting
-        authors:
-          - Sarbandi, M.
-          - Hamida, M. A.
-          - Plestan, F.
-        publisher: Journal of Physics- Conference Series, vol. 3224, no. 5, p. 052032
+      - title: Control of Floating Offshore Wind Turbines via Control Lyapunov Function-Based Quadratic Programming and Adaptive Super-Twisting
+        publisher: "TORQUE 2026; Journal of Physics: Conference Series, 3224(5), 052032"
         releaseDate: 2026-05-01
         url: https://doi.org/10.1088/1742-6596/3224/5/052032
-        summary: Combines a control Lyapunov function–based quadratic programming (CLF–QP) approach with an adaptive super-twisting algorithm for Region III power regulation of floating offshore wind turbines.
-
-      - title: "Wind speed estimation using second-order sliding-mode observers: simulation and experimental validation on a floating offshore wind turbine"
-        authors:
-          - Sarbandi, M.
-          - Viozelange, M.
-          - Hamida, M. A.
-          - Plestan, F.
-        publisher: Wind Energy Science
-        releaseDate: 2026-01-01
-        url: https://wes.copernicus.org/preprints/wes-2025-206/
-        summary: Introduces constant-gain and adaptive second-order sliding-mode observers for rotor-effective wind speed estimation, validated in OpenFAST and experimentally on a scaled software-in-the-loop setup.
-
-      - title: Design of tube model predictive control for heave disturbance mitigation in a nonlinear offshore managed pressure drilling system
-        authors:
-          - Sarbandi, M.
-          - Pazoki, D.
-          - Nikoofard, A.
-        publisher: Journal of Ocean Engineering and Marine Energy, vol. 12, no. 1, pp. 155-166
-        releaseDate: 2026-01-01
+        summary: Presented by Moein Sarbandi.
 
       - title: Robust Control for Floating Wind Turbines Using Adaptive Super-Twisting Algorithm in Region III
-        authors:
-          - Sarbandi, M.
-          - Shahir, M. M.
-          - Hamida, M. A.
-          - Plestan, F.
-        publisher: 2025 33rd Mediterranean Conference on Control and Automation (MED), IEEE
-        releaseDate: 2025-01-01
+        publisher: 2025 IEEE Mediterranean Conference on Control and Automation (MED), pp. 1-6
+        releaseDate: 2025-06-01
+        url: https://ieeexplore.ieee.org/document/11073309/
 
       - title: Predictive Super-Twisting Sliding Mode Control for Maximum Power Point Tracking of Floating Offshore Wind Turbines
-        authors:
-          - Shahir, M. M.
-          - Sarbandi, M.
-          - Mojallizadeh, M. R.
-          - Hamida, M. A.
-          - Plestan, F.
-        publisher: 2025 33rd Mediterranean Conference on Control and Automation (MED), IEEE
-        releaseDate: 2025-01-01
+        publisher: 2025 IEEE Mediterranean Conference on Control and Automation (MED), pp. 553-558
+        releaseDate: 2025-06-01
+        url: https://ieeexplore.ieee.org/document/11073465/
 
-      - title: Robust adaptive super-twisting control for floating wind turbines in region III
-        authors:
-          - Sarbandi, M.
-          - Shahir, M. M.
-          - Hamida, M. A.
-          - Plestan, F.
+      - title: Robust Adaptive Super-Twisting Control for Floating Wind Turbines in Region III
         publisher: Wind Energy Science Conference (WESC 2025)
-        releaseDate: 2025-01-01
+        releaseDate: 2025-06-01
+        summary: Presented by Moein Sarbandi.
 
-      - title: Designing a predictive super-twisting sliding mode control for floating offshore wind turbines in region 2
-        authors:
-          - Shahir, M. M.
-          - Sarbandi, M.
-          - Mojallizadeh, M. R.
-          - Hamida, M. A.
-          - Plestan, F.
+      - title: Designing a Predictive Super-Twisting Sliding Mode Control for Floating Offshore Wind Turbines in Region 2
         publisher: Wind Energy Science Conference (WESC 2025)
-        releaseDate: 2025-01-01
+        releaseDate: 2025-06-01
 
-      - title: Design of optimal model-free PI controllers using metaheuristic algorithms for a distillation column
-        authors:
-          - Pazoki, D.
-          - Sarbandi, M.
-          - Kazemi, R.
-          - Modirrousta, M. H.
-          - Nikoofard, A.
-          - Khaki-Sedigh, A.
-        publisher: International Journal of Dynamics and Control, vol. 13, no. 9, p. 312
-        releaseDate: 2025-01-01
+    Academic Service:
+      - bullet: "Journal reviewer (30+ reviews): Automatica, IEEE Transactions on Cybernetics, ISA Transactions, Wind Engineering, and Energy Reports"
+      - bullet: "Conference reviewer: IFAC World Congress 2026 and American Control Conference 2026"
+      - bullet: "Organizing committee member: Wind Energy Science Conference 2025, Nantes"
 
-      - title: "Quantifying the impact of sensor precision on power output of a wind turbine: A sensitivity analysis via Monte Carlo simulation study"
-        authors:
-          - Sarbandi, M.
-          - Khaloozadeh, H.
-        publisher: Wind Engineering, vol. 48, no. 4, pp. 497-517
-        releaseDate: 2024-01-01
-
-    Skills:
-      - name: Control Systems
-        level: Expert
-        icon: fa-solid fa-sliders
-        keywords: "Sliding Mode Control (ISMC, STA, ASTW), Nonlinear Observer Design (SOSMO/ASOSMO), Data-Driven Control (Willems' Fundamental Lemma, DeePC), Adaptive Neural Network Control, Model Predictive Control"
-
-      - name: Software & Simulation
-        level: Advanced
-        icon: fa-solid fa-laptop-code
-        keywords: "MATLAB/Simulink, OpenFAST, LaTeX/Beamer, Python"
-
-    Languages:
-      - name: Persian (Farsi)
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent — IELTS Academic 7.0, CEFR C1"
-
-    Interests:
-      - name: PLACEHOLDER
-        icon: fa-solid fa-tag
-        keywords: "This section is still demo content — add your personal interests/hobbies here."
+    Talks and Presentations:
+      - bullet: "EU-CORE Winter School 2026, École Centrale Nantes — Data-Based Control Application to Wind Turbines (February 2026)"
+      - bullet: "Journées Scientifiques de l'Éolien 2026, École Centrale Méditerranée — Novel Wind Speed Estimation Method for Wind Turbines Using the Sliding-Mode Approach (February 2026)"
+      - bullet: "GDR MACS Workshop on Data-Driven Control and Analysis of Dynamical Systems, ENSEEIHT Toulouse — Data-Based Sliding-Mode Control Applied to Floating Offshore Wind Turbines (October 2025)"
+      - bullet: "EU-CORE orientation session, École Centrale Nantes — Introduction to OpenFAST with MATLAB/Simulink (2025)"
 
     Certificates:
-      - name: Nonlinear and Data-Driven MPC
+      - name: Nonlinear and Data-Driven Model Predictive Control
         date: 2026-03-01
-        issuer: Université Paris-Saclay
+        issuer: EECI International Graduate School on Control, CentraleSupélec Paris-Saclay
         icon: fa-solid fa-gears
         url: /assets/pdf/certificates/nonlinear_datadriven_mpc.pdf
-
-      - name: "IELTS Academic — Overall Band 7.0 (CEFR C1)"
-        date: 2023-12-01
-        issuer: British Council
-        icon: fa-solid fa-language
-
-      - name: Advanced Learning Algorithms
-        date: 2023-06-01
-        issuer: Coursera
-        icon: fa-brands fa-python
-        url: https://coursera.org/verify/NRPUWC72QESD
-
-      - name: "Supervised Machine Learning: Regression and Classification"
+      - name: Supervised Machine Learning — Regression and Classification
         date: 2023-04-01
-        issuer: Coursera
+        issuer: Coursera — Dr. Andrew Ng
         icon: fa-solid fa-chart-line
         url: https://coursera.org/verify/HYGREWCUE5KH
-
+      - name: Advanced Learning Algorithms
+        date: 2023-03-01
+        issuer: Coursera — Dr. Andrew Ng
+        icon: fa-brands fa-python
+        url: https://coursera.org/verify/NRPUWC72QESD
       - name: Writing in the Sciences
         date: 2023-03-01
-        issuer: Stanford Online
+        issuer: Stanford Online — Dr. Kristin Sainani
         icon: fa-solid fa-pen-nib
         url: https://coursera.org/verify/EGHQH8MKM5Y4
 
-    Peer Review & Academic Service:
-      - name: Reviewer, IEEE Transactions on Cybernetics
-        date: Since May 2024
-        issuer: IEEE
-        icon: fa-solid fa-magnifying-glass
+    Skills:
+      - name: Control Systems
+        level: Advanced
+        icon: fa-solid fa-sliders
+        keywords: "Sliding-mode control, nonlinear observers, data-driven control, adaptive neural-network control, model predictive control"
+      - name: Software and Simulation
+        level: Advanced
+        icon: fa-solid fa-laptop-code
+        keywords: "MATLAB, Simulink, OpenFAST, Python, TensorFlow, scikit-learn, NumPy, LaTeX"
+      - name: Research Tools
+        level: Advanced
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "Zotero, EndNote, Mendeley, Microsoft Office, technical documentation, experimental analysis"
 
-      - name: Reviewer, ISA Transactions
-        date: Since June 2024
-        issuer: Elsevier
-        icon: fa-solid fa-magnifying-glass
-
-      - name: Reviewer, Wind Engineering
-        date: May 2024
-        issuer: SAGE
-        icon: fa-solid fa-magnifying-glass
-
-      - name: Reviewer, American Control Conference (ACC 2026)
-        date: Since October 2025
-        issuer: IEEE
-        icon: fa-solid fa-magnifying-glass
-
-      - name: Reviewer, IFAC World Congress 2026
-        date: Since December 2025
-        issuer: International Federation of Automatic Control (IFAC)
-        icon: fa-solid fa-magnifying-glass
-        summary: Peer reviewed two submissions in control systems, data-driven control, and wind energy.
-
-      - name: Organizing Committee, WESC 2025 (Wind Energy Science Conference)
-        date: 2025
-        issuer: European Academy of Wind Energy (EAWE)
-        icon: fa-solid fa-people-group
-        summary: Organizing team member for WESC 2025, held in Nantes, France.
-        url: /assets/pdf/certificates/wesc2025_organization_certificate.pdf
-
-    Projects:
-      - name: Adaptive Neural-Network-Based Control for Wind Turbines
-        summary: Ongoing PhD research — manuscript in preparation.
-
-      - name: Data-Driven Super-Twisting Control
-        summary: Ongoing PhD research — manuscript in preparation.
-
-      - name: Observer Design for Floating Offshore Wind Turbines
-        summary: Ongoing PhD research — manuscript in preparation.
+    Languages:
+      - name: Persian
+        summary: Native proficiency
+      - name: English
+        summary: C1 — IELTS Academic overall band 7.0
+      - name: French
+        summary: A1/A2 — basic conversational ability
 
     References:
-      - name: "PLACEHOLDER — do not fabricate real references"
-        icon: fa-solid fa-laptop
-        reference: This section is untouched demo content. Add real references (e.g., Prof. Franck Plestan, Dr. Mohamed Assaad Hamida) only with their knowledge/consent, and ideally after asking whether they're comfortable being listed.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Prof. Franck Plestan
+        icon: fa-solid fa-user-tie
+        reference: Professor and Dean of Research, LS2N, École Centrale Nantes
+      - name: Dr. Mohamed Assaad Hamida
+        icon: fa-solid fa-user-tie
+        reference: Associate Professor, École Centrale Nantes
+      - name: Prof. Hamid Khaloozadeh
+        icon: fa-solid fa-user-tie
+        reference: Professor, K. N. Toosi University of Technology
