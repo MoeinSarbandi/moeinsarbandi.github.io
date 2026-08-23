@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Moein
-middle_name: 
+middle_name:
 last_name: Sarbandi
 contact_note: >
   The best way to reach me is via email.
@@ -19,12 +19,12 @@ footer_text: >
   PhD Researcher in Control Systems · 
   <a href="https://www.ls2n.fr" target="_blank">LS2N</a> / 
   <a href="https://www.ec-nantes.fr" target="_blank">Centrale Nantes</a>, France.
-keywords:  control systems, data-driven control, neural networks, sliding mode control, offshore wind turbines, adaptive control # add your own keywords or leave empty
+keywords: control systems, data-driven control, neural networks, sliding mode control, offshore wind turbines, adaptive control # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: WT1.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://moeinsarbandi.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -343,7 +343,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Sarbandi]
-  first_name: [Moein,]
+  first_name: [Moein]
 
   style: apa
   locale: en
@@ -406,7 +406,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit:  # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
