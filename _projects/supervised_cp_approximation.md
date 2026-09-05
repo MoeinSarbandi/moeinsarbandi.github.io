@@ -7,9 +7,9 @@ importance: 2
 category: supervision
 ---
 
-**Students:** Akbar Zai Jalil, Alam Sameer, and Adnan Nasir Isa  
-**Supervisors:** Moein Sarbandi and Mohammad Mohammadi Shahir  
-**Programme:** EU-CORE European Master Programme, École Centrale Nantes  
+**Students:** Akbar Zai Jalil, Alam Sameer, and Adnan Nasir Isa<br>
+**Supervisors:** Moein Sarbandi and Mohammad Mohammadi Shahir<br>
+**Programme:** EU-CORE European Master Programme, École Centrale Nantes<br>
 **Completed:** 2025
 
 ## Project focus
