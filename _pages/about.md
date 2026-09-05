@@ -50,6 +50,6 @@ I completed a research secondment at BTU Cottbus-Senftenberg with [Prof. Johanne
 
 ### Academic service
 
-I have completed more than 30 journal reviews for _Automatica_, _IEEE Transactions on Cybernetics_, _ISA Transactions_, _Wind Engineering_, and _Energy Reports_. I have also reviewed submissions for the IFAC World Congress 2026 and the American Control Conference 2026.
+I have completed more than 30 journal reviews for _Automatica_, _IEEE Transactions on Cybernetics_, _ISA Transactions_, _Wind Engineering_, _Energy Reports_, and _Scientific Reports_. I have also reviewed submissions for the IFAC World Congress 2026 and the American Control Conference 2026. A summary of my peer-review service and presentations is available under [academic activities]({{ '/activities/' | relative_url }}).
 
 My publications and verified researcher record are available through [ORCID](https://orcid.org/0000-0002-9936-5792) and the links below. I welcome research collaborations in nonlinear control, data-driven methods, wind energy, robotics, and autonomous systems.
