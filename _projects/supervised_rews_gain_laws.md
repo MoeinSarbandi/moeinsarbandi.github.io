@@ -7,9 +7,9 @@ importance: 1
 category: supervision
 ---
 
-**Students:** Adham Ahmed and Reza Azizollahi  
-**Supervisor:** Moein Sarbandi  
-**Programme:** EU-CORE European Master Programme, École Centrale Nantes  
+**Students:** Adham Ahmed and Reza Azizollahi<br>
+**Supervisor:** Moein Sarbandi<br>
+**Programme:** EU-CORE European Master Programme, École Centrale Nantes<br>
 **Completed:** 2025
 
 ## Project focus
