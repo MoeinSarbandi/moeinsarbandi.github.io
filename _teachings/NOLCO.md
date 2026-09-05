@@ -25,6 +25,7 @@ schedule:
       - name: Lab subject (Parts I & II)
         url: /assets/pdf/teaching/nolco/lab_subject.pdf
 ---
+
 ## Course Overview
 
 NOLCO is a hands-on lab for the EU-CORE Master Programme (European Master on Control of Renewable Energy Systems), focused on designing nonlinear controllers for variable-speed wind turbines operating in Region III (rated power regulation). By the end of the lab, students will be able to:

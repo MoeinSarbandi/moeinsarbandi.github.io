@@ -6,25 +6,23 @@ let toggleTheme = (theme) => {
   } else {
     setTheme("dark");
   }
-}
+};
 
 let setTheme = (theme) => {
   transTheme();
   setHighlight(theme);
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
-  }
-  else {
+  } else {
     document.documentElement.removeAttribute("data-theme");
   }
   localStorage.setItem("theme", theme);
 
   // Updates the background of medium-zoom overlay.
-  if (typeof medium_zoom !== 'undefined') {
+  if (typeof medium_zoom !== "undefined") {
     medium_zoom.update({
-      background: getComputedStyle(document.documentElement)
-        .getPropertyValue('--global-bg-color') + 'ee', // + 'ee' for trasparency.
-    })
+      background: getComputedStyle(document.documentElement).getPropertyValue("--global-bg-color") + "ee", // + 'ee' for trasparency.
+    });
   }
 };
 
@@ -36,20 +34,20 @@ let setHighlight = (theme) => {
     document.getElementById("highlight_theme_dark").media = "none";
     document.getElementById("highlight_theme_light").media = "";
   }
-}
+};
 
 let transTheme = () => {
   document.documentElement.classList.add("transition");
   window.setTimeout(() => {
     document.documentElement.classList.remove("transition");
-  }, 500)
-}
+  }, 500);
+};
 
 let initTheme = (theme) => {
   // Default to light on first visit — no longer checks the visitor's
   // system/browser color-scheme preference. A saved choice (from the
   // toggle) is still respected on later visits.
   setTheme(theme);
-}
+};
 
 initTheme(localStorage.getItem("theme"));
