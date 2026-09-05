@@ -1,68 +1,39 @@
 ---
-published: false
-sitemap: false
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
+description: Supervised MSc projects and open research topics in control systems and wind energy.
+nav: true
 nav_order: 3
-display_categories: [supervision, work, fun]
-
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+I supervise student projects at the intersection of nonlinear control, data-driven methods, learning-based control, and floating offshore wind turbines. The topics below combine a clear research question with reproducible simulation or data analysis.
+
+## Completed supervised projects
+
+These projects were completed by MSc students in the EU-CORE European Master Programme at École Centrale Nantes.
+
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
+  {% assign supervised_projects = site.projects | where: "category", "supervision" | sort: "importance" %}
+  <div class="row row-cols-1 row-cols-md-2">
+    {% for project in supervised_projects %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
 </div>
+
+## Open topics for students
+
+The following topics are suitable for an MSc project, research internship, or exploratory collaboration. The exact scope can be adapted to the student's background and the available project period.
+
+<div class="projects">
+  {% assign open_projects = site.projects | where: "category", "open" | sort: "importance" %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in open_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div>
+
+Interested students are welcome to [contact me](mailto:moein.sarbandi@ec-nantes.fr) with a short CV, their relevant coursework, and the topic that interests them most.
