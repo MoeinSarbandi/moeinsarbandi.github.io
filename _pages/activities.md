@@ -9,6 +9,8 @@ nav_order: 5
 
 Peer-review service, invited talks, and conference presentations are collected here in a compact record. Select a section to view its details.
 
+Selected photographs from conferences, workshops, and research visits are available in the <a href="{{ '/gallery/' | relative_url }}">academic gallery</a>.
+
 <div class="activity-sections">
   <details class="activity-section" name="academic-activities">
     <summary>
