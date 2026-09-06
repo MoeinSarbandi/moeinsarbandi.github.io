@@ -1,0 +1,194 @@
+# Add future events as a new block under the relevant year. Each photo needs
+# its repository-relative path, pixel dimensions, and concise alternative text.
+- year: 2026
+  events:
+    - id: ifac-busan
+      date: August 23–28, 2026
+      category: Conference
+      title: 23rd IFAC World Congress
+      location: Busan, Republic of Korea
+      role: Presenter and reviewer
+      description: Presented “Robust Control Based on a New Wind Speed Observer for Floating Wind Turbines” and took part in the international automatic-control community’s flagship congress.
+      url: https://www.ifac2026.org/
+      url_label: Congress website
+      photos:
+        - path: assets/img/gallery/2026-ifac-busan/presentation.webp
+          width: 1200
+          height: 815
+          alt: Moein Sarbandi presenting floating-wind-turbine control research at the IFAC World Congress
+        - path: assets/img/gallery/2026-ifac-busan/group.webp
+          width: 1200
+          height: 806
+          alt: Group photograph with control researchers at the IFAC World Congress in Busan
+        - path: assets/img/gallery/2026-ifac-busan/congress.webp
+          width: 1200
+          height: 899
+          alt: Moein Sarbandi and a colleague at the IFAC World Congress photo wall
+        - path: assets/img/gallery/2026-ifac-busan/session.webp
+          width: 1200
+          height: 800
+          alt: Technical discussion during a session at the IFAC World Congress
+
+    - id: vss-exeter
+      date: July 27–30, 2026
+      category: Workshop
+      title: 18th International Workshop on Variable Structure Systems
+      location: University of Exeter, United Kingdom
+      role: Research contributor
+      description: Joint research on robust sliding-mode control for floating wind turbines was highlighted by Prof. Antonella Ferrara during a plenary session.
+      url: https://engineering.exeter.ac.uk/events/variablestructuresystems/
+      url_label: Workshop website
+      photos:
+        - path: assets/img/gallery/2026-vss-exeter/plenary.webp
+          width: 675
+          height: 1200
+          alt: Prof. Antonella Ferrara presenting joint floating-wind-turbine control research at VSS 2026
+
+    - id: torque-bruges
+      date: June 2–5, 2026
+      category: Conference
+      title: TORQUE 2026
+      location: Bruges, Belgium
+      role: Presenter
+      description: Presented work on control-Lyapunov-function-based quadratic programming and adaptive super-twisting control for floating offshore wind turbines.
+      url: https://torque2026.eu/
+      url_label: Conference website
+      photos:
+        - path: assets/img/gallery/2026-torque-bruges/presentation.webp
+          width: 800
+          height: 1066
+          alt: Moein Sarbandi presenting floating offshore wind turbine control research at TORQUE 2026
+
+    - id: dense-manchester
+      date: April 2026
+      category: Doctoral network
+      title: First DENSE Thematic Workshop
+      location: The University of Manchester, United Kingdom
+      role: Doctoral researcher and presenter
+      description: Shared six-month research progress in a programme featuring a keynote by Prof. Jovica V. Milanović, technical exchanges, and an expert panel discussion.
+      url: https://dense-dn.eu/
+      url_label: DENSE network
+      photos:
+        - path: assets/img/gallery/2026-dense-manchester/community.webp
+          width: 480
+          height: 360
+          alt: DENSE doctoral researchers and workshop participants together in Manchester
+
+    - id: eeci-paris-saclay
+      date: March 9–12, 2026
+      category: Advanced course
+      title: Nonlinear and Data-Driven Model Predictive Control
+      location: CentraleSupélec, Paris-Saclay, France
+      role: Participant
+      description: An EECI graduate course led by Prof. Frank Allgöwer and Prof. Matthias A. Müller, covering nonlinear, economic, robust, and data-driven model predictive control.
+      url: https://www.eeci-igsc.eu/modules/m02-paris-saclay-2025-2026
+      url_label: Course details
+      photos:
+        - path: assets/img/gallery/2026-eeci-paris-saclay/course.webp
+          width: 800
+          height: 600
+          alt: Participants in the EECI nonlinear and data-driven model predictive control course at Paris-Saclay
+
+    - id: jse-marseille
+      date: February 5–6, 2026
+      category: Scientific meeting
+      title: Journées Scientifiques de l’Éolien
+      location: École Centrale Méditerranée, Marseille, France
+      role: Presenter
+      description: Presented a sliding-mode wind-speed estimation method at a meeting connecting the French wind-energy research community with industry.
+      url: https://www.ifpenergiesnouvelles.fr/article/journees-scientifiques-leolien-2026
+      url_label: Event overview
+      photos:
+        - path: assets/img/gallery/2026-jse-marseille/presentation.webp
+          width: 1200
+          height: 900
+          alt: Moein Sarbandi presenting wind-speed estimation research at the Journées Scientifiques de l’Éolien
+
+    - id: btu-secondment
+      date: 2026
+      category: Research visit
+      title: Research Secondment at BTU Cottbus–Senftenberg
+      location: Cottbus, Germany
+      role: Visiting doctoral researcher
+      description: A research stay within the DENSE Doctoral Network, focused on collaboration and the development of dependable control methods for smart energy systems.
+      url: https://dense-dn.eu/
+      url_label: DENSE network
+      photos:
+        - path: assets/img/gallery/2026-btu-cottbus/campus.webp
+          width: 800
+          height: 1066
+          alt: Moein Sarbandi at Brandenburg University of Technology Cottbus–Senftenberg during a research secondment
+
+- year: 2025
+  events:
+    - id: gdr-macs-toulouse
+      date: September 30–October 1, 2025
+      category: Invited talk
+      title: GDR MACS Workshop on Data-Driven Control
+      location: ENSEEIHT, Toulouse, France
+      role: Invited speaker
+      description: Presented “Data-Based Sliding-Mode Control — Application to Floating Offshore Wind Turbines” at a national workshop connecting French research and teaching in data-driven control.
+      url: https://pkergus.github.io/workshop_datadriven.html
+      url_label: Workshop website
+      photos:
+        - path: assets/img/gallery/2025-gdr-macs-toulouse/enseeiht.webp
+          width: 900
+          height: 1200
+          alt: ENSEEIHT campus in Toulouse during the GDR MACS data-driven control workshop
+        - path: assets/img/gallery/2025-gdr-macs-toulouse/toulouse.webp
+          width: 900
+          height: 1200
+          alt: Toulouse city view during the GDR MACS workshop visit
+
+    - id: dense-genk
+      date: September 7–10, 2025
+      category: Doctoral network
+      title: DENSE Workshop and 19th International DHC Symposium
+      location: EnergyVille, Genk, Belgium
+      role: Doctoral researcher and presenter
+      description: Joined the DENSE network workshop alongside the international district-heating-and-cooling symposium hosted by VITO and EnergyVille, exchanging ideas across research and industry.
+      url: https://events.vito.be/iea-dhc-symposium-2025
+      url_label: Symposium website
+      photos:
+        - path: assets/img/gallery/2025-dense-genk/workshop.webp
+          width: 1200
+          height: 675
+          alt: DENSE workshop moments and participants at EnergyVille in Genk
+        - path: assets/img/gallery/2025-dense-genk/genk.webp
+          width: 900
+          height: 1200
+          alt: Historic mining tower at Thor Park in Genk during the DENSE workshop
+
+    - id: wesc-nantes
+      date: June 24–27, 2025
+      category: Conference
+      title: Wind Energy Science Conference 2025
+      location: Nantes, France
+      role: Organizing committee member and presenter
+      description: Helped organize WESC 2025 and presented research on robust adaptive super-twisting control for floating wind turbines in above-rated operation.
+      url: https://wesc2025.eu/
+      url_label: Conference website
+      photos:
+        - path: assets/img/gallery/2025-wesc-nantes/wesc.webp
+          width: 900
+          height: 1200
+          alt: Moein Sarbandi at the Wind Energy Science Conference 2025 venue in Nantes
+
+    - id: dense-welcome-cottbus
+      date: 2025
+      category: Doctoral network
+      title: DENSE Welcome Meeting
+      location: BTU Cottbus–Senftenberg and Fraunhofer IEG, Germany
+      role: Doctoral researcher
+      description: Met fellow doctoral candidates and supervisors to introduce research topics, align the network’s work packages, and plan training, dissemination, and collaboration activities.
+      url: https://dense-dn.eu/
+      url_label: DENSE network
+      photos:
+        - path: assets/img/gallery/2025-dense-cottbus/campus.webp
+          width: 1200
+          height: 900
+          alt: Brandenburg University of Technology library illuminated during the DENSE welcome meeting
+        - path: assets/img/gallery/2025-dense-cottbus/group.webp
+          width: 1200
+          height: 900
+          alt: DENSE doctoral candidates and supervisors together at the welcome meeting in Cottbus
