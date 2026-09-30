@@ -61,8 +61,8 @@ cv:
       - company: Cyprus University of Technology
         position: Research Secondment (planned)
         location: Cyprus
-        start_date: 2026-11-01
-        end_date: 2026-11-30
+        start_date: 2026-11-07
+        end_date: 2026-11-17
         summary: DENSE network secondment hosted by Dr. Petros Aristidou, planned alongside MEDPOWER 2026.
 
       - company: École Centrale Nantes — EU-CORE Master Programme
@@ -150,15 +150,10 @@ cv:
         summary: National university entrance examination for the MSc degree in Electrical Engineering, among approximately 14,000 participants nationwide.
 
     Publications:
-      - title: Data-Driven Super-Twisting Control of Unstable Canonical Systems under Non-A-Priori Bounded Time- and State-Dependent Perturbations
+      - title: Data-Driven Super-Twisting Control of Unstable Linear Systems under Non-A-Priori Bounded State-Dependent Sliding Perturbations
         publisher: Manuscript in preparation
         releaseDate: 2026-01-01
         summary: With J. E. Machado, J. Mendoza-Avila, M. A. Hamida, J. Schiffer, and F. Plestan.
-
-      - title: Adaptive Data-Based Integral Sliding Mode Control With Online Neural Networks for Floating Offshore Wind Turbines
-        publisher: Under review at IEEE Transactions on Control Systems Technology
-        releaseDate: 2026-01-01
-        summary: Manuscript 26-0872; with M. A. Hamida, N. Sacchi, E. Vacchini, A. Ferrara, and F. Plestan.
 
       - title: "Wind Speed Estimation Using Second-Order Sliding-Mode Observers: Simulation and Experimental Validation on a Floating Offshore Wind Turbine"
         publisher: Wind Energy Science, vol. 11, pp. 2405-2425
@@ -182,19 +177,21 @@ cv:
         url: https://doi.org/10.1177/0309524X231211315
 
       - title: Nonlinear Control Framework for Grid-Connected PMSG-Based Floating Wind Turbines in the Above-Rated Wind Speed Region through OpenFAST Validation
-        publisher: Submitted to the 15th MEDPOWER Conference, Paphos, Cyprus
+        publisher: Accepted at the 15th MEDPOWER Conference, Paphos, Cyprus
         releaseDate: 2026-11-01
-        summary: Submitted; scheduled presentation by Moein Sarbandi.
+        summary: Accepted; scheduled for presentation by Moein Sarbandi.
 
       - title: Robust Control Based on a New Wind Speed Observer for Floating Wind Turbines
         publisher: 23rd IFAC World Congress, Busan, Republic of Korea
         releaseDate: 2026-08-01
-        summary: Accepted; presented by Moein Sarbandi.
+        url: https://hal.science/hal-05755096
+        summary: Presented by Moein Sarbandi; preprint available on HAL.
 
       - title: Online Power Coefficient Estimation in Wind Turbines via Adaptive Sliding-Mode Observers
         publisher: 18th International Workshop on Variable Structure Systems (VSS 2026), Exeter, UK
         releaseDate: 2026-07-01
-        summary: Accepted; presented by M. M. Shahir.
+        url: https://doi.org/10.1109/VSS69650.2026.11655822
+        summary: Published conference paper; presented by M. M. Shahir.
 
       - title: Control of Floating Offshore Wind Turbines via Control Lyapunov Function-Based Quadratic Programming and Adaptive Super-Twisting
         publisher: "TORQUE 2026; Journal of Physics: Conference Series, 3224(5), 052032"
@@ -222,18 +219,19 @@ cv:
         releaseDate: 2025-06-01
 
     Academic Service:
-      - bullet: "Journal reviewer (30+ reviews): Automatica, IEEE Transactions on Cybernetics, ISA Transactions, Wind Engineering, Energy Reports, and Scientific Reports"
+      - bullet: "Journal reviewer (30+ reviews): Automatica, IEEE Transactions on Cybernetics, ISA Transactions, Wind Engineering, Energy, Energy Reports, The Journal of Supercomputing, and Scientific Reports"
       - bullet: "Conference reviewer: IFAC World Congress 2026 and American Control Conference 2026"
       - bullet: "Organizing committee member: Wind Energy Science Conference 2025, Nantes"
 
     Talks and Presentations:
+      - bullet: "Data-Based Sliding-Mode Control: From Estimation to Data-Driven Design — Journée CODEx internal seminar, École Centrale Nantes, Nantes, France (September 11, 2026)"
       - bullet: "Data-Based Control Application to Wind Turbines — [EU-CORE Winter School 2026](https://www.ec-nantes.fr/centrale-nantes/news/eu-core-winter-school-2026), École Centrale Nantes, Nantes, France (February 2026)"
       - bullet: "Novel Wind Speed Estimation Method for Wind Turbines Using the Sliding-Mode Approach — [Journées Scientifiques de l'Éolien 2026](https://www.jse-2026.fr/), École Centrale Méditerranée, Marseille, France (February 2026)"
       - bullet: "Data-Based Sliding-Mode Control — Application to Floating Offshore Wind Turbines — [GDR MACS Workshop on Data-Driven Control and Analysis of Dynamical Systems](https://pkergus.github.io/workshop_datadriven.html), ENSEEIHT, Toulouse, France (October 2025)"
       - bullet: "Tutorial: Introduction to OpenFAST with MATLAB/Simulink — Orientation Session for Incoming EU-CORE Students, École Centrale Nantes, Nantes, France (2025)"
 
     Certificates:
-      - name: Nonlinear and Data-Driven Model Predictive Control
+      - name: Nonlinear and Data-Driven Predictive Control
         date: 2026-03-01
         issuer: EECI International Graduate School on Control, CentraleSupélec Paris-Saclay
         icon: fa-solid fa-gears
