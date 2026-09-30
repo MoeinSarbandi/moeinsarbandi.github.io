@@ -2,6 +2,15 @@
 # its repository-relative path, pixel dimensions, and concise alternative text.
 - year: 2026
   events:
+    - id: blocker-workshop-berlin
+      date: September 30–October 3, 2026
+      category: Workshop and training
+      title: ENERTRAG Blocker Workshop Berlin
+      location: Rosenthaler Straße 30, Berlin, Germany
+      role: Participant
+      description: Taking part in collaborative workshop sessions and open-source software-development training with fellow DENSE doctoral researchers and project partners.
+      photos: []
+
     - id: ifac-busan
       date: August 23–28, 2026
       category: Conference
@@ -104,13 +113,15 @@
           height: 900
           alt: Moein Sarbandi presenting wind-speed estimation research at the Journées Scientifiques de l’Éolien
 
+- year: 2025
+  events:
     - id: btu-secondment
-      date: 2026
+      date: April–May 2025
       category: Research visit
       title: Research Secondment at BTU Cottbus–Senftenberg
       location: Cottbus, Germany
       role: Visiting doctoral researcher
-      description: A research stay within the DENSE Doctoral Network, focused on collaboration and the development of dependable control methods for smart energy systems.
+      description: A research stay within the DENSE Doctoral Network, focused on data-driven control in collaboration with Prof. Johannes Schiffer and Dr. Juan E. Machado.
       url: https://dense-dn.eu/
       url_label: DENSE network
       photos:
@@ -119,8 +130,6 @@
           height: 1066
           alt: Moein Sarbandi at Brandenburg University of Technology Cottbus–Senftenberg during a research secondment
 
-- year: 2025
-  events:
     - id: gdr-macs-toulouse
       date: September 30–October 1, 2025
       category: Invited talk
