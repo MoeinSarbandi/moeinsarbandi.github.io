@@ -41,7 +41,7 @@ images:
       <div class="gallery-events">
         {% for event in year_group.events %}
           {% assign photo_count = event.photos | size %}
-          <article class="gallery-event" id="{{ event.id }}">
+          <article class="gallery-event{% if photo_count == 0 %} gallery-event-text-only{% endif %}" id="{{ event.id }}">
             <div class="gallery-event-copy">
               <div class="gallery-event-meta">
                 <span class="gallery-event-category">{{ event.category }}</span>
@@ -58,27 +58,29 @@ images:
               {% endif %}
             </div>
 
-            <div class="gallery-event-media pswp-gallery gallery-count-{{ photo_count }}" id="gallery-{{ event.id }}">
-              {% for photo in event.photos %}
-                <a
-                  href="{{ photo.path | relative_url }}"
-                  data-pswp-width="{{ photo.width }}"
-                  data-pswp-height="{{ photo.height }}"
-                  target="_blank"
-                  aria-label="Open image: {{ photo.alt }}"
-                >
-                  <img
-                    src="{{ photo.path | relative_url }}"
-                    width="{{ photo.width }}"
-                    height="{{ photo.height }}"
-                    alt="{{ photo.alt }}"
-                    loading="lazy"
-                    decoding="async"
+            {% if photo_count > 0 %}
+              <div class="gallery-event-media pswp-gallery gallery-count-{{ photo_count }}" id="gallery-{{ event.id }}">
+                {% for photo in event.photos %}
+                  <a
+                    href="{{ photo.path | relative_url }}"
+                    data-pswp-width="{{ photo.width }}"
+                    data-pswp-height="{{ photo.height }}"
+                    target="_blank"
+                    aria-label="Open image: {{ photo.alt }}"
                   >
-                  <span class="gallery-zoom" aria-hidden="true"><i class="fa-solid fa-expand"></i></span>
-                </a>
-              {% endfor %}
-            </div>
+                    <img
+                      src="{{ photo.path | relative_url }}"
+                      width="{{ photo.width }}"
+                      height="{{ photo.height }}"
+                      alt="{{ photo.alt }}"
+                      loading="lazy"
+                      decoding="async"
+                    >
+                    <span class="gallery-zoom" aria-hidden="true"><i class="fa-solid fa-expand"></i></span>
+                  </a>
+                {% endfor %}
+              </div>
+            {% endif %}
           </article>
         {% endfor %}
       </div>
@@ -195,6 +197,14 @@ images:
     border-radius: 1rem;
     background: var(--global-bg-color, #fff);
     box-shadow: 0 0.65rem 1.8rem rgba(0, 0, 0, 0.055);
+  }
+
+  .gallery-event-text-only {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .gallery-event-text-only .gallery-event-copy {
+    max-width: 48rem;
   }
 
   .gallery-event-copy {
