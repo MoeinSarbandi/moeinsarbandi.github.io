@@ -17,7 +17,7 @@ Selected photographs from conferences, workshops, and research visits are availa
       <span class="activity-heading">
         <span class="activity-kicker">Service</span>
         <span class="activity-title">Peer-review service</span>
-        <span class="activity-summary">30+ journal reviews across six journals, plus conference and community service</span>
+        <span class="activity-summary">30+ journal reviews across eight journals, plus conference and community service</span>
       </span>
       <span class="activity-chevron" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
     </summary>
@@ -35,7 +35,9 @@ Selected photographs from conferences, workshops, and research visits are availa
             <li><span>IEEE Transactions on Cybernetics</span></li>
             <li><span>ISA Transactions</span></li>
             <li><span>Wind Engineering</span></li>
+            <li><span>Energy</span></li>
             <li><span>Energy Reports</span></li>
+            <li><span>The Journal of Supercomputing</span></li>
             <li><span>Scientific Reports</span></li>
           </ul>
         </section>
@@ -74,6 +76,12 @@ Selected photographs from conferences, workshops, and research visits are availa
 
     <div class="activity-content activity-records">
       <article class="activity-record">
+        <p class="activity-meta">September 11, 2026 · École Centrale Nantes, France</p>
+        <h2>Data-Based Sliding-Mode Control: From Estimation to Data-Driven Design</h2>
+        <p>Journée CODEx internal seminar</p>
+      </article>
+
+      <article class="activity-record">
         <p class="activity-meta">February 2026 · École Centrale Nantes, France</p>
         <h2>Data-Based Control Application to Wind Turbines</h2>
         <p><a href="https://www.ec-nantes.fr/centrale-nantes/news/eu-core-winter-school-2026">EU-CORE Winter School 2026</a></p>
@@ -111,6 +119,12 @@ Selected photographs from conferences, workshops, and research visits are availa
     </summary>
 
     <div class="activity-content activity-records">
+      <article class="activity-record activity-record-upcoming">
+        <p class="activity-meta"><span class="activity-badge">Upcoming</span> November 3–6, 2026 · Paphos, Cyprus</p>
+        <h2>Nonlinear Control Framework for Grid-Connected PMSG-Based Floating Wind Turbines in the Above-Rated Wind Speed Region through OpenFAST Validation</h2>
+        <p>15th MEDPOWER Conference · Accepted for presentation</p>
+      </article>
+
       <article class="activity-record">
         <p class="activity-meta">August 2026 · Busan, Republic of Korea</p>
         <h2>Robust Control Based on a New Wind Speed Observer for Floating Wind Turbines</h2>
@@ -118,7 +132,7 @@ Selected photographs from conferences, workshops, and research visits are availa
       </article>
 
       <article class="activity-record">
-        <p class="activity-meta">May 2026 · Bruges, Belgium</p>
+        <p class="activity-meta">June 2–5, 2026 · Bruges, Belgium</p>
         <h2>Control of Floating Offshore Wind Turbines via Control Lyapunov Function-Based Quadratic Programming and Adaptive Super-Twisting</h2>
         <p>TORQUE 2026 · <a href="https://doi.org/10.1088/1742-6596/3224/5/052032">View paper</a></p>
       </article>
@@ -129,11 +143,6 @@ Selected photographs from conferences, workshops, and research visits are availa
         <p>Wind Energy Science Conference</p>
       </article>
 
-      <article class="activity-record activity-record-upcoming">
-        <p class="activity-meta"><span class="activity-badge">Upcoming</span> September 2026 · École Centrale Nantes</p>
-        <h2>Data-Based Sliding-Mode Control: From Estimation to Data-Driven Design</h2>
-        <p>CODEx internal seminar</p>
-      </article>
     </div>
 
   </details>

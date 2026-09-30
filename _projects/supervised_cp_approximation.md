@@ -36,6 +36,6 @@ All three methods achieved strong agreement with the simulated reference data. T
 </div>
 <div class="caption">Compared model families and representative test-set predictions.</div>
 
-**Related work:** M. Sarbandi, M. M. Shahir, M. A. Hamida, and F. Plestan, "Online Power Coefficient Estimation in Wind Turbines via Adaptive Sliding-Mode Observers," VSS 2026.
+**Related work:** M. Sarbandi, M. M. Shahir, M. A. Hamida, and F. Plestan, "Online Power Coefficient Estimation in Wind Turbines via Adaptive Sliding-Mode Observers," VSS 2026. [DOI](https://doi.org/10.1109/VSS69650.2026.11655822)
 
 <a href="{{ '/assets/pdf/CpPDF.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">View project presentation (PDF)</a>
