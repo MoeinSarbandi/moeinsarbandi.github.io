@@ -231,7 +231,7 @@ cv:
       - bullet: "Tutorial: Introduction to OpenFAST with MATLAB/Simulink — Orientation Session for Incoming EU-CORE Students, École Centrale Nantes, Nantes, France (2025)"
 
     Certificates:
-      - name: Nonlinear and Data-Driven Predictive Control
+      - name: Nonlinear and Data-Driven Model Predictive Control
         date: 2026-03-01
         issuer: EECI International Graduate School on Control, CentraleSupélec Paris-Saclay
         icon: fa-solid fa-gears
