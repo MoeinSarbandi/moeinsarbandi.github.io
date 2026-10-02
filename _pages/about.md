@@ -31,7 +31,7 @@ latest_posts:
   limit: 3
 ---
 
-I am an MSCA doctoral researcher in Automatic Control at the [Laboratory of Digital Sciences of Nantes (LS2N)](https://www.ls2n.fr/) (CODEx group), [École Centrale Nantes](https://www.ec-nantes.fr), funded by the [DENSE Doctoral Network](https://dense-dn.eu/) under Horizon Europe. My PhD research is supervised by [Prof. Franck Plestan](https://scholar.google.fr/citations?user=fJNH7aQAAAAJ&hl=en) and [Dr. Mohamed Assaad Hamida](https://scholar.google.com/citations?user=Bx-jJ64AAAAJ&hl=en).
+I am an MSCA doctoral researcher in Automatic Control at the [Laboratory of Digital Sciences of Nantes (LS2N)](https://www.ls2n.fr/) (CODEx group), [École Centrale Nantes](https://www.ec-nantes.fr), funded by the [DENSE Doctoral Network](https://dense-dn.eu/) under Horizon Europe. My PhD research is supervised by [Prof. Franck Plestan](https://scholar.google.fr/citations?user=fJNH7aQAAAAJ&hl=en) and [Prof. Mohamed Assaad Hamida](https://scholar.google.com/citations?user=Bx-jJ64AAAAJ&hl=en).
 
 My work develops robust, data-driven, and learning-enhanced control methods for uncertain nonlinear systems, with a primary application to floating offshore wind turbines. I combine adaptive sliding-mode design, neural-network-augmented control, data-driven methods, and nonlinear observers, with validation in MATLAB/Simulink, OpenFAST, and experimental software-in-the-loop platforms.
 
