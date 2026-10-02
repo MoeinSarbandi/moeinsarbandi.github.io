@@ -31,7 +31,7 @@ cv:
         end_date: 2027-12-31
         highlights:
           - "Thesis: Robust, Data-Driven, and Learning-Based Control of Uncertain Nonlinear Systems, with Application to Floating Wind Turbines"
-          - "Supervisors: Prof. Franck Plestan and Dr. Mohamed Assaad Hamida"
+          - "Supervisors: Prof. Franck Plestan and Prof. Mohamed Assaad Hamida"
           - Marie Skłodowska-Curie Actions Doctoral Fellow in the DENSE Doctoral Network
 
       - institution: K. N. Toosi University of Technology
@@ -278,9 +278,9 @@ cv:
       - name: Prof. Franck Plestan
         icon: fa-solid fa-user-tie
         reference: Professor and Dean of Research, LS2N, École Centrale Nantes
-      - name: Dr. Mohamed Assaad Hamida
+      - name: Prof. Mohamed Assaad Hamida
         icon: fa-solid fa-user-tie
-        reference: Associate Professor, École Centrale Nantes
+        reference: Professor, École Centrale Nantes
       - name: Prof. Hamid Khaloozadeh
         icon: fa-solid fa-user-tie
         reference: Professor, K. N. Toosi University of Technology
