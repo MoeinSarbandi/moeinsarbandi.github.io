@@ -17,7 +17,7 @@ Selected photographs from conferences, workshops, and research visits are availa
       <span class="activity-heading">
         <span class="activity-kicker">Service</span>
         <span class="activity-title">Peer-review service</span>
-        <span class="activity-summary">30+ journal reviews across eight journals, plus conference and community service</span>
+        <span class="activity-summary">35+ journal reviews across ten journals, plus conference and community service</span>
       </span>
       <span class="activity-chevron" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
     </summary>
@@ -33,12 +33,14 @@ Selected photographs from conferences, workshops, and research visits are availa
           <ul class="activity-list">
             <li><span>Automatica</span></li>
             <li><span>IEEE Transactions on Cybernetics</span></li>
+            <li><span>IEEE Transactions on Power Systems</span></li>
+            <li><span>IEEE Transactions on Aerospace and Electronic Systems</span></li>
             <li><span>ISA Transactions</span></li>
-            <li><span>Wind Engineering</span></li>
             <li><span>Energy</span></li>
+            <li><span>Scientific Reports</span></li>
             <li><span>Energy Reports</span></li>
             <li><span>The Journal of Supercomputing</span></li>
-            <li><span>Scientific Reports</span></li>
+            <li><span>Wind Engineering</span></li>
           </ul>
         </section>
 
