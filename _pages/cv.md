@@ -9,3 +9,5 @@ description: Academic curriculum vitae covering research, publications, teaching
 toc:
   sidebar: left
 ---
+
+{% comment %}CV content is sourced from _data/cv.yml.{% endcomment %}
