@@ -153,17 +153,17 @@ cv:
       - title: Under-Review Manuscript (Title Withheld)
         publisher: Manuscript under review
         releaseDate: 2026-01-01
-        summary: With M. A. Hamida, N. Sacchi, E. Vacchini, A. Ferrara, and F. Plestan. Broad topic: learning-enhanced robust control for wind-energy applications. Technical details are intentionally omitted pending publication.
+        summary: "With M. A. Hamida, N. Sacchi, E. Vacchini, A. Ferrara, and F. Plestan. Broad topic: learning-enhanced robust control for wind-energy applications. Technical details are intentionally omitted pending publication."
 
       - title: Ongoing Manuscript (Title Withheld)
         publisher: Manuscript in preparation
         releaseDate: 2026-01-01
-        summary: With J. E. Machado, J. Mendoza-Avila, M. A. Hamida, J. Schiffer, and F. Plestan. Broad topic: data-driven robust control. Technical details are intentionally omitted prior to submission.
+        summary: "With J. E. Machado, J. Mendoza-Avila, M. A. Hamida, J. Schiffer, and F. Plestan. Broad topic: data-driven robust control. Technical details are intentionally omitted prior to submission."
 
       - title: Ongoing Theoretical Manuscript (Title Withheld)
         publisher: Manuscript in preparation
         releaseDate: 2026-01-01
-        summary: Broad topic: data-driven control theory. Technical details are intentionally omitted prior to submission.
+        summary: "Broad topic: data-driven control theory. Technical details are intentionally omitted prior to submission."
 
       - title: "Wind Speed Estimation Using Second-Order Sliding-Mode Observers: Simulation and Experimental Validation on a Floating Offshore Wind Turbine"
         publisher: Wind Energy Science, vol. 11, pp. 2405-2425
