@@ -3,13 +3,29 @@
 - year: 2026
   events:
     - id: blocker-workshop-berlin
-      date: September 30–October 3, 2026
+      date: September 30–October 2, 2026
       category: Workshop and training
       title: ENERTRAG Blocker Workshop Berlin
-      location: Rosenthaler Straße 30, Berlin, Germany
+      location: ENERTRAG SE, Berlin and Uckermark, Germany
       role: Participant
-      description: Taking part in collaborative workshop sessions and open-source software-development training with fellow DENSE doctoral researchers and project partners.
-      photos: []
+      description: A three-day DENSE workshop hosted by ENERTRAG, combining software training, technical site visits, and research-development sessions.
+      highlights:
+        - Open-source software development and functional programming with F#
+        - Visits to ENERTRAG’s green-hydrogen production facility and 10 MW PV-battery site within the Uckermark integrated power plant
+        - Research in the Age of AI
+        - Research funding and proposal writing
+        - Panel discussion on scientific and industrial career prospects
+      url: https://enertrag.com/energy-transition/enertrag-verbundkraftwerk-R-uckermark
+      url_label: ENERTRAG Uckermark plant
+      photos:
+        - path: assets/img/gallery/2026-enertrag-berlin/fsharp-training.webp
+          width: 1200
+          height: 1600
+          alt: DENSE doctoral researchers taking part in open-source software-development training with functional programming in F# at ENERTRAG in Berlin
+        - path: assets/img/gallery/2026-enertrag-berlin/site-visit.webp
+          width: 1600
+          height: 1200
+          alt: DENSE workshop participants during the technical visit to ENERTRAG’s 10 MW photovoltaic and battery-storage site in Uckermark
 
     - id: ifac-busan
       date: August 23–28, 2026
@@ -44,14 +60,14 @@
       title: 18th International Workshop on Variable Structure Systems
       location: University of Exeter, United Kingdom
       role: Research contributor
-      description: Joint research on robust sliding-mode control for floating wind turbines was highlighted by Prof. Antonella Ferrara during a plenary session.
+      description: At VSS 2026, an international workshop dedicated to variable-structure and sliding-mode systems, Prof. Antonella Ferrara highlighted our joint project on neural-network-assisted sliding-mode control for floating wind turbines during her plenary talk.
       url: https://engineering.exeter.ac.uk/events/variablestructuresystems/
       url_label: Workshop website
       photos:
         - path: assets/img/gallery/2026-vss-exeter/plenary.webp
           width: 675
-          height: 1200
-          alt: Prof. Antonella Ferrara presenting joint floating-wind-turbine control research at VSS 2026
+          height: 789
+          alt: Prof. Antonella Ferrara highlighting joint research on neural-network-assisted sliding-mode control for floating wind turbines during her VSS 2026 plenary talk
 
     - id: torque-bruges
       date: June 2–5, 2026
@@ -67,6 +83,14 @@
           width: 800
           height: 1066
           alt: Moein Sarbandi presenting floating offshore wind turbine control research at TORQUE 2026
+        - path: assets/img/gallery/2026-torque-bruges/badge.webp
+          width: 800
+          height: 1067
+          alt: Moein Sarbandi’s conference badge in the TORQUE 2026 opening venue in Bruges
+        - path: assets/img/gallery/2026-torque-bruges/presentation-2.webp
+          width: 800
+          height: 1067
+          alt: Moein Sarbandi presenting a control-oriented reduced model for floating offshore wind turbines at TORQUE 2026
 
     - id: dense-manchester
       date: April 2026
@@ -78,10 +102,14 @@
       url: https://dense-dn.eu/
       url_label: DENSE network
       photos:
-        - path: assets/img/gallery/2026-dense-manchester/community.webp
-          width: 480
-          height: 360
-          alt: DENSE doctoral researchers and workshop participants together in Manchester
+        - path: assets/img/gallery/2026-dense-manchester/group-day.webp
+          width: 1600
+          height: 1200
+          alt: DENSE doctoral researchers, supervisors, and workshop participants at The University of Manchester
+        - path: assets/img/gallery/2026-dense-manchester/group-night.webp
+          width: 1319
+          height: 1384
+          alt: DENSE doctoral researchers together outside The University of Manchester during the thematic workshop
 
     - id: eeci-paris-saclay
       date: March 9–12, 2026
@@ -148,6 +176,10 @@
           width: 900
           height: 1200
           alt: Toulouse city view during the GDR MACS workshop visit
+        - path: assets/img/gallery/2025-gdr-macs-toulouse/dinner.webp
+          width: 800
+          height: 360
+          alt: Group dinner with workshop participants during the GDR MACS Workshop on Data-Driven Control in Toulouse
 
     - id: dense-genk
       date: September 7–10, 2025
@@ -163,10 +195,6 @@
           width: 1200
           height: 675
           alt: DENSE workshop moments and participants at EnergyVille in Genk
-        - path: assets/img/gallery/2025-dense-genk/genk.webp
-          width: 900
-          height: 1200
-          alt: Historic mining tower at Thor Park in Genk during the DENSE workshop
 
     - id: wesc-nantes
       date: June 24–27, 2025

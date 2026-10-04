@@ -51,6 +51,13 @@ images:
               <p class="gallery-event-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i>{{ event.location }}</p>
               <p class="gallery-event-role">{{ event.role }}</p>
               <p>{{ event.description }}</p>
+              {% if event.highlights %}
+                <ul class="gallery-event-highlights">
+                  {% for highlight in event.highlights %}
+                    <li>{{ highlight }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
               {% if event.url %}
                 <a class="gallery-event-link" href="{{ event.url }}" target="_blank" rel="noopener noreferrer">
                   {{ event.url_label }} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
@@ -257,6 +264,21 @@ images:
   .gallery-event-role {
     margin: 0 0 0.85rem;
     font-weight: 600;
+  }
+
+  .gallery-event-highlights {
+    margin: 0.75rem 0 1rem;
+    padding-left: 1.15rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .gallery-event-highlights li + li {
+    margin-top: 0.35rem;
+  }
+
+  .gallery-event-highlights li::marker {
+    color: var(--global-theme-color, #b509ac);
   }
 
   .gallery-event-link {
