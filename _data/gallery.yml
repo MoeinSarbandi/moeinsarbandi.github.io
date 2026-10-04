@@ -67,6 +67,14 @@
           width: 800
           height: 1066
           alt: Moein Sarbandi presenting floating offshore wind turbine control research at TORQUE 2026
+        - path: assets/img/gallery/2026-torque-bruges/badge.webp
+          width: 800
+          height: 1067
+          alt: Moein Sarbandi’s conference badge in the TORQUE 2026 opening venue in Bruges
+        - path: assets/img/gallery/2026-torque-bruges/presentation-2.webp
+          width: 800
+          height: 1067
+          alt: Moein Sarbandi presenting a control-oriented reduced model for floating offshore wind turbines at TORQUE 2026
 
     - id: dense-manchester
       date: April 2026
@@ -78,10 +86,14 @@
       url: https://dense-dn.eu/
       url_label: DENSE network
       photos:
-        - path: assets/img/gallery/2026-dense-manchester/community.webp
-          width: 480
-          height: 360
-          alt: DENSE doctoral researchers and workshop participants together in Manchester
+        - path: assets/img/gallery/2026-dense-manchester/group-day.webp
+          width: 1600
+          height: 1200
+          alt: DENSE doctoral researchers, supervisors, and workshop participants at The University of Manchester
+        - path: assets/img/gallery/2026-dense-manchester/group-night.webp
+          width: 1319
+          height: 1384
+          alt: DENSE doctoral researchers together outside The University of Manchester during the thematic workshop
 
     - id: eeci-paris-saclay
       date: March 9–12, 2026
