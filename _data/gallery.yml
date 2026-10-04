@@ -3,13 +3,23 @@
 - year: 2026
   events:
     - id: blocker-workshop-berlin
-      date: September 30–October 3, 2026
+      date: September 30–October 2, 2026
       category: Workshop and training
       title: ENERTRAG Blocker Workshop Berlin
-      location: Rosenthaler Straße 30, Berlin, Germany
+      location: ENERTRAG SE, Berlin and Uckermark, Germany
       role: Participant
-      description: Taking part in collaborative workshop sessions and open-source software-development training with fellow DENSE doctoral researchers and project partners.
-      photos: []
+      description: Completed a three-day DENSE workshop hosted by ENERTRAG, combining open-source software-development training in functional programming with F#, a technical visit to the Uckermark integrated renewable power plant and its PV site to explore how wind, solar, battery storage, and green hydrogen are coupled, and sessions on Research in the Age of AI, research funding, proposal writing, and scientific and industrial career prospects.
+      url: https://enertrag.com/energy-transition/enertrag-verbundkraftwerk-R-uckermark
+      url_label: ENERTRAG Uckermark plant
+      photos:
+        - path: assets/img/gallery/2026-enertrag-berlin/fsharp-training.webp
+          width: 1200
+          height: 1600
+          alt: DENSE doctoral researchers taking part in open-source software-development training with functional programming in F# at ENERTRAG in Berlin
+        - path: assets/img/gallery/2026-enertrag-berlin/site-visit.webp
+          width: 1600
+          height: 1200
+          alt: DENSE workshop participants during the technical visit to ENERTRAG’s photovoltaic site in Uckermark
 
     - id: ifac-busan
       date: August 23–28, 2026
