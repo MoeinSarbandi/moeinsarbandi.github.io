@@ -44,14 +44,14 @@
       title: 18th International Workshop on Variable Structure Systems
       location: University of Exeter, United Kingdom
       role: Research contributor
-      description: Joint research on robust sliding-mode control for floating wind turbines was highlighted by Prof. Antonella Ferrara during a plenary session.
+      description: At VSS 2026, an international workshop dedicated to variable-structure and sliding-mode systems, Prof. Antonella Ferrara highlighted our joint project on neural-network-assisted sliding-mode control for floating wind turbines during her plenary talk.
       url: https://engineering.exeter.ac.uk/events/variablestructuresystems/
       url_label: Workshop website
       photos:
         - path: assets/img/gallery/2026-vss-exeter/plenary.webp
           width: 675
-          height: 1200
-          alt: Prof. Antonella Ferrara presenting joint floating-wind-turbine control research at VSS 2026
+          height: 789
+          alt: Prof. Antonella Ferrara highlighting joint research on neural-network-assisted sliding-mode control for floating wind turbines during her VSS 2026 plenary talk
 
     - id: torque-bruges
       date: June 2–5, 2026
