@@ -163,10 +163,6 @@
           width: 1200
           height: 675
           alt: DENSE workshop moments and participants at EnergyVille in Genk
-        - path: assets/img/gallery/2025-dense-genk/genk.webp
-          width: 900
-          height: 1200
-          alt: Historic mining tower at Thor Park in Genk during the DENSE workshop
 
     - id: wesc-nantes
       date: June 24–27, 2025
