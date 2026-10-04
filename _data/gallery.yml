@@ -148,6 +148,10 @@
           width: 900
           height: 1200
           alt: Toulouse city view during the GDR MACS workshop visit
+        - path: assets/img/gallery/2025-gdr-macs-toulouse/dinner.webp
+          width: 800
+          height: 360
+          alt: Group dinner with workshop participants during the GDR MACS Workshop on Data-Driven Control in Toulouse
 
     - id: dense-genk
       date: September 7–10, 2025
