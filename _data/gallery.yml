@@ -8,7 +8,7 @@
       title: ENERTRAG Blocker Workshop Berlin
       location: ENERTRAG SE, Berlin and Uckermark, Germany
       role: Participant
-      description: Completed a three-day DENSE workshop hosted by ENERTRAG, combining open-source software-development training in functional programming with F#, a technical visit to the Uckermark integrated renewable power plant and its PV site to explore how wind, solar, battery storage, and green hydrogen are coupled, and sessions on Research in the Age of AI, research funding, proposal writing, and scientific and industrial career prospects.
+      description: Completed a three-day DENSE workshop hosted by ENERTRAG, combining open-source software-development training in functional programming with F#, technical visits to ENERTRAG’s green-hydrogen production facility and a 10 MW PV-battery site within the Uckermark integrated power plant, and sessions on Research in the Age of AI, research funding, proposal writing, and scientific and industrial career prospects.
       url: https://enertrag.com/energy-transition/enertrag-verbundkraftwerk-R-uckermark
       url_label: ENERTRAG Uckermark plant
       photos:
@@ -19,7 +19,7 @@
         - path: assets/img/gallery/2026-enertrag-berlin/site-visit.webp
           width: 1600
           height: 1200
-          alt: DENSE workshop participants during the technical visit to ENERTRAG’s photovoltaic site in Uckermark
+          alt: DENSE workshop participants during the technical visit to ENERTRAG’s 10 MW photovoltaic and battery-storage site in Uckermark
 
     - id: ifac-busan
       date: August 23–28, 2026
