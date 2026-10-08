@@ -5,12 +5,17 @@ description: Extend rotor-effective wind-speed estimation to the wind experience
 project_id: Project 06
 importance: 5
 category: opportunity
+status: Assigned
+students:
+  - Mohd Abddullah Khan
+  - Mohammed Al-Hadi
 topics: [Wind estimation, Observers, Individual pitch control, OpenFAST]
 ---
 
 **Supervisor:** Moein Sarbandi  
 **Programme:** EU-CORE MSc  
-**Status:** Available
+**Status:** {{ page.status }}  
+**Students:** {{ page.students | join: " and " }}
 
 ## Project objective
 
