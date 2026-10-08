@@ -5,12 +5,17 @@ description: Compare modern data-driven controllers on a realistic wind-turbine 
 project_id: Project 01
 importance: 1
 category: opportunity
+status: Assigned
+students:
+  - Shabir Ahmad Niazi
+  - Sahil Nesar
 topics: [Data-driven control, DeePC, Robust control, OpenFAST]
 ---
 
 **Supervisor:** Moein Sarbandi  
 **Programme:** EU-CORE MSc  
-**Status:** Available
+**Status:** {{ page.status }}  
+**Students:** {{ page.students | join: " and " }}
 
 ## Project objective
 
