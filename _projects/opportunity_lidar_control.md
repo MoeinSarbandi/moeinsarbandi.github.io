@@ -5,12 +5,17 @@ description: Process field LiDAR measurements and investigate preview-assisted f
 project_id: Project 05
 importance: 4
 category: opportunity
+status: Assigned
+students:
+  - Muhammad Sohail Ashraf
+  - Ahmed Kazmi
 topics: [LiDAR, Wind estimation, Feedforward control, Signal processing]
 ---
 
 **Supervisor:** Moein Sarbandi  
 **Programme:** EU-CORE MSc  
-**Status:** Available
+**Status:** {{ page.status }}  
+**Students:** {{ page.students | join: " and " }}
 
 ## Project objective
 
