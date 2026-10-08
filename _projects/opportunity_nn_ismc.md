@@ -2,7 +2,9 @@
 layout: page
 title: Improving Adaptive Neural-Network Integral Sliding-Mode Control for Floating Wind Turbines
 description: Improve an existing learning-based robust controller using OpenFAST data and hybrid offline-online learning.
-project_id: Project 03
+project_id: Project 02
+assignment_project_id: Project 03
+image: /assets/img/student-projects/neural-network-control.webp
 importance: 2
 category: opportunity
 status: Assigned
@@ -16,6 +18,10 @@ topics: [Sliding-mode control, Neural networks, Adaptive control, OpenFAST]
 **Programme:** EU-CORE MSc  
 **Status:** {{ page.status }}  
 **Students:** {{ page.students | join: " and " }}
+
+<figure class="student-project-hero" style="margin: 1.2rem 0 1.6rem;">
+  <img src="{{ page.image | relative_url }}" alt="Neural-network control of a floating offshore wind turbine" loading="lazy" style="display: block; width: 100%; height: auto; border-radius: 0.6rem;">
+</figure>
 
 ## Project objective
 

@@ -2,7 +2,9 @@
 layout: page
 title: LiDAR-Based Wind Preview and Control of Wind Turbines
 description: Process field LiDAR measurements and investigate preview-assisted feedforward control.
-project_id: Project 05
+project_id: Project 04
+assignment_project_id: Project 05
+image: /assets/img/student-projects/lidar-wind-preview.webp
 importance: 4
 category: opportunity
 status: Assigned
@@ -16,6 +18,10 @@ topics: [LiDAR, Wind estimation, Feedforward control, Signal processing]
 **Programme:** EU-CORE MSc  
 **Status:** {{ page.status }}  
 **Students:** {{ page.students | join: " and " }}
+
+<figure class="student-project-hero" style="margin: 1.2rem 0 1.6rem;">
+  <img src="{{ page.image | relative_url }}" alt="LiDAR wind preview estimation and floating wind turbine control" loading="lazy" style="display: block; width: 100%; height: auto; border-radius: 0.6rem;">
+</figure>
 
 ## Project objective
 

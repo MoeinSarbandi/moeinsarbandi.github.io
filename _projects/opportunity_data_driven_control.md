@@ -3,6 +3,8 @@ layout: page
 title: Data-Driven Control of a Wind Turbine Using a Linear Model
 description: Compare modern data-driven controllers on a realistic wind-turbine benchmark.
 project_id: Project 01
+assignment_project_id: Project 01
+image: /assets/img/student-projects/data-driven-control.webp
 importance: 1
 category: opportunity
 status: Assigned
@@ -16,6 +18,10 @@ topics: [Data-driven control, DeePC, Robust control, OpenFAST]
 **Programme:** EU-CORE MSc  
 **Status:** {{ page.status }}  
 **Students:** {{ page.students | join: " and " }}
+
+<figure class="student-project-hero" style="margin: 1.2rem 0 1.6rem;">
+  <img src="{{ page.image | relative_url }}" alt="Data-driven controller design and floating offshore wind turbine" loading="lazy" style="display: block; width: 100%; height: auto; border-radius: 0.6rem;">
+</figure>
 
 ## Project objective
 

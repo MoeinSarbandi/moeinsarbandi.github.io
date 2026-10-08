@@ -2,7 +2,9 @@
 layout: page
 title: From Local Linearization to Koopman Models for Wind Turbines
 description: Compare classical local linearization with DMDc and EDMD across operating conditions.
-project_id: Project 04
+project_id: Project 03
+assignment_project_id: Project 04
+image: /assets/img/student-projects/koopman-modeling.webp
 importance: 3
 category: opportunity
 status: Assigned
@@ -16,6 +18,10 @@ topics: [Koopman operator, DMDc, EDMD, System identification]
 **Programme:** EU-CORE MSc  
 **Status:** {{ page.status }}  
 **Students:** {{ page.students | join: " and " }}
+
+<figure class="student-project-hero" style="margin: 1.2rem 0 1.6rem;">
+  <img src="{{ page.image | relative_url }}" alt="Local linearization versus Koopman wind turbine models" loading="lazy" style="display: block; width: 100%; height: auto; border-radius: 0.6rem;">
+</figure>
 
 ## Project objective
 

@@ -2,26 +2,13 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Completed and available MSc projects in control systems and wind energy.
+description: Current and completed MSc projects in control systems and wind energy.
 nav: true
 nav_order: 3
 horizontal: false
 ---
 
 I supervise student projects at the intersection of nonlinear control, data-driven methods, learning-based control, and floating offshore wind turbines. The topics below combine a clear research question with reproducible simulation or data analysis.
-
-## Completed supervised projects
-
-These projects were completed by MSc students in the EU-CORE European Master Programme at École Centrale Nantes.
-
-<div class="projects">
-  {% assign supervised_projects = site.projects | where: "category", "supervision" | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-2">
-    {% for project in supervised_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-</div>
 
 ## Current student projects
 
@@ -35,6 +22,11 @@ The following topics are assigned to EU-CORE MSc students. Each project starts w
         <span>{{ project.project_id }}</span>
         <span>{{ project.status | default: "EU-CORE MSc" }} · EU-CORE MSc</span>
       </div>
+      {% if project.image %}
+        <a class="student-opportunity-image-link" href="{{ project.url | relative_url }}" aria-label="View {{ project.title | escape }}">
+          <img class="student-opportunity-image" src="{{ project.image | relative_url }}" alt="{{ project.title | escape }}" loading="lazy">
+        </a>
+      {% endif %}
       <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
       <p>{{ project.description }}</p>
       {% if project.students %}
@@ -50,6 +42,19 @@ The following topics are assigned to EU-CORE MSc students. Each project starts w
       </a>
     </article>
   {% endfor %}
+</div>
+
+## Completed supervised projects
+
+These projects were completed by MSc students in the EU-CORE European Master Programme at École Centrale Nantes.
+
+<div class="projects">
+  {% assign supervised_projects = site.projects | where: "category", "supervision" | sort: "importance" %}
+  <div class="row row-cols-1 row-cols-md-2">
+    {% for project in supervised_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
 </div>
 
 <style>
@@ -81,6 +86,20 @@ The following topics are assigned to EU-CORE MSc students. Each project starts w
     font-weight: 700;
     letter-spacing: 0.09em;
     text-transform: uppercase;
+  }
+
+  .student-opportunity-image-link {
+    display: block;
+    margin-bottom: 0.9rem;
+  }
+
+  .student-opportunity-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    border-radius: 0.5rem;
   }
 
   .student-opportunity h3 {

@@ -2,7 +2,9 @@
 layout: page
 title: Blade-Effective Wind-Speed Estimation for Wind Turbines
 description: Extend rotor-effective wind-speed estimation to the wind experienced by individual blades.
-project_id: Project 06
+project_id: Project 05
+assignment_project_id: Project 06
+image: /assets/img/student-projects/blade-wind-estimation.webp
 importance: 5
 category: opportunity
 status: Assigned
@@ -16,6 +18,10 @@ topics: [Wind estimation, Observers, Individual pitch control, OpenFAST]
 **Programme:** EU-CORE MSc  
 **Status:** {{ page.status }}  
 **Students:** {{ page.students | join: " and " }}
+
+<figure class="student-project-hero" style="margin: 1.2rem 0 1.6rem;">
+  <img src="{{ page.image | relative_url }}" alt="Blade-effective wind speed estimation diagram for a floating turbine" loading="lazy" style="display: block; width: 100%; height: auto; border-radius: 0.6rem;">
+</figure>
 
 ## Project objective
 
