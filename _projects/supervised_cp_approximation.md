@@ -5,12 +5,24 @@ description: Completed MSc project · EU-CORE · 2025
 img: assets/img/supervision/cp_approximation_method.jpg
 importance: 2
 category: supervision
+image: /assets/img/student-projects/completed-cp-approximation.webp
+year: 2025
+summary: Learned wind-turbine power-coefficient models from simulation data using regression techniques.
+students:
+  - Akbar Zai Jalil
+  - Alam Sameer
+  - Adnan Nasir Isa
+topics: [Power coefficient, Data-driven modeling, Regression, OpenFAST]
 ---
 
 **Students:** Akbar Zai Jalil, Alam Sameer, and Adnan Nasir Isa<br>
 **Supervisors:** Moein Sarbandi and Mohammad Mohammadi Shahir<br>
 **Programme:** EU-CORE European Master Programme, École Centrale Nantes<br>
 **Completed:** 2025
+
+<figure class="student-project-hero" style="margin: 1.2rem 0 1.6rem;">
+  <img src="{{ page.image | relative_url }}" alt="Data-based power coefficient approximation schematic" loading="lazy" style="display: block; width: 100%; height: auto; border-radius: 0.6rem;">
+</figure>
 
 ## Project focus
 

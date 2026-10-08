@@ -48,13 +48,34 @@ The following topics are assigned to EU-CORE MSc students. Each project starts w
 
 These projects were completed by MSc students in the EU-CORE European Master Programme at École Centrale Nantes.
 
-<div class="projects">
+<div class="student-opportunities">
   {% assign supervised_projects = site.projects | where: "category", "supervision" | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-2">
-    {% for project in supervised_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
+  {% for project in supervised_projects %}
+    <article class="student-opportunity">
+      <div class="student-opportunity-meta">
+        <span>Completed · {{ project.year | default: "2025" }}</span>
+        <span>EU-CORE MSc</span>
+      </div>
+      {% if project.image %}
+        <a class="student-opportunity-image-link" href="{{ project.url | relative_url }}" aria-label="View {{ project.title | escape }}">
+          <img class="student-opportunity-image" src="{{ project.image | relative_url }}" alt="{{ project.title | escape }}" loading="lazy">
+        </a>
+      {% endif %}
+      <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+      <p>{{ project.summary | default: project.description }}</p>
+      {% if project.students %}
+        <p class="student-opportunity-students"><strong>Students:</strong> {{ project.students | join: " &amp; " }}</p>
+      {% endif %}
+      {% if project.topics %}
+        <div class="student-opportunity-topics" aria-label="Project topics">
+          {% for topic in project.topics %}<span>{{ topic }}</span>{% endfor %}
+        </div>
+      {% endif %}
+      <a class="student-opportunity-link" href="{{ project.url | relative_url }}">
+        View project details <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </article>
+  {% endfor %}
 </div>
 
 <style>
