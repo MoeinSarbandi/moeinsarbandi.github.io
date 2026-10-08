@@ -5,12 +5,17 @@ description: Compare classical local linearization with DMDc and EDMD across ope
 project_id: Project 04
 importance: 3
 category: opportunity
+status: Assigned
+students:
+  - Mritunjoy MOHANTA
+  - Adrian Willian Frasson
 topics: [Koopman operator, DMDc, EDMD, System identification]
 ---
 
 **Supervisor:** Moein Sarbandi  
 **Programme:** EU-CORE MSc  
-**Status:** Available
+**Status:** {{ page.status }}  
+**Students:** {{ page.students | join: " and " }}
 
 ## Project objective
 
