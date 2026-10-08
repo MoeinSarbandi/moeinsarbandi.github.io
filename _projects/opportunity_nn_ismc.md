@@ -5,12 +5,17 @@ description: Improve an existing learning-based robust controller using OpenFAST
 project_id: Project 03
 importance: 2
 category: opportunity
+status: Assigned
+students:
+  - Faten Jarrar
+  - Aria Fatemi
 topics: [Sliding-mode control, Neural networks, Adaptive control, OpenFAST]
 ---
 
 **Supervisor:** Moein Sarbandi  
 **Programme:** EU-CORE MSc  
-**Status:** Available
+**Status:** {{ page.status }}  
+**Students:** {{ page.students | join: " and " }}
 
 ## Project objective
 
