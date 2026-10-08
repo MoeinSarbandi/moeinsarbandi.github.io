@@ -23,9 +23,9 @@ These projects were completed by MSc students in the EU-CORE European Master Pro
   </div>
 </div>
 
-## Available student projects
+## Current student projects
 
-The following topics are available for MSc students. Each project starts with a focused, achievable core study and includes optional research extensions for students who make strong progress.
+The following topics are assigned to EU-CORE MSc students. Each project starts with a focused, achievable core study and includes optional research extensions for students who make strong progress.
 
 <div class="student-opportunities">
   {% assign student_projects = site.projects | where: "category", "opportunity" | sort: "importance" %}
@@ -33,10 +33,13 @@ The following topics are available for MSc students. Each project starts with a 
     <article class="student-opportunity">
       <div class="student-opportunity-meta">
         <span>{{ project.project_id }}</span>
-        <span>Available · EU-CORE MSc</span>
+        <span>{{ project.status | default: "EU-CORE MSc" }} · EU-CORE MSc</span>
       </div>
       <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
       <p>{{ project.description }}</p>
+      {% if project.students %}
+        <p class="student-opportunity-students"><strong>Students:</strong> {{ project.students | join: " &amp; " }}</p>
+      {% endif %}
       {% if project.topics %}
         <div class="student-opportunity-topics" aria-label="Project topics">
           {% for topic in project.topics %}<span>{{ topic }}</span>{% endfor %}
