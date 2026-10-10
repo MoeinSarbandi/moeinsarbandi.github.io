@@ -50,13 +50,23 @@ images:
               <h3>{{ event.title }}</h3>
               <p class="gallery-event-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i>{{ event.location }}</p>
               <p class="gallery-event-role">{{ event.role }}</p>
-              <p>{{ event.description }}</p>
+              <p class="gallery-event-description" id="gallery-description-{{ event.id }}">{{ event.description }}</p>
+              <button
+                type="button"
+                class="gallery-description-toggle"
+                aria-controls="gallery-description-{{ event.id }}"
+                aria-expanded="false"
+                hidden
+              >Read more <span aria-hidden="true">↓</span></button>
               {% if event.highlights %}
-                <ul class="gallery-event-highlights">
-                  {% for highlight in event.highlights %}
-                    <li>{{ highlight }}</li>
-                  {% endfor %}
-                </ul>
+                <details class="gallery-event-details">
+                  <summary>Event highlights <span class="gallery-event-highlights-count">({{ event.highlights | size }})</span></summary>
+                  <ul class="gallery-event-highlights">
+                    {% for highlight in event.highlights %}
+                      <li>{{ highlight }}</li>
+                    {% endfor %}
+                  </ul>
+                </details>
               {% endif %}
               {% if event.url %}
                 <a class="gallery-event-link" href="{{ event.url }}" target="_blank" rel="noopener noreferrer">
@@ -198,6 +208,7 @@ images:
   .gallery-event {
     display: grid;
     grid-template-columns: minmax(16rem, 0.78fr) minmax(0, 1.35fr);
+    min-height: 23rem;
     gap: clamp(1.2rem, 3vw, 2rem);
     padding: clamp(1rem, 2.5vw, 1.5rem);
     border: 1px solid var(--global-divider-color, #d7d7d7);
@@ -248,6 +259,55 @@ images:
     line-height: 1.6;
   }
 
+  /* JavaScript activates the clamp only when text actually overflows.
+     If JavaScript is unavailable, all descriptions remain readable. */
+  .gallery-event-description.is-clamped {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .gallery-description-toggle:not([hidden]) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0;
+    margin: -0.2rem 0 0.8rem;
+    border: 0;
+    background: transparent;
+    color: var(--global-theme-color, #b509ac);
+    font: inherit;
+    font-size: 0.84rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .gallery-description-toggle:focus-visible,
+  .gallery-event-details summary:focus-visible {
+    outline: 2px solid var(--global-theme-color, #b509ac);
+    outline-offset: 4px;
+    border-radius: 0.15rem;
+  }
+
+  .gallery-event-details {
+    margin: 0.75rem 0 0.9rem;
+    padding-top: 0.65rem;
+    border-top: 1px solid var(--global-divider-color, #d7d7d7);
+  }
+
+  .gallery-event-details summary {
+    color: var(--global-theme-color, #b509ac);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .gallery-event-highlights-count {
+    color: var(--global-text-color-light, #666);
+    font-weight: 400;
+  }
+
   .gallery-event-location {
     display: flex;
     gap: 0.45rem;
@@ -267,7 +327,7 @@ images:
   }
 
   .gallery-event-highlights {
-    margin: 0.75rem 0 1rem;
+    margin: 0.75rem 0 0.2rem;
     padding-left: 1.15rem;
     font-size: 0.9rem;
     line-height: 1.5;
@@ -370,6 +430,7 @@ images:
   @media (max-width: 820px) {
     .gallery-event {
       grid-template-columns: 1fr;
+      min-height: 0;
     }
 
     .gallery-event-media {
@@ -403,3 +464,55 @@ images:
     }
   }
 </style>
+
+<script>
+  (function () {
+    function initGalleryDescriptions() {
+      document.querySelectorAll('.academic-gallery .gallery-event').forEach(function (card) {
+        var description = card.querySelector('.gallery-event-description');
+        var button = card.querySelector('.gallery-description-toggle');
+        if (!description || !button) return;
+
+        // Only show the control when the paragraph exceeds four rendered lines.
+        // Keep the full content in the DOM for accessibility and no-JS fallback.
+        function measure() {
+          var expanded = button.getAttribute('aria-expanded') === 'true';
+          if (expanded) return;
+          description.classList.remove('is-clamped');
+          var fullHeight = description.getBoundingClientRect().height;
+          description.classList.add('is-clamped');
+          var shortHeight = description.getBoundingClientRect().height;
+          var overflowing = fullHeight > shortHeight + 2;
+          if (!overflowing) description.classList.remove('is-clamped');
+          button.hidden = !overflowing;
+          button.setAttribute('aria-expanded', 'false');
+        }
+
+        button.addEventListener('click', function () {
+          var expanded = button.getAttribute('aria-expanded') === 'true';
+          description.classList.toggle('is-clamped', expanded);
+          button.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+          button.innerHTML = expanded
+            ? 'Read more <span aria-hidden="true">↓</span>'
+            : 'Show less <span aria-hidden="true">↑</span>';
+        });
+
+        measure();
+        if (typeof ResizeObserver !== 'undefined') {
+          var observer = new ResizeObserver(function () {
+            measure();
+          });
+          observer.observe(card.querySelector('.gallery-event-copy'));
+        } else {
+          window.addEventListener('resize', measure, { passive: true });
+        }
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initGalleryDescriptions);
+    } else {
+      initGalleryDescriptions();
+    }
+  })();
+</script>
