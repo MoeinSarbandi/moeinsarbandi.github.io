@@ -1,0 +1,372 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Gallery preview | Moein Sarbandi </title> <meta name="author" content="Moein Sarbandi"> <meta name="description" content="An experimental, photo-first gallery layout for academic moments and research travel."> <meta name="keywords" content="control systems, data-driven control, neural networks, sliding mode control, offshore wind turbines, adaptive control"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/WT1.png?v=5a65270c8dd13c5a1477792a78ee62a7"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://moeinsarbandi.github.io/gallery-preview/"> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Moein</span> Sarbandi </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/activities/">academic activities </a> </li> <li class="nav-item "> <a class="nav-link" href="/gallery/">gallery </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Gallery preview</h1> <p class="post-description">An experimental, photo-first gallery layout for academic moments and research travel.</p> </header> <article> <div class="gv" id="gv-preview"> <div class="gv-preview-note" role="note"> <span class="gv-preview-dot" aria-hidden="true"></span> <span>Design preview — your <a href="/gallery/">current gallery</a> is unchanged.</span> </div> <header class="gv-intro"> <p class="gv-eyebrow">Conferences · People · Places</p> <h2>Research happens beyond the desk.</h2> <p class="gv-intro-copy">A visual diary of conferences, research visits, new ideas, and the people behind them. A few favourite moments, rather than a complete academic record.</p> <div class="gv-stats" aria-label="Gallery at a glance"> <div> <strong>12</strong><span>events</span> </div> <div> <strong>5</strong><span>countries</span> </div> <div> <strong>22</strong><span>photos</span> </div> <div class="gv-stats-years"> <strong>2025–2026</strong><span>timeline</span> </div> </div> </header> <div class="gv-toolbar"> <div class="gv-filter-label">Explore the gallery</div> <nav class="gv-filters" aria-label="Filter gallery events"> <button type="button" class="gv-filter is-selected" data-gv-filter="all" aria-pressed="true">All moments</button> <button type="button" class="gv-filter" data-gv-filter="talks" aria-pressed="false">Conferences &amp; talks</button> <button type="button" class="gv-filter" data-gv-filter="workshops" aria-pressed="false">Workshops &amp; courses</button> <button type="button" class="gv-filter" data-gv-filter="community" aria-pressed="false">Network &amp; visits</button> </nav> <p class="gv-count" id="gv-visible-count" role="status" aria-live="polite">12 events</p> </div> <div class="gv-years"> <section class="gv-year" id="preview-year-2026" aria-labelledby="gv-title-2026"> <div class="gv-year-heading"> <h2 id="gv-title-2026">2026</h2> <span>7 moments</span> </div> <div class="gv-event-list"> <article class="gv-card" data-gv-group="workshops" id="preview-blocker-workshop-berlin"> <header class="gv-card-header"> <div class="gv-card-topline"> <span class="gv-category">Workshop and training</span> <span class="gv-date">September 30–October 2, 2026</span> </div> <h3>ENERTRAG Blocker Workshop Berlin</h3> <p class="gv-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ENERTRAG SE, Berlin and Uckermark, Germany</p> <p class="gv-role">Participant</p> </header> <div class="gv-gallery" aria-label="Photos from ENERTRAG Blocker Workshop Berlin"> <a class="gv-photo gv-hero" href="/assets/img/gallery/2026-enertrag-berlin/site-visit.webp" data-gv-caption="DENSE workshop participants during the technical visit to ENERTRAG’s 10 MW photovoltaic and battery-storage site in Uckermark" data-gv-event="ENERTRAG Blocker Workshop Berlin" aria-label="View photo 1 of 2: DENSE workshop participants during the technical visit to ENERTRAG’s 10 MW photovoltaic and battery-storage site in Uckermark"> <img src="/assets/img/gallery/2026-enertrag-berlin/site-visit.webp" width="1600" height="1200" alt="DENSE workshop participants during the technical visit to ENERTRAG’s 10 MW photovoltaic and battery-storage site in Uckermark" loading="lazy" decoding="async"> <span class="gv-expand" aria-hidden="true"><i class="fa-solid fa-expand"></i> View photo</span> </a> <div class="gv-thumbnails" aria-label="More photos from this event"> <a class="gv-photo gv-thumb" href="/assets/img/gallery/2026-enertrag-berlin/fsharp-training.webp" data-gv-caption="DENSE doctoral researchers taking part in open-source software-development training with functional programming in F# at ENERTRAG in Berlin" data-gv-event="ENERTRAG Blocker Workshop Berlin" aria-label="View additional photo: DENSE doctoral researchers taking part in open-source software-development training with functional programming in F# at ENERTRAG in Berlin"> <img src="/assets/img/gallery/2026-enertrag-berlin/fsharp-training.webp" width="1200" height="1600" alt="DENSE doctoral researchers taking part in open-source software-development training with functional programming in F# at ENERTRAG in Berlin" loading="lazy" decoding="async"> <span class="gv-thumb-zoom" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i></span> </a> <span class="gv-more-label">2 photos <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span> </div> </div> <div class="gv-card-bottom"> <p class="gv-description">A three-day DENSE workshop hosted by ENERTRAG, combining software training, technical site visits, and research-development sessions.</p> <details class="gv-details"> <summary>Highlights from this event</summary> <ul> <li>Open-source software development and functional programming with F#</li> <li>Visits to ENERTRAG’s green-hydrogen production facility and 10 MW PV-battery site within the Uckermark integrated power plant</li> <li>Research in the Age of AI</li> <li>Research funding and proposal writing</li> <li>Panel discussion on scientific and industrial career prospects</li> </ul> </details> <div class="gv-card-actions"> <a href="https://enertrag.com/energy-transition/enertrag-verbundkraftwerk-R-uckermark" target="_blank" rel="noopener noreferrer">ENERTRAG Uckermark plant <span aria-hidden="true">↗</span></a> <a class="gv-event-permalink" href="#preview-blocker-workshop-berlin" aria-label="Link to ENERTRAG Blocker Workshop Berlin">Event link <span aria-hidden="true">#</span></a> </div> </div> </article> <article class="gv-card" data-gv-group="talks" id="preview-ifac-busan"> <header class="gv-card-header"> <div class="gv-card-topline"> <span class="gv-category">Conference</span> <span class="gv-date">August 23–28, 2026</span> </div> <h3>23rd IFAC World Congress</h3> <p class="gv-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Busan, Republic of Korea</p> <p class="gv-role">Presenter and reviewer</p> </header> <div class="gv-gallery" aria-label="Photos from 23rd IFAC World Congress"> <a class="gv-photo gv-hero" href="/assets/img/gallery/2026-ifac-busan/presentation.webp" data-gv-caption="Moein Sarbandi presenting floating-wind-turbine control research at the IFAC World Congress" data-gv-event="23rd IFAC World Congress" aria-label="View photo 1 of 4: Moein Sarbandi presenting floating-wind-turbine control research at the IFAC World Congress"> <img src="/assets/img/gallery/2026-ifac-busan/presentation.webp" width="1200" height="815" alt="Moein Sarbandi presenting floating-wind-turbine control research at the IFAC World Congress" loading="lazy" decoding="async"> <span class="gv-expand" aria-hidden="true"><i class="fa-solid fa-expand"></i> View photo</span> </a> <div class="gv-thumbnails" aria-label="More photos from this event"> <a class="gv-photo gv-thumb" href="/assets/img/gallery/2026-ifac-busan/group.webp" data-gv-caption="Group photograph with control researchers at the IFAC World Congress in Busan" data-gv-event="23rd IFAC World Congress" aria-label="View additional photo: Group photograph with control researchers at the IFAC World Congress in Busan"> <img src="/assets/img/gallery/2026-ifac-busan/group.webp" width="1200" height="806" alt="Group photograph with control researchers at the IFAC World Congress in Busan" loading="lazy" decoding="async"> <span class="gv-thumb-zoom" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i></span> </a> <a class="gv-photo gv-thumb" href="/assets/img/gallery/2026-ifac-busan/congress.webp" data-gv-caption="Moein Sarbandi and a colleague at the IFAC World Congress photo wall" data-gv-event="23rd IFAC World Congress" aria-label="View additional photo: Moein Sarbandi and a colleague at the IFAC World Congress photo wall"> <img src="/assets/img/gallery/2026-ifac-busan/congress.webp" width="1200" height="899" alt="Moein Sarbandi and a colleague at the IFAC World Congress photo wall" loading="lazy" decoding="async"> <span class="gv-thumb-zoom" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i></span> </a> <a class="gv-photo gv-thumb" href="/assets/img/gallery/2026-ifac-busan/session.webp" data-gv-caption="Technical discussion during a session at the IFAC World Congress" data-gv-event="23rd IFAC World Congress" aria-label="View additional photo: Technical discussion during a session at the IFAC World Congress"> <img src="/assets/img/gallery/2026-ifac-busan/session.webp" width="1200" height="800" alt="Technical discussion during a session at the IFAC World Congress" loading="lazy" decoding="async"> <span class="gv-thumb-zoom" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i></span> </a> <span class="gv-more-label">4 photos <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span> </div> </div> <div class="gv-card-bottom"> <p class="gv-description">Presented “Robust Control Based on a New Wind Speed Observer for Floating Wind Turbines” and took part in the international automatic-control community’s flagship congress.</p> <div class="gv-card-actions"> <a href="https://www.ifac2026.org/" target="_blank" rel="noopener noreferrer">Congress website <span aria-hidden="true">↗</span></a> <a class="gv-event-permalink" href="#preview-ifac-busan" aria-label="Link to 23rd IFAC World Congress">Event link <span aria-hidden="true">#</span></a> </div> </div> </article> <article class="gv-card" data-gv-group="workshops" id="preview-vss-exeter"> <header class="gv-card-header"> <div class="gv-card-topline"> <span class="gv-category">Workshop</span> <span class="gv-date">July 27–30, 2026</span> </div> <h3>18th International Workshop on Variable Structure Systems</h3> <p class="gv-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> University of Exeter, United Kingdom</p> <p class="gv-role">Research contributor</p> </header> <div class="gv-gallery" aria-label="Photos from 18th International Workshop on Variable Structure Systems"> <a class="gv-photo gv-hero gv-hero-portrait" href="/assets/img/gallery/2026-vss-exeter/plenary.webp" data-gv-caption="Prof. Antonella Ferrara highlighting joint research on neural-network-assisted sliding-mode control for floating wind turbines during her VSS 2026 plenary talk" data-gv-event="18th International Workshop on Variable Structure Systems" aria-label="View photo 1 of 1: Prof. Antonella Ferrara highlighting joint research on neural-network-assisted sliding-mode control for floating wind turbines during her VSS 2026 plenary talk"> <img src="/assets/img/gallery/2026-vss-exeter/plenary.webp" width="675" height="789" alt="Prof. Antonella Ferrara highlighting joint research on neural-network-assisted sliding-mode control for floating wind turbines during her VSS 2026 plenary talk" loading="lazy" decoding="async"> <span class="gv-expand" aria-hidden="true"><i class="fa-solid fa-expand"></i> View photo</span> </a> </div> <div class="gv-card-bottom"> <p class="gv-description">At VSS 2026, an international workshop dedicated to variable-structure and sliding-mode systems, Prof. Antonella Ferrara highlighted our joint project on neural-network-assisted sliding-mode control for floating wind turbines during her plenary talk.</p> <div class="gv-card-actions"> <a href="https://engineering.exeter.ac.uk/events/variablestructuresystems/" target="_blank" rel="noopener noreferrer">Workshop website <span aria-hidden="true">↗</span></a> <a class="gv-event-permalink" href="#preview-vss-exeter" aria-label="Link to 18th International Workshop on Variable Structure Systems">Event link <span aria-hidden="true">#</span></a> </div> </div> </article> <article class="gv-card" data-gv-group="talks" id="preview-torque-bruges"> <header class="gv-card-header"> <div class="gv-card-topline"> <span class="gv-category">Conference</span> <span class="gv-date">June 2–5, 2026</span> </div> <h3>TORQUE 2026</h3> <p class="gv-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Bruges, Belgium</p> <p class="gv-role">Presenter</p> </header> <div class="gv-gallery" aria-label="Photos from TORQUE 2026"> <a class="gv-photo gv-hero gv-hero-portrait" href="/assets/img/gallery/2026-torque-bruges/presentation.webp" data-gv-caption="Moein Sarbandi presenting floating offshore wind turbine control research at TORQUE 2026" data-gv-event="TORQUE 2026" aria-label="View photo 1 of 3: Moein Sarbandi presenting floating offshore wind turbine control research at TORQUE 2026"> <img src="/assets/img/gallery/2026-torque-bruges/presentation.webp" width="800" height="1066" alt="Moein Sarbandi presenting floating offshore wind turbine control research at TORQUE 2026" loading="lazy" decoding="async"> <span class="gv-expand" aria-hidden="true"><i class="fa-solid fa-expand"></i> View photo</span> </a> <div class="gv-thumbnails" aria-label="More photos from this event"> <a class="gv-photo gv-thumb" href="/assets/img/gallery/2026-torque-bruges/badge.webp" data-gv-caption="Moein Sarbandi’s conference badge in the TORQUE 2026 opening venue in Bruges" data-gv-event="TORQUE 2026" aria-label="View additional photo: Moein Sarbandi’s conference badge in the TORQUE 2026 opening venue in Bruges"> <img src="/assets/img/gallery/2026-torque-bruges/badge.webp" width="800" height="1067" alt="Moein Sarbandi’s conference badge in the TORQUE 2026 opening venue in Bruges" loading="lazy" decoding="async"> <span class="gv-thumb-zoom" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i></span> </a> <a class="gv-photo gv-thumb" href="/assets/img/gallery/2026-torque-bruges/presentation-2.webp" data-gv-caption="Moein Sarbandi presenting a control-oriented reduced model for floating offshore wind turbines at TORQUE 2026" data-gv-event="TORQUE 2026" aria-label="View additional photo: Moein Sarbandi presenting a control-oriented reduced model for floating offshore wind turbines at TORQUE 2026"> <img src="/assets/img/gallery/2026-torque-bruges/presentation-2.webp" width="800" height="1067" alt="Moein Sarbandi presenting a control-oriented reduced model for floating offshore wind turbines at TORQUE 2026" loading="lazy" decoding="async"> <span class="gv-thumb-zoom" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i></span> </a> <span class="gv-more-label">3 photos <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span> </div> </div> <div class="gv-card-bottom"> <p class="gv-description">Presented work on control-Lyapunov-function-based quadratic programming and adaptive super-twisting control for floating offshore wind turbines.</p> <div class="gv-card-actions"> <a href="https://torque2026.eu/" target="_blank" rel="noopener noreferrer">Conference website <span aria-hidden="true">↗</span></a> <a class="gv-event-permalink" href="#preview-torque-bruges" aria-label="Link to TORQUE 2026">Event link <span aria-hidden="true">#</span></a> </div> </div> </article> <article class="gv-card" data-gv-group="community" id="preview-dense-manchester"> <header class="gv-card-header"> <div class="gv-card-topline"> <span class="gv-category">Doctoral network</span> <span class="gv-date">April 2026</span> </div> <h3>First DENSE Thematic Workshop</h3> <p class="gv-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> The University of Manchester, United Kingdom</p> <p class="gv-role">Doctoral researcher and presenter</p> </header> <div class="gv-gallery" aria-label="Photos from First DENSE Thematic Workshop"> <a class="gv-photo gv-hero" href="/assets/img/gallery/2026-dense-manchester/group-day.webp" data-gv-caption="DENSE doctoral researchers, supervisors, and workshop participants at The University of Manchester" data-gv-event="First DENSE Thematic Workshop" aria-label="View photo 1 of 2: DENSE doctoral researchers, supervisors, and workshop participants at The University of Manchester"> <img src="/assets/img/gallery/2026-dense-manchester/group-day.webp" width="1600" height="1200" alt="DENSE doctoral researchers, supervisors, and workshop participants at The University of Manchester" loading="lazy" decoding="async"> <span class="gv-expand" aria-hidden="true"><i class="fa-solid fa-expand"></i> View photo</span> </a> <div class="gv-thumbnails" aria-label="More photos from this event"> <a class="gv-photo gv-thumb" href="/assets/img/gallery/2026-dense-manchester/group-night.webp" data-gv-caption="DENSE doctoral researchers together outside The University of Manchester during the thematic workshop" data-gv-event="First DENSE Thematic Workshop" aria-label="View additional photo: DENSE doctoral researchers together outside The University of Manchester during the thematic workshop"> <img src="/assets/img/gallery/2026-dense-manchester/group-night.webp" width="1319" height="1384" alt="DENSE doctoral researchers together outside The University of Manchester during the thematic workshop" loading="lazy" decoding="async"> <span class="gv-thumb-zoom" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i></span> </a> <span class="gv-more-label">2 photos <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span> </div> </div> <div class="gv-card-bottom"> <p class="gv-description">Shared six-month research progress in a programme featuring a keynote by Prof. Jovica V. Milanović, technical exchanges, and an expert panel discussion.</p> <div class="gv-card-actions"> <a href="https://dense-dn.eu/" target="_blank" rel="noopener noreferrer">DENSE network <span aria-hidden="true">↗</span></a> <a class="gv-event-permalink" href="#preview-dense-manchester" aria-label="Link to First DENSE Thematic Workshop">Event link <span aria-hidden="true">#</span></a> </div> </div> </article> <article class="gv-card" data-gv-group="workshops" id="preview-eeci-paris-saclay"> <header class="gv-card-header"> <div class="gv-card-topline"> <span class="gv-category">Advanced course</span> <span class="gv-date">March 9–12, 2026</span> </div> <h3>Nonlinear and Data-Driven Model Predictive Control</h3> <p class="gv-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> CentraleSupélec, Paris-Saclay, France</p> <p class="gv-role">Participant</p> </header> <div class="gv-gallery" aria-label="Photos from Nonlinear and Data-Driven Model Predictive Control"> <a class="gv-photo gv-hero" href="/assets/img/gallery/2026-eeci-paris-saclay/course.webp" data-gv-caption="Participants in the EECI nonlinear and data-driven model predictive control course at Paris-Saclay" data-gv-event="Nonlinear and Data-Driven Model Predictive Control" aria-label="View photo 1 of 1: Participants in the EECI nonlinear and data-driven model predictive control course at Paris-Saclay"> <img src="/assets/img/gallery/2026-eeci-paris-saclay/course.webp" width="800" height="600" alt="Participants in the EECI nonlinear and data-driven model predictive control course at Paris-Saclay" loading="lazy" decoding="async"> <span class="gv-expand" aria-hidden="true"><i class="fa-solid fa-expand"></i> View photo</span> </a> </div> <div class="gv-card-bottom"> <p class="gv-description">An EECI graduate course led by Prof. Frank Allgöwer and Prof. Matthias A. Müller, covering nonlinear, economic, robust, and data-driven model predictive control.</p> <div class="gv-card-actions"> <a href="https://www.eeci-igsc.eu/modules/m02-paris-saclay-2025-2026" target="_blank" rel="noopener noreferrer">Course details <span aria-hidden="true">↗</span></a> <a class="gv-event-permalink" href="#preview-eeci-paris-saclay" aria-label="Link to Nonlinear and Data-Driven Model Predictive Control">Event link <span aria-hidden="true">#</span></a> </div> </div> </article> <article class="gv-card" data-gv-group="talks" id="preview-jse-marseille"> <header class="gv-card-header"> <div class="gv-card-topline"> <span class="gv-category">Scientific meeting</span> <span class="gv-date">February 5–6, 2026</span> </div> <h3>Journées Scientifiques de l’Éolien</h3> <p class="gv-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> École Centrale Méditerranée, Marseille, France</p> <p class="gv-role">Presenter</p> </header> <div class="gv-gallery" aria-label="Photos from Journées Scientifiques de l’Éolien"> <a class="gv-photo gv-hero" href="/assets/img/gallery/2026-jse-marseille/presentation.webp" data-gv-caption="Moein Sarbandi presenting wind-speed estimation research at the Journées Scientifiques de l’Éolien" data-gv-event="Journées Scientifiques de l’Éolien" aria-label="View photo 1 of 1: Moein Sarbandi presenting wind-speed estimation research at the Journées Scientifiques de l’Éolien"> <img src="/assets/img/gallery/2026-jse-marseille/presentation.webp" width="1200" height="900" alt="Moein Sarbandi presenting wind-speed estimation research at the Journées Scientifiques de l’Éolien" loading="lazy" decoding="async"> <span class="gv-expand" aria-hidden="true"><i class="fa-solid fa-expand"></i> View photo</span> </a> </div> <div class="gv-card-bottom"> <p class="gv-description">Presented a sliding-mode wind-speed estimation method at a meeting connecting the French wind-energy research community with industry.</p> <div class="gv-card-actions"> <a href="https://www.ifpenergiesnouvelles.fr/article/journees-scientifiques-leolien-2026" target="_blank" rel="noopener noreferrer">Event overview <span aria-hidden="true">↗</span></a> <a class="gv-event-permalink" href="#preview-jse-marseille" aria-label="Link to Journées Scientifiques de l’Éolien">Event link <span aria-hidden="true">#</span></a> </div> </div> </article> </div> </section> <section class="gv-year" id="preview-year-2025" aria-labelledby="gv-title-2025"> <div class="gv-year-heading"> <h2 id="gv-title-2025">2025</h2> <span>5 moments</span> </div> <div class="gv-event-list"> <article class="gv-card" data-gv-group="community" id="preview-btu-secondment"> <header class="gv-card-header"> <div class="gv-card-topline"> <span class="gv-category">Research visit</span> <span class="gv-date">April–May 2025</span> </div> <h3>Research Secondment at BTU Cottbus–Senftenberg</h3> <p class="gv-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Cottbus, Germany</p> <p class="gv-role">Visiting doctoral researcher</p> </header> <div class="gv-gallery" aria-label="Photos from Research Secondment at BTU Cottbus–Senftenberg"> <a class="gv-photo gv-hero gv-hero-portrait" href="/assets/img/gallery/2026-btu-cottbus/campus.webp" data-gv-caption="Moein Sarbandi at Brandenburg University of Technology Cottbus–Senftenberg during a research secondment" data-gv-event="Research Secondment at BTU Cottbus–Senftenberg" aria-label="View photo 1 of 1: Moein Sarbandi at Brandenburg University of Technology Cottbus–Senftenberg during a research secondment"> <img src="/assets/img/gallery/2026-btu-cottbus/campus.webp" width="800" height="1066" alt="Moein Sarbandi at Brandenburg University of Technology Cottbus–Senftenberg during a research secondment" loading="lazy" decoding="async"> <span class="gv-expand" aria-hidden="true"><i class="fa-solid fa-expand"></i> View photo</span> </a> </div> <div class="gv-card-bottom"> <p class="gv-description">A research stay within the DENSE Doctoral Network, focused on data-driven control in collaboration with Prof. Johannes Schiffer and Dr. Juan E. Machado.</p> <div class="gv-card-actions"> <a href="https://dense-dn.eu/" target="_blank" rel="noopener noreferrer">DENSE network <span aria-hidden="true">↗</span></a> <a class="gv-event-permalink" href="#preview-btu-secondment" aria-label="Link to Research Secondment at BTU Cottbus–Senftenberg">Event link <span aria-hidden="true">#</span></a> </div> </div> </article> <article class="gv-card" data-gv-group="talks" id="preview-gdr-macs-toulouse"> <header class="gv-card-header"> <div class="gv-card-topline"> <span class="gv-category">Invited talk</span> <span class="gv-date">September 30–October 1, 2025</span> </div> <h3>GDR MACS Workshop on Data-Driven Control</h3> <p class="gv-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ENSEEIHT, Toulouse, France</p> <p class="gv-role">Invited speaker</p> </header> <div class="gv-gallery" aria-label="Photos from GDR MACS Workshop on Data-Driven Control"> <a class="gv-photo gv-hero gv-hero-portrait" href="/assets/img/gallery/2025-gdr-macs-toulouse/enseeiht.webp" data-gv-caption="ENSEEIHT campus in Toulouse during the GDR MACS data-driven control workshop" data-gv-event="GDR MACS Workshop on Data-Driven Control" aria-label="View photo 1 of 3: ENSEEIHT campus in Toulouse during the GDR MACS data-driven control workshop"> <img src="/assets/img/gallery/2025-gdr-macs-toulouse/enseeiht.webp" width="900" height="1200" alt="ENSEEIHT campus in Toulouse during the GDR MACS data-driven control workshop" loading="lazy" decoding="async"> <span class="gv-expand" aria-hidden="true"><i class="fa-solid fa-expand"></i> View photo</span> </a> <div class="gv-thumbnails" aria-label="More photos from this event"> <a class="gv-photo gv-thumb" href="/assets/img/gallery/2025-gdr-macs-toulouse/toulouse.webp" data-gv-caption="Toulouse city view during the GDR MACS workshop visit" data-gv-event="GDR MACS Workshop on Data-Driven Control" aria-label="View additional photo: Toulouse city view during the GDR MACS workshop visit"> <img src="/assets/img/gallery/2025-gdr-macs-toulouse/toulouse.webp" width="900" height="1200" alt="Toulouse city view during the GDR MACS workshop visit" loading="lazy" decoding="async"> <span class="gv-thumb-zoom" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i></span> </a> <a class="gv-photo gv-thumb" href="/assets/img/gallery/2025-gdr-macs-toulouse/dinner.webp" data-gv-caption="Group dinner with workshop participants during the GDR MACS Workshop on Data-Driven Control in Toulouse" data-gv-event="GDR MACS Workshop on Data-Driven Control" aria-label="View additional photo: Group dinner with workshop participants during the GDR MACS Workshop on Data-Driven Control in Toulouse"> <img src="/assets/img/gallery/2025-gdr-macs-toulouse/dinner.webp" width="800" height="360" alt="Group dinner with workshop participants during the GDR MACS Workshop on Data-Driven Control in Toulouse" loading="lazy" decoding="async"> <span class="gv-thumb-zoom" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i></span> </a> <span class="gv-more-label">3 photos <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span> </div> </div> <div class="gv-card-bottom"> <p class="gv-description">Presented “Data-Based Sliding-Mode Control — Application to Floating Offshore Wind Turbines” at a national workshop connecting French research and teaching in data-driven control.</p> <div class="gv-card-actions"> <a href="https://pkergus.github.io/workshop_datadriven.html" target="_blank" rel="noopener noreferrer">Workshop website <span aria-hidden="true">↗</span></a> <a class="gv-event-permalink" href="#preview-gdr-macs-toulouse" aria-label="Link to GDR MACS Workshop on Data-Driven Control">Event link <span aria-hidden="true">#</span></a> </div> </div> </article> <article class="gv-card" data-gv-group="community" id="preview-dense-genk"> <header class="gv-card-header"> <div class="gv-card-topline"> <span class="gv-category">Doctoral network</span> <span class="gv-date">September 7–10, 2025</span> </div> <h3>DENSE Workshop and 19th International DHC Symposium</h3> <p class="gv-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> EnergyVille, Genk, Belgium</p> <p class="gv-role">Doctoral researcher and presenter</p> </header> <div class="gv-gallery" aria-label="Photos from DENSE Workshop and 19th International DHC Symposium"> <a class="gv-photo gv-hero" href="/assets/img/gallery/2025-dense-genk/workshop.webp" data-gv-caption="DENSE workshop moments and participants at EnergyVille in Genk" data-gv-event="DENSE Workshop and 19th International DHC Symposium" aria-label="View photo 1 of 1: DENSE workshop moments and participants at EnergyVille in Genk"> <img src="/assets/img/gallery/2025-dense-genk/workshop.webp" width="1200" height="675" alt="DENSE workshop moments and participants at EnergyVille in Genk" loading="lazy" decoding="async"> <span class="gv-expand" aria-hidden="true"><i class="fa-solid fa-expand"></i> View photo</span> </a> </div> <div class="gv-card-bottom"> <p class="gv-description">Joined the DENSE network workshop alongside the international district-heating-and-cooling symposium hosted by VITO and EnergyVille, exchanging ideas across research and industry.</p> <div class="gv-card-actions"> <a href="https://events.vito.be/iea-dhc-symposium-2025" target="_blank" rel="noopener noreferrer">Symposium website <span aria-hidden="true">↗</span></a> <a class="gv-event-permalink" href="#preview-dense-genk" aria-label="Link to DENSE Workshop and 19th International DHC Symposium">Event link <span aria-hidden="true">#</span></a> </div> </div> </article> <article class="gv-card" data-gv-group="talks" id="preview-wesc-nantes"> <header class="gv-card-header"> <div class="gv-card-topline"> <span class="gv-category">Conference</span> <span class="gv-date">June 24–27, 2025</span> </div> <h3>Wind Energy Science Conference 2025</h3> <p class="gv-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Nantes, France</p> <p class="gv-role">Organizing committee member and presenter</p> </header> <div class="gv-gallery" aria-label="Photos from Wind Energy Science Conference 2025"> <a class="gv-photo gv-hero gv-hero-portrait" href="/assets/img/gallery/2025-wesc-nantes/wesc.webp" data-gv-caption="Moein Sarbandi at the Wind Energy Science Conference 2025 venue in Nantes" data-gv-event="Wind Energy Science Conference 2025" aria-label="View photo 1 of 1: Moein Sarbandi at the Wind Energy Science Conference 2025 venue in Nantes"> <img src="/assets/img/gallery/2025-wesc-nantes/wesc.webp" width="900" height="1200" alt="Moein Sarbandi at the Wind Energy Science Conference 2025 venue in Nantes" loading="lazy" decoding="async"> <span class="gv-expand" aria-hidden="true"><i class="fa-solid fa-expand"></i> View photo</span> </a> </div> <div class="gv-card-bottom"> <p class="gv-description">Helped organize WESC 2025 and presented research on robust adaptive super-twisting control for floating wind turbines in above-rated operation.</p> <div class="gv-card-actions"> <a href="https://wesc2025.eu/" target="_blank" rel="noopener noreferrer">Conference website <span aria-hidden="true">↗</span></a> <a class="gv-event-permalink" href="#preview-wesc-nantes" aria-label="Link to Wind Energy Science Conference 2025">Event link <span aria-hidden="true">#</span></a> </div> </div> </article> <article class="gv-card" data-gv-group="community" id="preview-dense-welcome-cottbus"> <header class="gv-card-header"> <div class="gv-card-topline"> <span class="gv-category">Doctoral network</span> <span class="gv-date">2025</span> </div> <h3>DENSE Welcome Meeting</h3> <p class="gv-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> BTU Cottbus–Senftenberg and Fraunhofer IEG, Germany</p> <p class="gv-role">Doctoral researcher</p> </header> <div class="gv-gallery" aria-label="Photos from DENSE Welcome Meeting"> <a class="gv-photo gv-hero" href="/assets/img/gallery/2025-dense-cottbus/group.webp" data-gv-caption="DENSE doctoral candidates and supervisors together at the welcome meeting in Cottbus" data-gv-event="DENSE Welcome Meeting" aria-label="View photo 1 of 2: DENSE doctoral candidates and supervisors together at the welcome meeting in Cottbus"> <img src="/assets/img/gallery/2025-dense-cottbus/group.webp" width="1200" height="900" alt="DENSE doctoral candidates and supervisors together at the welcome meeting in Cottbus" loading="lazy" decoding="async"> <span class="gv-expand" aria-hidden="true"><i class="fa-solid fa-expand"></i> View photo</span> </a> <div class="gv-thumbnails" aria-label="More photos from this event"> <a class="gv-photo gv-thumb" href="/assets/img/gallery/2025-dense-cottbus/campus.webp" data-gv-caption="Brandenburg University of Technology library illuminated during the DENSE welcome meeting" data-gv-event="DENSE Welcome Meeting" aria-label="View additional photo: Brandenburg University of Technology library illuminated during the DENSE welcome meeting"> <img src="/assets/img/gallery/2025-dense-cottbus/campus.webp" width="1200" height="900" alt="Brandenburg University of Technology library illuminated during the DENSE welcome meeting" loading="lazy" decoding="async"> <span class="gv-thumb-zoom" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i></span> </a> <span class="gv-more-label">2 photos <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span> </div> </div> <div class="gv-card-bottom"> <p class="gv-description">Met fellow doctoral candidates and supervisors to introduce research topics, align the network’s work packages, and plan training, dissemination, and collaboration activities.</p> <div class="gv-card-actions"> <a href="https://dense-dn.eu/" target="_blank" rel="noopener noreferrer">DENSE network <span aria-hidden="true">↗</span></a> <a class="gv-event-permalink" href="#preview-dense-welcome-cottbus" aria-label="Link to DENSE Welcome Meeting">Event link <span aria-hidden="true">#</span></a> </div> </div> </article> </div> </section> </div> <div class="gv-end"> <p>These are selected highlights. For a full list of lectures, presentations, and academic activities, see <a href="/activities/">Academic activities ↗</a>.</p> <a href="#gv-preview">Back to top ↑</a> </div> <dialog class="gv-lightbox" id="gv-lightbox" aria-label="Gallery photo viewer"> <div class="gv-lightbox-shell"> <div class="gv-lightbox-toolbar"> <span class="gv-lightbox-event" id="gv-lightbox-event"></span> <span class="gv-lightbox-counter" id="gv-lightbox-counter"></span> <button type="button" class="gv-lightbox-close" id="gv-lightbox-close" aria-label="Close photo viewer">×</button> </div> <div class="gv-lightbox-stage" id="gv-lightbox-stage"> <button type="button" class="gv-lightbox-arrow gv-lightbox-prev" id="gv-lightbox-prev" aria-label="Previous photo">‹</button> <img id="gv-lightbox-img" src="" alt=""> <button type="button" class="gv-lightbox-arrow gv-lightbox-next" id="gv-lightbox-next" aria-label="Next photo">›</button> </div> <div class="gv-lightbox-caption" id="gv-lightbox-caption"></div> <p class="gv-lightbox-help">Swipe on mobile · Use ← → to browse · Esc to close</p> </div> </dialog> </div> <style>
+  .gv { --gv-accent:var(--global-theme-color,#b509ac); --gv-border:var(--global-divider-color,#dddddd); --gv-muted:var(--global-text-color-light,#6c7077); --gv-panel:var(--global-bg-color,#fff); color:var(--global-text-color,#242424); max-width:100%; }
+  .gv * { box-sizing:border-box; }
+  .gv-preview-note { display:flex; align-items:center; gap:.65rem; padding:.7rem .95rem; margin:0 0 2rem; border:1px dashed var(--gv-border); border-radius:.6rem; font-size:.8rem; color:var(--gv-muted); }
+  .gv-preview-note a { text-decoration:underline; text-underline-offset:3px; }
+  .gv-preview-dot { flex:0 0 .5rem; width:.5rem; height:.5rem; border-radius:50%; background:var(--gv-accent); }
+  .gv-intro { padding:.75rem 0 1.9rem; border-bottom:1px solid var(--gv-border); }
+  .gv-eyebrow { font-size:.72rem; letter-spacing:.16em; text-transform:uppercase; font-weight:700; color:var(--gv-accent); margin:0 0 .8rem; }
+  .gv-intro h2 { margin:0 0 .8rem; max-width:47rem; font-size:clamp(2rem,4.7vw,3.35rem); letter-spacing:-.045em; font-weight:650; line-height:1.12; }
+  .gv-intro-copy { max-width:39rem; color:var(--gv-muted); font-size:clamp(.96rem,1.6vw,1.08rem); line-height:1.65; margin:0; }
+  .gv-stats { display:flex; flex-wrap:wrap; gap:1.1rem clamp(1.3rem,4vw,2.7rem); padding-top:1.7rem; }
+  .gv-stats > div { display:flex; align-items:baseline; gap:.4rem; }
+  .gv-stats strong { font-size:clamp(1.2rem,2vw,1.55rem); font-weight:700; letter-spacing:-.035em; color:var(--global-text-color,#262626); }
+  .gv-stats span { font-size:.82rem; color:var(--gv-muted); }
+  .gv-stats-years { margin-left:auto; }
+  .gv-toolbar { margin:1.75rem 0 2.35rem; }
+  .gv-filter-label { margin-bottom:.75rem; text-transform:uppercase; letter-spacing:.11em; font-size:.71rem; color:var(--gv-muted); font-weight:700; }
+  .gv-filters { display:flex; flex-wrap:wrap; gap:.5rem; }
+  .gv-filter { cursor:pointer; border:1px solid var(--gv-border); border-radius:999px; padding:.48rem .85rem; background:transparent; color:var(--global-text-color,#242424); font-size:.82rem; line-height:1.2; font-weight:600; transition:background .15s,border-color .15s; }
+  .gv-filter:hover,.gv-filter:focus-visible { border-color:var(--gv-accent); }
+  .gv-filter.is-selected { border-color:var(--gv-accent); background:var(--gv-accent); color:#fff; }
+  .gv-count { margin:.75rem 0 0; font-size:.77rem; color:var(--gv-muted); }
+  .gv-year { scroll-margin-top:5rem; margin:0 0 3.6rem; }
+  .gv-year[hidden],.gv-card[hidden] { display:none!important; }
+  .gv-year-heading { display:flex; align-items:baseline; justify-content:space-between; border-bottom:1px solid var(--gv-border); margin:0 0 1.4rem; padding-bottom:.75rem; }
+  .gv-year-heading h2 { margin:0; font-size:1.65rem; letter-spacing:-.03em; font-weight:650; }
+  .gv-year-heading span { font-size:.82rem; color:var(--gv-muted); }
+  .gv-event-list { display:grid; gap:2.05rem; }
+  .gv-card { min-width:0; padding:clamp(1rem,3vw,1.55rem); border:1px solid var(--gv-border); border-radius:1rem; background:var(--gv-panel); box-shadow:0 .5rem 2rem rgba(0,0,0,.035); overflow:hidden; }
+  .gv-card-topline { display:flex; flex-wrap:wrap; gap:.45rem .85rem; align-items:center; margin-bottom:.55rem; font-size:.75rem; }
+  .gv-category { font-size:.69rem; font-weight:700; border-radius:999px; padding:.25rem .6rem; color:var(--gv-accent); background:color-mix(in srgb,var(--gv-accent) 10%,var(--gv-panel)); }
+  .gv-date { color:var(--gv-muted); }
+  .gv-card-header h3 { margin:0 0 .35rem; font-weight:650; font-size:clamp(1.22rem,2.3vw,1.65rem); line-height:1.25; letter-spacing:-.025em; }
+  .gv-location { color:var(--gv-muted); margin:0 0 .4rem; font-size:.83rem; }
+  .gv-location i { color:var(--gv-accent); margin-right:.25rem; }
+  .gv-role { margin:0 0 1.15rem; font-weight:600; font-size:.86rem; }
+  .gv-gallery { min-width:0; }
+  .gv-photo { display:block; position:relative; overflow:hidden; background:color-mix(in srgb,var(--gv-border) 42%,var(--gv-panel)); }
+  .gv-photo img { display:block; width:100%; height:100%; object-fit:cover; transition:transform .25s ease; }
+  .gv-photo:hover img,.gv-photo:focus-visible img { transform:scale(1.025); }
+  .gv-hero { width:100%; aspect-ratio:16/9; border-radius:.65rem; background:#25252b; }
+  .gv-hero-portrait { aspect-ratio:3/2; }
+  .gv-hero-portrait img { object-fit:contain; }
+  .gv-expand { position:absolute; right:.8rem; bottom:.8rem; padding:.38rem .68rem; border-radius:999px; background:rgba(0,0,0,.72); font-size:.75rem; font-weight:600; color:#fff; display:flex; align-items:center; gap:.4rem; }
+  .gv-thumbnails { display:flex; align-items:center; gap:.52rem; flex-wrap:wrap; margin-top:.55rem; }
+  .gv-thumb { width:clamp(5.6rem,16%,8rem); aspect-ratio:3/2; border-radius:.45rem; flex:0 0 auto; }
+  .gv-thumb-zoom { position:absolute; inset:0; display:flex; justify-content:center; align-items:center; color:white; background:rgba(0,0,0,.3); opacity:0; transition:opacity .15s; }
+  .gv-thumb:hover .gv-thumb-zoom,.gv-thumb:focus-visible .gv-thumb-zoom { opacity:1; }
+  .gv-more-label { margin-left:auto; display:flex; align-items:center; gap:.35rem; font-size:.74rem; white-space:nowrap; color:var(--gv-muted); }
+  .gv-card-bottom { padding-top:1.1rem; }
+  .gv-description { font-size:.91rem; line-height:1.65; margin:0 0 .75rem; }
+  .gv-details { padding:.2rem 0 .4rem; }
+  .gv-details summary { cursor:pointer; font-size:.82rem; color:var(--gv-accent); font-weight:600; }
+  .gv-details ul { margin:.6rem 0; padding-left:1.35rem; font-size:.84rem; line-height:1.55; }
+  .gv-details li+li { margin-top:.3rem; }
+  .gv-card-actions { display:flex; align-items:center; flex-wrap:wrap; gap:.6rem 1.5rem; padding-top:.65rem; }
+  .gv-card-actions a { text-decoration:none; font-size:.81rem; font-weight:650; }
+  .gv-card-actions a:hover,.gv-card-actions a:focus-visible { text-decoration:underline; text-underline-offset:3px; }
+  .gv-event-permalink { margin-left:auto; color:var(--gv-muted); }
+  .gv-end { display:flex; justify-content:space-between; align-items:baseline; gap:1.5rem; padding:1.25rem 0 2rem; border-top:1px solid var(--gv-border); font-size:.84rem; color:var(--gv-muted); }
+  .gv-end p { max-width:38rem; margin:0; }
+  .gv-end > a { white-space:nowrap; }
+  .gv-lightbox { box-sizing:border-box; width:min(96vw,1100px); max-width:none; max-height:96vh; padding:0; border:0; background:#16171b; color:#fff; border-radius:.75rem; overflow:hidden; }
+  .gv-lightbox::backdrop { background:rgba(0,0,0,.90); }
+  .gv-lightbox-shell { display:flex; flex-direction:column; max-height:96vh; }
+  .gv-lightbox-toolbar { display:flex; align-items:center; gap:.75rem; padding:.75rem 1rem; min-height:3.2rem; }
+  .gv-lightbox-event { font-size:.83rem; font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .gv-lightbox-counter { margin-left:auto; font-size:.76rem; color:#bbb; white-space:nowrap; }
+  .gv-lightbox-close { border:0; color:#fff; background:transparent; padding:.1rem .45rem; font-size:2rem; line-height:1; cursor:pointer; }
+  .gv-lightbox-stage { position:relative; display:grid; place-items:center; min-height:10rem; overflow:hidden; }
+  .gv-lightbox-stage img { display:block; max-width:100%; width:auto; height:auto; max-height:calc(96vh - 10rem); object-fit:contain; }
+  .gv-lightbox-arrow { position:absolute; z-index:1; top:50%; transform:translateY(-50%); display:grid; place-items:center; border:0; width:2.65rem; height:2.65rem; border-radius:50%; color:#fff; background:rgba(0,0,0,.56); font-size:2rem; cursor:pointer; }
+  .gv-lightbox-prev { left:.65rem; }
+  .gv-lightbox-next { right:.65rem; }
+  .gv-lightbox-arrow[disabled] { display:none; }
+  .gv-lightbox-caption { color:#e0e0e0; font-size:.85rem; line-height:1.45; text-align:center; padding:.8rem 1.4rem .25rem; }
+  .gv-lightbox-help { color:#999; font-size:.7rem; text-align:center; margin:.45rem 0 .8rem; }
+  .gv button:focus-visible,.gv a:focus-visible,.gv summary:focus-visible { outline:3px solid var(--gv-accent); outline-offset:3px; }
+  @media(max-width:650px) {
+    .gv-intro h2 { font-size:2.1rem; }
+    .gv-stats { gap:.7rem 1.3rem; }
+    .gv-stats-years { margin-left:0; }
+    .gv-event-list { gap:1.3rem; }
+    .gv-hero { aspect-ratio:4/3; }
+    .gv-hero-portrait { aspect-ratio:1/1; }
+    .gv-more-label { font-size:.68rem; }
+    .gv-card { padding:.9rem; }
+    .gv-end { flex-direction:column; gap:.6rem; }
+    .gv-lightbox { width:100vw; max-height:100dvh; height:100dvh; border-radius:0; }
+    .gv-lightbox-shell { max-height:100dvh; height:100dvh; justify-content:center; }
+    .gv-lightbox-stage img { max-height:calc(100dvh - 12rem); }
+    .gv-lightbox-toolbar { position:absolute; top:0; left:0; right:0; z-index:2; background:#16171b; }
+    .gv-lightbox-prev { left:.3rem; }
+    .gv-lightbox-next { right:.3rem; }
+  }
+  @media(prefers-reduced-motion:reduce) {
+    .gv-filter,.gv-photo img,.gv-thumb-zoom { transition:none; }
+  }
+</style> <script>
+(function () {
+  function initGalleryPreview() {
+    var root = document.getElementById('gv-preview');
+    if (!root || root.dataset.initialized === 'true') return;
+    root.dataset.initialized = 'true';
+
+    var filters = Array.prototype.slice.call(root.querySelectorAll('[data-gv-filter]'));
+    var cards = Array.prototype.slice.call(root.querySelectorAll('.gv-card'));
+    var years = Array.prototype.slice.call(root.querySelectorAll('.gv-year'));
+    var countText = document.getElementById('gv-visible-count');
+
+    filters.forEach(function (button) {
+      button.addEventListener('click', function () {
+        var chosen = button.getAttribute('data-gv-filter');
+        var visible = 0;
+        filters.forEach(function (item) {
+          var selected = item === button;
+          item.classList.toggle('is-selected', selected);
+          item.setAttribute('aria-pressed', selected ? 'true' : 'false');
+        });
+        cards.forEach(function (card) {
+          var show = chosen === 'all' || card.getAttribute('data-gv-group') === chosen;
+          card.hidden = !show;
+          if (show) visible++;
+        });
+        years.forEach(function (year) {
+          year.hidden = !year.querySelector('.gv-card:not([hidden])');
+        });
+        if (countText) countText.textContent = visible + (visible === 1 ? ' event' : ' events');
+      });
+    });
+
+    var dialog = document.getElementById('gv-lightbox');
+    if (!dialog || typeof dialog.showModal !== 'function') return;
+    var viewerImage = document.getElementById('gv-lightbox-img');
+    var viewerCaption = document.getElementById('gv-lightbox-caption');
+    var viewerEvent = document.getElementById('gv-lightbox-event');
+    var viewerCounter = document.getElementById('gv-lightbox-counter');
+    var viewerStage = document.getElementById('gv-lightbox-stage');
+    var prevButton = document.getElementById('gv-lightbox-prev');
+    var nextButton = document.getElementById('gv-lightbox-next');
+    var closeButton = document.getElementById('gv-lightbox-close');
+    var activePhotos = [];
+    var activeIndex = 0;
+
+    function showPhoto(index) {
+      if (!activePhotos.length) return;
+      activeIndex = (index + activePhotos.length) % activePhotos.length;
+      var anchor = activePhotos[activeIndex];
+      viewerImage.src = anchor.href;
+      viewerImage.alt = anchor.querySelector('img').alt;
+      viewerCaption.textContent = anchor.getAttribute('data-gv-caption') || viewerImage.alt;
+      viewerEvent.textContent = anchor.getAttribute('data-gv-event') || 'Gallery';
+      viewerCounter.textContent = (activeIndex + 1) + ' / ' + activePhotos.length;
+      prevButton.disabled = activePhotos.length < 2;
+      nextButton.disabled = activePhotos.length < 2;
+    }
+
+    root.querySelectorAll('a.gv-photo').forEach(function (anchor) {
+      anchor.addEventListener('click', function (e) {
+        var gallery = anchor.closest('.gv-gallery');
+        if (!gallery) return;
+        e.preventDefault();
+        activePhotos = Array.prototype.slice.call(gallery.querySelectorAll('a.gv-photo'));
+        showPhoto(activePhotos.indexOf(anchor));
+        dialog.showModal();
+        closeButton.focus();
+      });
+    });
+
+    prevButton.addEventListener('click', function () { showPhoto(activeIndex - 1); });
+    nextButton.addEventListener('click', function () { showPhoto(activeIndex + 1); });
+    closeButton.addEventListener('click', function () { dialog.close(); });
+    dialog.addEventListener('click', function (e) { if (e.target === dialog) dialog.close(); });
+    dialog.addEventListener('close', function () { viewerImage.removeAttribute('src'); });
+    dialog.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft' && activePhotos.length > 1) { e.preventDefault(); showPhoto(activeIndex - 1); }
+      if (e.key === 'ArrowRight' && activePhotos.length > 1) { e.preventDefault(); showPhoto(activeIndex + 1); }
+    });
+
+    var touchX = null;
+    var touchY = null;
+    viewerStage.addEventListener('touchstart', function (e) {
+      if (e.touches.length !== 1) return;
+      touchX = e.touches[0].clientX;
+      touchY = e.touches[0].clientY;
+    }, { passive: true });
+    viewerStage.addEventListener('touchend', function (e) {
+      if (touchX === null || !e.changedTouches.length) return;
+      var deltaX = e.changedTouches[0].clientX - touchX;
+      var deltaY = e.changedTouches[0].clientY - touchY;
+      touchX = null;
+      touchY = null;
+      if (Math.abs(deltaX) > 45 && Math.abs(deltaX) > Math.abs(deltaY) * 1.3 && activePhotos.length > 1) {
+        showPhoto(activeIndex + (deltaX < 0 ? 1 : -1));
+      }
+    }, { passive: true });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initGalleryPreview);
+  } else {
+    initGalleryPreview();
+  }
+}());
+</script> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Moein Sarbandi. PhD Researcher in Control Systems · <a href="https://www.ls2n.fr" target="_blank" rel="external nofollow noopener">LS2N</a> / <a href="https://www.ec-nantes.fr" target="_blank" rel="external nofollow noopener">Centrale Nantes</a>, France. Last updated: October 10, 2026. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Journal articles, conference papers, and selected research outputs in control systems and wind energy.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Current and completed MSc projects in control systems and wind energy.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Courses, laboratories, supervision, and teaching materials in automatic control.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-academic-activities",
+          title: "academic activities",
+          description: "Peer-review service, invited talks, and conference presentations.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/activities/";
+          },
+        },{id: "nav-gallery",
+          title: "gallery",
+          description: "Selected moments from conferences, workshops, research visits, and the academic community.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/gallery/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Academic curriculum vitae covering research, publications, teaching, service, and awards.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "projects-blade-effective-wind-speed-estimation-for-wind-turbines",
+          title: 'Blade-Effective Wind-Speed Estimation for Wind Turbines',
+          description: "Extend rotor-effective wind-speed estimation to the wind experienced by individual blades.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/opportunity_bews/";
+            },},{id: "projects-data-driven-control-of-a-wind-turbine-using-a-linear-model",
+          title: 'Data-Driven Control of a Wind Turbine Using a Linear Model',
+          description: "Compare modern data-driven controllers on a realistic wind-turbine benchmark.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/opportunity_data_driven_control/";
+            },},{id: "projects-from-local-linearization-to-koopman-models-for-wind-turbines",
+          title: 'From Local Linearization to Koopman Models for Wind Turbines',
+          description: "Compare classical local linearization with DMDc and EDMD across operating conditions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/opportunity_koopman_modeling/";
+            },},{id: "projects-lidar-based-wind-preview-and-control-of-wind-turbines",
+          title: 'LiDAR-Based Wind Preview and Control of Wind Turbines',
+          description: "Reconstruct and assess wind preview from real LiDAR data; optionally explore feedforward control.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/opportunity_lidar_control/";
+            },},{id: "projects-improving-adaptive-neural-network-integral-sliding-mode-control-for-floating-wind-turbines",
+          title: 'Improving Adaptive Neural-Network Integral Sliding-Mode Control for Floating Wind Turbines',
+          description: "Improve an existing learning-based robust controller using OpenFAST data and hybrid offline-online learning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/opportunity_nn_ismc/";
+            },},{id: "projects-data-based-power-coefficient-approximation-for-floating-wind-turbines",
+          title: 'Data-Based Power-Coefficient Approximation for Floating Wind Turbines',
+          description: "Completed MSc project · EU-CORE · 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/supervised_cp_approximation/";
+            },},{id: "projects-adaptive-gain-laws-for-rotor-effective-wind-speed-estimation",
+          title: 'Adaptive-Gain Laws for Rotor-Effective Wind-Speed Estimation',
+          description: "Completed MSc project · EU-CORE · 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/supervised_rews_gain_laws/";
+            },},{id: "teachings-nolco-nonlinear-control-of-wind-turbines",
+          title: 'NOLCO — Nonlinear Control of Wind Turbines',
+          description: "A course and laboratory on nonlinear control design for variable-speed wind turbines in the EU-CORE Master Programme.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/NOLCO-2026/";
+            },},{id: "teachings-nolco-nonlinear-control-lab-for-wind-turbines",
+          title: 'NOLCO — Nonlinear Control Lab for Wind Turbines',
+          description: "A two-part lab on nonlinear control design for variable-speed wind turbines, covering aerodynamic torque/pitch control and PMSG electrical control, from feedback linearization to sliding mode and super-twisting algorithms.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/NOLCO/";
+            },},{id: "teachings-optimal-control",
+          title: 'Optimal Control',
+          description: "A graduate course on optimal control theory covering dynamic programming, Pontryagin&#39;s minimum principle, and linear quadratic methods, with homework assignments and a final project.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/OptimalControl/";
+            },},{id: "teachings-simus-introduction-to-matlab-amp-simulink",
+          title: 'SIMUS — Introduction to MATLAB &amp;amp; Simulink',
+          description: "A hands-on introduction to MATLAB and Simulink for simulating and controlling dynamic systems, from linear state-space models to nonlinear control and observer design.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/SIMUS/";
+            },},{id: "teachings-system-identification",
+          title: 'System Identification',
+          description: "Undergraduate/graduate teaching support in system identification, including course instruction, homework design and grading, and course website maintenance.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/SystemIdentification/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6D%6F%65%69%6E.%73%61%72%62%61%6E%64%69@%65%63-%6E%61%6E%74%65%73.%66%72", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/MoeinSarbandi", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/moein-sarbandi-2a3310252", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-9936-5792", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=gKYz7bcAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
