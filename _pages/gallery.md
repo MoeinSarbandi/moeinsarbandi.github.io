@@ -296,14 +296,17 @@ images:
 
   .gallery-event-media {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.55rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-content: start;
+    gap: 0.5rem;
     min-width: 0;
   }
 
   .gallery-event-media > a {
     position: relative;
-    min-height: 10rem;
+    min-width: 0;
+    min-height: 0;
+    aspect-ratio: 4 / 3;
     overflow: hidden;
     border-radius: 0.7rem;
     background: color-mix(in srgb, var(--global-divider-color, #d7d7d7) 65%, var(--global-bg-color, #fff));
@@ -321,22 +324,18 @@ images:
     transform: scale(1.025);
   }
 
-  .gallery-count-1 > a {
+  /* Keep single-photo events exactly as before. */
+  .gallery-count-1 > a:first-child {
     grid-column: 1 / -1;
     aspect-ratio: 16 / 10;
   }
 
-  .gallery-count-2 > a {
-    aspect-ratio: 4 / 5;
-  }
-
-  .gallery-event-media:not(.gallery-count-1):not(.gallery-count-2) > a:first-child {
+  /* For multi-photo events, feature one reasonably sized photo on top.
+     All remaining photos form a compact thumbnail strip beneath it. */
+  .gallery-event-media:not(.gallery-count-1) > a:first-child {
     grid-column: 1 / -1;
-    aspect-ratio: 16 / 8;
-  }
-
-  .gallery-event-media:not(.gallery-count-1):not(.gallery-count-2) > a:not(:first-child) {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 16 / 9;
+    max-height: 20rem;
   }
 
   .gallery-zoom {
@@ -377,7 +376,7 @@ images:
       order: -1;
     }
 
-    .gallery-count-1 > a {
+    .gallery-count-1 > a:first-child {
       aspect-ratio: 4 / 3;
     }
   }
@@ -387,15 +386,12 @@ images:
       display: none;
     }
 
-    .gallery-event-media > a,
-    .gallery-count-2 > a,
-    .gallery-event-media:not(.gallery-count-1):not(.gallery-count-2) > a:first-child {
-      grid-column: 1 / -1;
-      aspect-ratio: 4 / 3;
-      min-height: 0;
+    .gallery-event-media {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
-    .gallery-event-media:not(.gallery-count-1):not(.gallery-count-2) > a:not(:first-child) {
+    .gallery-event-media > a:first-child {
+      grid-column: 1 / -1;
       aspect-ratio: 4 / 3;
     }
   }
