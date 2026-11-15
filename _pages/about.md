@@ -17,7 +17,7 @@ profile:
     <p>Nantes, France</p>
     <p>📧 <a href="mailto:moein.sarbandi@ec-nantes.fr">moein.sarbandi@ec-nantes.fr</a></p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
