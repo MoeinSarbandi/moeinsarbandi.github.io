@@ -26,17 +26,17 @@ nav_order: 2
 
 <style>
   .pub-section-heading {
-    margin: 2.1rem 0 0.85rem;
+    margin: 1.65rem 0 0.55rem;
     padding-bottom: 0.25rem;
     border-bottom: 1px solid var(--global-divider-color, #ddd);
-    font-size: 1.34rem;
+    font-size: 1.24rem;
     line-height: 1.3;
     font-weight: 650;
     color: var(--global-theme-color, #426bb4);
   }
-  .pub-section-heading:first-of-type { margin-top: 1.45rem; }
+  .pub-section-heading:first-of-type { margin-top: 1.15rem; }
 
-  .publications-compact { margin: 0 0 1.25rem; }
+  .publications-compact { margin: 0 0 0.85rem; }
   .publications-compact ol.bibliography {
     margin: 0 !important;
     padding: 0 0 0 1.65rem !important;
@@ -46,7 +46,7 @@ nav_order: 2
     display: list-item !important;
     list-style-type: square !important;
     list-style-position: outside;
-    margin: 0 0 0.38rem !important;
+    margin: 0 0 0.34rem !important;
     padding: 0 !important;
     border: 0 !important;
     font-size: 0.96rem;
@@ -84,12 +84,17 @@ nav_order: 2
     font-weight: 750;
     color: var(--global-text-color, #222);
   }
-  .publications-compact .pub-title a {
-    color: var(--global-theme-color, #3266a3);
+  .publications-compact .pub-title {
+    color: var(--global-text-color, #222);
+  }
+  .publications-compact .pub-title a,
+  .publications-compact .pub-title a:visited {
+    color: #295A9B;
     text-decoration: none;
   }
   .publications-compact .pub-title a:hover,
   .publications-compact .pub-title a:focus-visible {
+    color: #1D4477;
     text-decoration: underline;
     text-underline-offset: 2px;
   }
@@ -99,7 +104,7 @@ nav_order: 2
   @media (max-width: 640px) {
     .publications-compact ol.bibliography { padding-left: 1.3rem !important; }
     .publications-compact ol.bibliography > li { font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.55rem !important; }
-    .pub-section-heading { font-size: 1.2rem; }
+    .pub-section-heading { font-size: 1.14rem; }
   }
 </style>
 
