@@ -14,8 +14,8 @@ Rendered inside Jekyll-Scholar's <ol class="bibliography">.
   <span class="pub-authors author">
     {%- for author in entry.author_array -%}
       {%- unless forloop.first -%}
-        {%- if forloop.last -%}{% if forloop.length == 2 %} and {% else %}, and {% endif %}
-        {%- else -%}, 
+        {%- if forloop.last -%}{% if forloop.length == 2 %}&#32;and&#32;{% else %},&#32;and&#32;{% endif %}
+        {%- else -%},&#32;
         {%- endif -%}
       {%- endunless -%}
       {%- assign author_surname = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
