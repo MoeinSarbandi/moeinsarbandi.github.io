@@ -17,14 +17,14 @@ Selected photographs from conferences, workshops, and research visits are availa
       <span class="activity-heading">
         <span class="activity-kicker">Service</span>
         <span class="activity-title">Peer-review service</span>
-        <span class="activity-summary">35+ journal reviews across ten journals, plus conference and community service</span>
+        <span class="activity-summary">40+ journal review reports across twelve journals, plus conference and community service</span>
       </span>
       <span class="activity-chevron" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
     </summary>
 
     <div class="activity-content">
       <p class="activity-note">
-        I review work in automatic control, nonlinear systems, and wind-energy applications. Manuscript-level details are not disclosed to preserve reviewer confidentiality.
+        I review work in automatic control, nonlinear systems, energy systems, and engineering applications. As of November 2026, my Web of Science profile lists 32 peer-review records for 24 manuscripts, while editorial confirmation emails document additional completed journal review rounds. The 40+ journal-review figure is conservative, and manuscript-level details are withheld to preserve reviewer confidentiality. [ORCID](https://orcid.org/0000-0002-9936-5792)
       </p>
 
       <div class="activity-columns">
@@ -41,6 +41,8 @@ Selected photographs from conferences, workshops, and research visits are availa
             <li><span>Energy Reports</span></li>
             <li><span>The Journal of Supercomputing</span></li>
             <li><span>Wind Engineering</span></li>
+            <li><span>International Journal of Intelligent Robotics and Applications</span></li>
+            <li><span>International Journal of Machine Learning and Cybernetics</span></li>
           </ul>
         </section>
 
@@ -115,16 +117,21 @@ Selected photographs from conferences, workshops, and research visits are availa
       <span class="activity-heading">
         <span class="activity-kicker">Research dissemination</span>
         <span class="activity-title">Conference presentations</span>
-        <span class="activity-summary">Presented and upcoming contributions at international control and wind-energy events</span>
+        <span class="activity-summary">Recent contributions at international control and wind-energy events</span>
       </span>
       <span class="activity-chevron" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
     </summary>
 
     <div class="activity-content activity-records">
-      <article class="activity-record activity-record-upcoming">
-        <p class="activity-meta"><span class="activity-badge">Upcoming</span> November 3–6, 2026 · Paphos, Cyprus</p>
+      <article class="activity-record">
+        <p class="activity-meta">November 4, 2026 · Paphos, Cyprus</p>
         <h2>Nonlinear Control Framework for Grid-Connected PMSG-Based Floating Wind Turbines in the Above-Rated Wind Speed Region through OpenFAST Validation</h2>
-        <p>15th MEDPOWER Conference · Accepted for presentation</p>
+        <p>Presented at <a href="https://cyprusconferences.org/medpower2026/program/">MEDPOWER 2026</a> in the DENSE special session, chaired by Prof. Petros Aristidou. Co-authors: Riya Mathew, Mohamed Assaad Hamida, and Franck Plestan. <a href="{{ '/gallery/#medpower-paphos' | relative_url }}">Photos</a></p>
+      </article>
+      <article class="activity-record">
+        <p class="activity-meta">November 7–16, 2026 · Limassol, Cyprus</p>
+        <h2>Second Research Secondment — Cyprus University of Technology</h2>
+        <p>Research visit to the Sustainable Power Systems Lab, hosted by Prof. Petros Aristidou, exploring data-driven control, voltage regulation, and optimization for distribution grids. <a href="{{ '/gallery/#cut-limassol-secondment' | relative_url }}">Visit highlights</a></p>
       </article>
 
       <article class="activity-record">
