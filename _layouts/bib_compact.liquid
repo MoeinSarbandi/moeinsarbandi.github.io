@@ -1,0 +1,52 @@
+---
+---
+{%- comment -%}
+Compact publication line for the Publications page.
+The global/selected-publications BibTeX layout is intentionally unchanged.
+Rendered inside Jekyll-Scholar's <ol class="bibliography">.
+{%- endcomment -%}
+{%- assign publication_link = entry.url | default: entry.html -%}
+{%- if publication_link == blank and entry.doi -%}
+  {%- assign publication_link = entry.doi | prepend: 'https://doi.org/' -%}
+{%- endif -%}
+<span id="{{ entry.key }}" class="pub-citation">
+  <span class="pub-marker"></span>
+  <span class="pub-authors author">
+    {%- for author in entry.author_array -%}
+      {%- unless forloop.first -%}
+        {%- if forloop.last -%}{% if forloop.length == 2 %} and {% else %}, and {% endif %}
+        {%- else -%}, 
+        {%- endif -%}
+      {%- endunless -%}
+      {%- assign author_surname = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+      {%- if author_surname == 'Sarbandi' -%}
+        <strong>{{ author.first | escape }} {{ author.last | escape }}</strong>
+      {%- else -%}
+        {{ author.first | escape }} {{ author.last | escape }}
+      {%- endif -%}
+    {%- endfor -%}
+  </span>, 
+  <span class="pub-title title">
+    {%- if publication_link != blank -%}
+      <a href="{{ publication_link }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
+    {%- else -%}
+      {{ entry.title }}
+    {%- endif -%}
+  </span>, 
+  <span class="pub-venue periodical">
+    {%- if entry.type == 'article' -%}
+      <em>{{ entry.journal }}</em>
+    {%- elsif entry.type == 'inproceedings' -%}
+      <em>{{ entry.booktitle }}</em>
+    {%- elsif entry.type == 'unpublished' -%}
+      <em>under review</em>
+    {%- elsif entry.booktitle -%}
+      <em>{{ entry.booktitle }}</em>
+    {%- elsif entry.journal -%}
+      <em>{{ entry.journal }}</em>
+    {%- endif -%}
+    {%- if entry.volume -%}, vol. {{ entry.volume }}{%- endif -%}
+    {%- if entry.number -%}, no. {{ entry.number }}{%- endif -%}
+    {%- if entry.pages -%}, pp. {{ entry.pages | replace: '--', '–' }}{%- endif -%}
+  </span>{% if entry.year %}, {{ entry.year }}{% endif %}.
+</span>

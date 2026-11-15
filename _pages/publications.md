@@ -2,113 +2,111 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Journal articles, conference papers, and manuscripts under review in control systems and wind energy.
+description: Research papers, conference contributions, and manuscripts under review in automatic control and wind energy.
 nav: true
 nav_order: 2
 ---
 
-<p class="pub-intro">
-  Journal articles, peer-reviewed conference contributions, and manuscripts under review.
-  Entries are listed in reverse chronological order within each category.
-</p>
-
 {% include bib_search.liquid %}
 
-## Under Review
-
-<div class="publications publications-clean">
-{% bibliography --query @unpublished[website_status=under_review] --group_by none --sort_by year,month --order descending %}
+<h2 class="pub-section-heading">Under Review</h2>
+<div class="publications publications-compact" data-pub-prefix="P">
+{% bibliography --template bib_compact --query @unpublished[website_status=under_review] --group_by none %}
 </div>
 
-## Journal Articles
-
-<div class="publications publications-clean">
-{% bibliography --query @article --group_by none --sort_by year,month --order descending %}
+<h2 class="pub-section-heading">Journal Papers</h2>
+<div class="publications publications-compact" data-pub-prefix="J">
+{% bibliography --template bib_compact --query @article --group_by none %}
 </div>
 
-## Conference Papers
-
-<div class="publications publications-clean">
-{% bibliography --query @inproceedings --group_by none --sort_by year,month --order descending %}
+<h2 class="pub-section-heading">Conference Papers</h2>
+<div class="publications publications-compact" data-pub-prefix="C">
+{% bibliography --template bib_compact --query @inproceedings --group_by none %}
 </div>
 
 <style>
-  .pub-intro {
-    max-width: 48rem;
-    margin: 0.55rem 0 1.6rem;
-    color: var(--global-text-color-light, #666);
-    font-size: 0.94rem;
-    line-height: 1.65;
-  }
-
-  .publications-clean {
-    margin-bottom: 2.75rem;
-  }
-
-  .publications-clean ol.bibliography {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .publications-clean ol.bibliography > li {
-    margin: 0;
-    padding: 1.08rem 0 1.25rem;
+  .pub-section-heading {
+    margin: 2.1rem 0 0.85rem;
+    padding-bottom: 0.25rem;
     border-bottom: 1px solid var(--global-divider-color, #ddd);
-    list-style: none;
-  }
-
-  .publications-clean ol.bibliography > li:first-child {
-    padding-top: 0.3rem;
-  }
-
-  .publications-clean ol.bibliography > li:last-child {
-    border-bottom: 0;
-  }
-
-  .publications-clean ol.bibliography > li > .row {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .publications-clean ol.bibliography > li > .row > [id] {
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .publications-clean .title {
-    font-size: 1.02rem;
+    font-size: 1.34rem;
+    line-height: 1.3;
     font-weight: 650;
-    line-height: 1.45;
-    letter-spacing: -0.01em;
+    color: var(--global-theme-color, #426bb4);
   }
+  .pub-section-heading:first-of-type { margin-top: 1.45rem; }
 
-  .publications-clean .author {
-    font-size: 0.91rem;
-    line-height: 1.55;
-    margin-top: 0.27rem;
+  .publications-compact { margin: 0 0 1.25rem; }
+  .publications-compact ol.bibliography {
+    margin: 0 !important;
+    padding: 0 0 0 1.65rem !important;
+    list-style-type: square !important;
   }
-
-  .publications-clean .periodical {
-    margin-top: 0.18rem;
-    font-size: 0.88rem;
+  .publications-compact ol.bibliography > li {
+    display: list-item !important;
+    list-style-type: square !important;
+    list-style-position: outside;
+    margin: 0 0 0.38rem !important;
+    padding: 0 !important;
+    border: 0 !important;
+    font-size: 0.96rem;
     line-height: 1.5;
   }
-
-  .publications-clean .periodical:empty {
-    display: none;
+  .publications-compact ol.bibliography > li::marker {
+    color: var(--global-text-color, #252525);
+    font-size: 0.78em;
   }
 
-  .publications-clean .links {
-    margin-top: 0.32rem;
+  .publications-compact .pub-citation { display: inline; }
+  .publications-compact .pub-marker {
+    display: inline;
+    margin-right: 0.33rem;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    color: var(--global-text-color, #252525);
   }
-
-  @media (max-width: 600px) {
-    .publications-clean ol.bibliography > li {
-      padding-top: 1rem;
-      padding-bottom: 1.05rem;
-    }
+  .publications-compact .pub-authors,
+  .publications-compact .pub-title,
+  .publications-compact .pub-venue {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+  }
+  .publications-compact .pub-authors strong {
+    font-weight: 750;
+    color: var(--global-text-color, #222);
+  }
+  .publications-compact .pub-title a {
+    color: var(--global-theme-color, #3266a3);
+    text-decoration: none;
+  }
+  .publications-compact .pub-title a:hover,
+  .publications-compact .pub-title a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .publications-compact .pub-venue em { font-style: italic; }
+  .publications-compact .pub-title .btn,
+  .publications-compact .pub-citation .links { display: none; }
+  @media (max-width: 640px) {
+    .publications-compact ol.bibliography { padding-left: 1.3rem !important; }
+    .publications-compact ol.bibliography > li { font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.55rem !important; }
+    .pub-section-heading { font-size: 1.2rem; }
   }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".publications-compact").forEach(function (section) {
+      var prefix = section.getAttribute("data-pub-prefix") || "";
+      var entries = section.querySelectorAll("ol.bibliography > li");
+      entries.forEach(function (item, index) {
+        var marker = item.querySelector(".pub-marker");
+        if (marker) marker.textContent = "[" + prefix + (entries.length - index) + "]";
+      });
+    });
+  });
+</script>
