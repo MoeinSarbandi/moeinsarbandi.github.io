@@ -63,19 +63,12 @@ nav_order: 2
     margin-right: 0.38rem;
     white-space: nowrap;
     color: var(--global-text-color, #252525);
-    font-family: "Cambria Math", "STIX Two Math", "Noto Sans Math", serif;
-  }
-  .publications-compact .pub-marker .pub-script-letter {
-    font-size: 1.15em;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1em;
     font-weight: 400;
-    line-height: 1;
-  }
-  .publications-compact .pub-marker sub {
-    font-size: 0.72em;
-    font-weight: 400;
-    vertical-align: -0.3em;
-    margin-left: 0.01em;
-    font-variant-numeric: tabular-nums;
+    font-style: normal;
+    font-variant-numeric: lining-nums;
+    vertical-align: baseline;
   }
   .publications-compact .pub-authors,
   .publications-compact .pub-title,
@@ -112,22 +105,12 @@ nav_order: 2
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    var scriptLetters = { P: "𝒫", J: "𝒥", C: "𝒞" };
-    var typeNames = { P: "Preprint", J: "Journal paper", C: "Conference paper" };
     document.querySelectorAll(".publications-compact").forEach(function (section) {
       var prefix = section.getAttribute("data-pub-prefix") || "";
       var entries = section.querySelectorAll("ol.bibliography > li");
       entries.forEach(function (item, index) {
         var marker = item.querySelector(".pub-marker");
-        if (!marker) return;
-        var number = entries.length - index;
-        var letter = document.createElement("span");
-        letter.className = "pub-script-letter";
-        letter.textContent = scriptLetters[prefix] || prefix;
-        var subscript = document.createElement("sub");
-        subscript.textContent = String(number);
-        marker.replaceChildren(letter, subscript);
-        marker.setAttribute("aria-label", (typeNames[prefix] || "Publication") + " " + number);
+        if (marker) marker.textContent = "[" + prefix + (entries.length - index) + "]";
       });
     });
   });
