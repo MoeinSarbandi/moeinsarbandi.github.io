@@ -17,14 +17,14 @@ Selected photographs from conferences, workshops, and research visits are availa
       <span class="activity-heading">
         <span class="activity-kicker">Service</span>
         <span class="activity-title">Peer-review service</span>
-        <span class="activity-summary">32 Web of Science records plus further confirmed journal reviews, plus conference and community service</span>
+        <span class="activity-summary">35+ journal reviews across 12 journals, plus conference and community service</span>
       </span>
       <span class="activity-chevron" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
     </summary>
 
     <div class="activity-content">
       <p class="activity-note">
-        I review work in automatic control, nonlinear systems, energy systems, and engineering applications. As of November 2026, my Web of Science profile lists 32 peer-review records for 24 manuscripts, while editorial confirmation emails document additional completed journal review rounds. Manuscript-level details are withheld to preserve reviewer confidentiality. [ORCID](https://orcid.org/0000-0002-9936-5792)
+        I review research in automatic control, nonlinear systems, intelligent systems, and renewable energy. My journal reviewing spans 12 journals, alongside service for international control conferences. Manuscript details remain confidential.
       </p>
 
       <div class="activity-columns">
@@ -126,12 +126,13 @@ Selected photographs from conferences, workshops, and research visits are availa
       <article class="activity-record">
         <p class="activity-meta">November 4, 2026 · Paphos, Cyprus</p>
         <h2>Nonlinear Control Framework for Grid-Connected PMSG-Based Floating Wind Turbines in the Above-Rated Wind Speed Region through OpenFAST Validation</h2>
-        <p>Presented at <a href="https://cyprusconferences.org/medpower2026/">MEDPOWER 2026</a> in the DENSE special session, chaired by Prof. Petros Aristidou. Co-authors: Riya Mathew, Mohamed Assaad Hamida, and Franck Plestan. <a href="{{ '/gallery/#medpower-paphos' | relative_url }}">Photos</a></p>
+        <p>Presented at <a href="https://cyprusconferences.org/medpower2026/">MEDPOWER 2026</a> in the DENSE special session. Co-authors: Riya Mathew, Mohamed Assaad Hamida, and Franck Plestan.</p>
       </article>
+
       <article class="activity-record">
-        <p class="activity-meta">November 7–16, 2026 · Limassol, Cyprus</p>
-        <h2>Second Research Secondment — Cyprus University of Technology</h2>
-        <p>Research visit to the Sustainable Power Systems Lab, hosted by Prof. Petros Aristidou, exploring data-driven control, voltage regulation, and optimization for distribution grids. <a href="{{ '/gallery/#cut-limassol-secondment' | relative_url }}">Visit highlights</a></p>
+        <p class="activity-meta">November 2–16, 2026 · Paphos and Limassol, Cyprus</p>
+        <h2>Cyprus research visit — MEDPOWER, EAC and CUT secondment</h2>
+        <p>Combined conference and research stay, including a visit to the Electricity Authority of Cyprus and a second DENSE research secondment at the Sustainable Power Systems Lab, Cyprus University of Technology, hosted by Prof. Petros Aristidou. <a href="{{ '/gallery/#cyprus-research-visit-2026' | relative_url }}">Visit gallery</a></p>
       </article>
 
       <article class="activity-record">

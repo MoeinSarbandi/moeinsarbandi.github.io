@@ -59,15 +59,15 @@ cv:
           - Validation using MATLAB/Simulink, OpenFAST, and experimental software-in-the-loop platforms
 
       - company: Cyprus University of Technology — Sustainable Power Systems Lab
-        position: Research Secondment
-        location: Limassol, Cyprus
-        start_date: 2026-11-07
+        position: Research Visit and Secondment
+        location: Paphos and Limassol, Cyprus
+        start_date: 2026-11-02
         end_date: 2026-11-16
-        summary: Second DENSE network research secondment, hosted by Prof. Petros Aristidou, investigating data-driven and learning-based control for power distribution networks.
+        summary: Combined DENSE research visit for MEDPOWER 2026 and a secondment hosted by Prof. Petros Aristidou at the Sustainable Power Systems Lab.
         highlights:
-          - Studies of voltage regulation and optimal power flow in active distribution systems
-          - Research discussions on data-driven control, optimization, and learning-based methods in power systems
-          - Academic exchanges with the Sustainable Power Systems Lab team
+          - Presented grid-connected floating wind-turbine control research at MEDPOWER 2026 (4 November)
+          - Technical visit to the Electricity Authority of Cyprus
+          - Research exchanges on data-driven control and voltage regulation for active distribution networks
 
       - company: École Centrale Nantes — EU-CORE Master Programme
         position: Course and Lab Instructor — NOLCO
@@ -234,7 +234,7 @@ cv:
         releaseDate: 2025-06-01
 
     Academic Service:
-      - bullet: "Journal reviewer (32 Web of Science review records plus additional completed reviews across twelve journals): Automatica, IEEE Transactions on Cybernetics, IEEE Transactions on Power Systems, IEEE Transactions on Aerospace and Electronic Systems, ISA Transactions, Energy, Scientific Reports, Energy Reports, The Journal of Supercomputing, Wind Engineering, International Journal of Intelligent Robotics and Applications, International Journal of Machine Learning and Cybernetics"
+      - bullet: "Journal reviewer (35+ completed reviews across 12 journals): Automatica, IEEE Transactions on Cybernetics, IEEE Transactions on Power Systems, IEEE Transactions on Aerospace and Electronic Systems, ISA Transactions, Energy, Energy Reports, Scientific Reports, Wind Engineering, The Journal of Supercomputing, International Journal of Intelligent Robotics and Applications, and International Journal of Machine Learning and Cybernetics"
       - bullet: "Conference reviewer: IFAC World Congress 2026 and American Control Conference 2026"
       - bullet: "Organizing committee member: Wind Energy Science Conference 2025, Nantes"
 

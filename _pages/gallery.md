@@ -41,6 +41,14 @@ images:
       <div class="gallery-events">
         {% for event in year_group.events %}
           {% assign photo_count = event.photos | size %}
+          {% if event.id == 'cyprus-research-visit-2026' %}
+            {% for photo in event.photos %}
+              {% assign gallery_asset = site.static_files | where: 'path', photo.path | first %}
+              {% unless gallery_asset %}
+                {% assign photo_count = 0 %}
+              {% endunless %}
+            {% endfor %}
+          {% endif %}
           <article class="gallery-event{% if photo_count == 0 %} gallery-event-text-only{% endif %}" id="{{ event.id }}">
             <div class="gallery-event-copy">
               <div class="gallery-event-meta">

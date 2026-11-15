@@ -17,6 +17,14 @@ images:
   {% assign gv_event_count = gv_event_count | plus: gv_year_count %}
   {% for event in year_group.events %}
     {% assign gv_n = event.photos | size %}
+    {% if event.id == 'cyprus-research-visit-2026' %}
+      {% for photo in event.photos %}
+        {% assign gv_asset = site.static_files | where: 'path', photo.path | first %}
+        {% unless gv_asset %}
+          {% assign gv_n = 0 %}
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
     {% assign gv_photo_count = gv_photo_count | plus: gv_n %}
     {% assign gv_country = event.location | split: ', ' | last %}
     {% assign gv_country_string = gv_country_string | append: gv_country | append: '|' %}
@@ -71,6 +79,14 @@ images:
               {% assign gv_group = 'workshops' %}
             {% endif %}
             {% assign gv_photo_length = event.photos | size %}
+            {% if event.id == 'cyprus-research-visit-2026' %}
+              {% for photo in event.photos %}
+                {% assign gv_asset = site.static_files | where: 'path', photo.path | first %}
+                {% unless gv_asset %}
+                  {% assign gv_photo_length = 0 %}
+                {% endunless %}
+              {% endfor %}
+            {% endif %}
             {% assign gv_hero_index = 0 %}
             {% if event.id == 'blocker-workshop-berlin' or event.id == 'dense-welcome-cottbus' %}
               {% assign gv_hero_index = 1 %}

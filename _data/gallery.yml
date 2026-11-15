@@ -2,35 +2,45 @@
 # its repository-relative path, pixel dimensions, and concise alternative text.
 - year: 2026
   events:
-    - id: medpower-paphos
-      date: November 3–6, 2026
-      category: Conference
-      title: MEDPOWER 2026 — DENSE Special Session
-      location: Paphos, Cyprus
-      role: Presenter and DENSE doctoral researcher
-      description: Presented our work on nonlinear control of grid-connected PMSG-based floating wind turbines, bringing wind-turbine dynamics, generator and converter control, and OpenFAST validation into an integrated wind-to-grid framework. The conference also offered exchanges with DENSE colleagues and an opportunity to visit the Electricity Authority of Cyprus.
-      highlights:
-        - Presented paper #107 in the DENSE special session on November 4
-        - Co-authors Riya Mathew, Mohamed Assaad Hamida, and Franck Plestan
-        - Technical visit to the Electricity Authority of Cyprus (EAC) with DENSE colleagues
-      url: https://cyprusconferences.org/medpower2026/
-      url_label: MEDPOWER 2026 programme
-      photos: []
-
-    - id: cut-limassol-secondment
-      date: November 7–16, 2026
+    - id: cyprus-research-visit-2026
+      date: November 2–16, 2026
       category: Research visit
-      title: Research Secondment at Cyprus University of Technology
-      location: Sustainable Power Systems Lab, Limassol, Cyprus
-      role: Visiting MSCA doctoral researcher
-      description: My second research secondment within the DENSE Doctoral Network, hosted by Prof. Petros Aristidou. This visit focuses on exploring data-driven and learning-based control approaches for active power-distribution networks, including voltage regulation, optimal power flow, and potential collaborations at the interface of control theory and power systems.
+      title: Cyprus 2026 — MEDPOWER, EAC and CUT Secondment
+      location: Paphos and Limassol, Cyprus
+      role: Conference presenter and visiting MSCA doctoral researcher
+      description: A research visit combining my presentation at MEDPOWER 2026 in the DENSE special session, a technical visit to the Electricity Authority of Cyprus, and my second research secondment at the Sustainable Power Systems Lab, Cyprus University of Technology, hosted by Prof. Petros Aristidou. The stay offered a chance to connect floating wind-turbine research with power-system challenges and explore data-driven control for active distribution networks.
       highlights:
-        - Collaboration and technical discussions with researchers at the Sustainable Power Systems Lab
-        - Study of power-system voltage regulation and optimization problems
-        - Exploration of future joint directions combining data-driven control with power-grid applications
-      url: https://www.cut.ac.cy/
-      url_label: Cyprus University of Technology
-      photos: []
+        - Presented an integrated wind-to-grid control framework for PMSG-based floating wind turbines at MEDPOWER 2026 on November 4
+        - Exchanged ideas with colleagues from the DENSE Doctoral Network
+        - Visited the Electricity Authority of Cyprus to learn about practical power-system operation
+        - Explored data-driven control, optimal power flow, and voltage regulation with the Sustainable Power Systems Lab
+      url: https://cyprusconferences.org/medpower2026/
+      url_label: MEDPOWER 2026
+      photos:
+        - path: /assets/img/gallery/2026-cyprus-research-visit/01-dense-medpower-group-paphos.webp
+          width: 480
+          height: 361
+          alt: DENSE colleagues at the MEDPOWER 2026 special session in Paphos
+        - path: /assets/img/gallery/2026-cyprus-research-visit/02-medpower-presentation.webp
+          width: 960
+          height: 642
+          alt: Moein Sarbandi presenting the wind-to-grid control framework at MEDPOWER 2026
+        - path: /assets/img/gallery/2026-cyprus-research-visit/03-medpower-banner-portrait.webp
+          width: 720
+          height: 960
+          alt: Moein Sarbandi beside the MEDPOWER 2026 conference banner
+        - path: /assets/img/gallery/2026-cyprus-research-visit/04-eac-group-visit.webp
+          width: 480
+          height: 253
+          alt: Research group during the technical visit to the Electricity Authority of Cyprus
+        - path: /assets/img/gallery/2026-cyprus-research-visit/05-eac-building.webp
+          width: 960
+          height: 720
+          alt: Exterior of the Electricity Authority of Cyprus building
+        - path: /assets/img/gallery/2026-cyprus-research-visit/06-cyprus-sunset.webp
+          width: 720
+          height: 960
+          alt: Evening sunset on the Cyprus coast during the November research visit
 
     - id: blocker-workshop-berlin
       date: September 30–October 2, 2026
