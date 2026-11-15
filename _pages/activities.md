@@ -17,14 +17,14 @@ Selected photographs from conferences, workshops, and research visits are availa
       <span class="activity-heading">
         <span class="activity-kicker">Service</span>
         <span class="activity-title">Peer-review service</span>
-        <span class="activity-summary">40+ journal review reports across twelve journals, plus conference and community service</span>
+        <span class="activity-summary">32 Web of Science records plus further confirmed journal reviews, plus conference and community service</span>
       </span>
       <span class="activity-chevron" aria-hidden="true"><i class="fa-solid fa-chevron-down"></i></span>
     </summary>
 
     <div class="activity-content">
       <p class="activity-note">
-        I review work in automatic control, nonlinear systems, energy systems, and engineering applications. As of November 2026, my Web of Science profile lists 32 peer-review records for 24 manuscripts, while editorial confirmation emails document additional completed journal review rounds. The 40+ journal-review figure is conservative, and manuscript-level details are withheld to preserve reviewer confidentiality. [ORCID](https://orcid.org/0000-0002-9936-5792)
+        I review work in automatic control, nonlinear systems, energy systems, and engineering applications. As of November 2026, my Web of Science profile lists 32 peer-review records for 24 manuscripts, while editorial confirmation emails document additional completed journal review rounds. Manuscript-level details are withheld to preserve reviewer confidentiality. [ORCID](https://orcid.org/0000-0002-9936-5792)
       </p>
 
       <div class="activity-columns">
@@ -126,7 +126,7 @@ Selected photographs from conferences, workshops, and research visits are availa
       <article class="activity-record">
         <p class="activity-meta">November 4, 2026 · Paphos, Cyprus</p>
         <h2>Nonlinear Control Framework for Grid-Connected PMSG-Based Floating Wind Turbines in the Above-Rated Wind Speed Region through OpenFAST Validation</h2>
-        <p>Presented at <a href="https://cyprusconferences.org/medpower2026/program/">MEDPOWER 2026</a> in the DENSE special session, chaired by Prof. Petros Aristidou. Co-authors: Riya Mathew, Mohamed Assaad Hamida, and Franck Plestan. <a href="{{ '/gallery/#medpower-paphos' | relative_url }}">Photos</a></p>
+        <p>Presented at <a href="https://cyprusconferences.org/medpower2026/">MEDPOWER 2026</a> in the DENSE special session, chaired by Prof. Petros Aristidou. Co-authors: Riya Mathew, Mohamed Assaad Hamida, and Franck Plestan. <a href="{{ '/gallery/#medpower-paphos' | relative_url }}">Photos</a></p>
       </article>
       <article class="activity-record">
         <p class="activity-meta">November 7–16, 2026 · Limassol, Cyprus</p>
