@@ -17,30 +17,38 @@
       url: https://cyprusconferences.org/medpower2026/
       url_label: MEDPOWER 2026
       photos:
-        - path: /assets/img/gallery/2026-cyprus-research-visit/01-dense-medpower-group-paphos.webp
-          width: 480
-          height: 361
-          alt: DENSE colleagues at the MEDPOWER 2026 special session in Paphos
-        - path: /assets/img/gallery/2026-cyprus-research-visit/02-medpower-presentation.webp
-          width: 960
-          height: 642
-          alt: Moein Sarbandi presenting the wind-to-grid control framework at MEDPOWER 2026
-        - path: /assets/img/gallery/2026-cyprus-research-visit/03-medpower-banner-portrait.webp
-          width: 720
-          height: 960
-          alt: Moein Sarbandi beside the MEDPOWER 2026 conference banner
-        - path: /assets/img/gallery/2026-cyprus-research-visit/04-eac-group-visit.webp
-          width: 480
-          height: 253
-          alt: Research group during the technical visit to the Electricity Authority of Cyprus
-        - path: /assets/img/gallery/2026-cyprus-research-visit/05-eac-building.webp
-          width: 960
-          height: 720
+        - path: /assets/img/gallery/2026-cyprus-research-visit/01-medpower-dense-special-session.jpg
+          width: 1600
+          height: 1204
+          alt: DENSE researchers and colleagues at the MEDPOWER 2026 special session in Paphos
+        - path: /assets/img/gallery/2026-cyprus-research-visit/02-medpower-conference-portrait.jpg
+          width: 1920
+          height: 2560
+          alt: Moein Sarbandi beside the MEDPOWER 2026 conference banner in Paphos
+        - path: /assets/img/gallery/2026-cyprus-research-visit/03-medpower-colleagues-paphos.jpg
+          width: 2560
+          height: 1920
+          alt: Colleagues attending MEDPOWER 2026 together outdoors in Paphos
+        - path: /assets/img/gallery/2026-cyprus-research-visit/04-eac-research-visit-group.jpg
+          width: 1096
+          height: 578
+          alt: Researchers during a visit to the Electricity Authority of Cyprus
+        - path: /assets/img/gallery/2026-cyprus-research-visit/05-eac-headquarters-building.jpg
+          width: 2560
+          height: 1920
           alt: Exterior of the Electricity Authority of Cyprus building
-        - path: /assets/img/gallery/2026-cyprus-research-visit/06-cyprus-sunset.webp
-          width: 720
-          height: 960
-          alt: Evening sunset on the Cyprus coast during the November research visit
+        - path: /assets/img/gallery/2026-cyprus-research-visit/06-limassol-waterfront.jpg
+          width: 1920
+          height: 2560
+          alt: Moein Sarbandi standing on the waterfront in Limassol, Cyprus
+        - path: /assets/img/gallery/2026-cyprus-research-visit/07-cyprus-sunset-palms.jpg
+          width: 960
+          height: 1280
+          alt: Sunset over the Mediterranean Sea framed by two palm trees in Cyprus
+        - path: /assets/img/gallery/2026-cyprus-research-visit/08-cyprus-sunset-beach.jpg
+          width: 1920
+          height: 2560
+          alt: Sunset over the sea with beach umbrellas along the Cyprus coastline
 
     - id: blocker-workshop-berlin
       date: September 30–October 2, 2026
