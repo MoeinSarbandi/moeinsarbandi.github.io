@@ -33,7 +33,7 @@ latest_posts:
 
 I am an MSCA doctoral researcher in Automatic Control at the [Laboratory of Digital Sciences of Nantes (LS2N)](https://www.ls2n.fr/) (CODEx group), [École Centrale Nantes](https://www.ec-nantes.fr), funded by the [DENSE Doctoral Network](https://dense-dn.eu/) under Horizon Europe. My PhD research is supervised by [Prof. Franck Plestan](https://scholar.google.fr/citations?user=fJNH7aQAAAAJ&hl=en) and [Prof. Mohamed Assaad Hamida](https://scholar.google.com/citations?user=Bx-jJ64AAAAJ&hl=en).
 
-My work develops robust, data-driven, and learning-enhanced control methods for uncertain nonlinear systems, with a primary application to floating offshore wind turbines. I combine adaptive sliding-mode design, neural-network-augmented control, data-driven methods, and nonlinear observers, with validation in MATLAB/Simulink, OpenFAST, and experimental software-in-the-loop platforms.
+My research focuses on robust nonlinear control, data-driven control, and learning-enhanced control of uncertain dynamical systems, with applications to floating offshore wind turbine (FOWT) control. In particular, I study data-driven sliding-mode control, data informativity for control, super-twisting algorithms, adaptive integral sliding-mode control, and nonlinear observers, including wind-speed estimation. I use MATLAB/Simulink and OpenFAST for simulation and software-in-the-loop validation.
 
 ### Research interests
 
@@ -53,3 +53,61 @@ I undertook a research secondment at [Brandenburg University of Technology Cottb
 I have completed **35+ journal peer reviews across 12 journals**, including _Automatica_, _IEEE Transactions on Cybernetics_, _IEEE Transactions on Power Systems_, _IEEE Transactions on Aerospace and Electronic Systems_, _ISA Transactions_, _Energy_, _Energy Reports_, _Scientific Reports_, _Wind Engineering_, _The Journal of Supercomputing_, _International Journal of Intelligent Robotics and Applications_, and _International Journal of Machine Learning and Cybernetics_. I have also reviewed for the **IFAC World Congress 2026** and the **American Control Conference 2026**. Further details are available under [academic activities]({{ '/activities/' | relative_url }}).
 
 My publications and verified researcher record are available through [ORCID](https://orcid.org/0000-0002-9936-5792) and the links below. I welcome research collaborations in nonlinear control, data-driven methods, wind energy, robotics, and autonomous systems.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://moeinsarbandi.github.io/#profile",
+  "url": "https://moeinsarbandi.github.io/",
+  "name": "Moein Sarbandi – Automatic Control Researcher",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://moeinsarbandi.github.io/#person",
+    "name": "Moein Sarbandi",
+    "url": "https://moeinsarbandi.github.io/",
+    "image": "https://moeinsarbandi.github.io/assets/img/prof_pic.jpg",
+    "jobTitle": "Marie Skłodowska-Curie PhD Fellow in Automatic Control",
+    "description": "Researcher in data-driven control, robust nonlinear control, sliding-mode control, super-twisting algorithms and floating offshore wind turbine control.",
+    "affiliation": [
+      {
+        "@type": "Organization",
+        "name": "École Centrale Nantes",
+        "url": "https://www.ec-nantes.fr/"
+      },
+      {
+        "@type": "Organization",
+        "name": "Laboratory of Digital Sciences of Nantes (LS2N)",
+        "url": "https://www.ls2n.fr/"
+      },
+      {
+        "@type": "Organization",
+        "name": "DENSE Doctoral Network",
+        "url": "https://dense-dn.eu/"
+      }
+    ],
+    "sameAs": [
+      "https://orcid.org/0000-0002-9936-5792",
+      "https://scholar.google.com/citations?user=gKYz7bcAAAAJ",
+      "https://www.linkedin.com/in/moein-sarbandi-2a3310252/",
+      "https://github.com/MoeinSarbandi"
+    ],
+    "knowsAbout": [
+      "Automatic control",
+      "Robust nonlinear control",
+      "Data-driven control",
+      "Data-driven sliding-mode control",
+      "Data informativity for control",
+      "Willems' Fundamental Lemma",
+      "Super-twisting control",
+      "Adaptive integral sliding-mode control",
+      "Nonlinear observers",
+      "Koopman operator methods",
+      "Data-enabled predictive control (DeePC)",
+      "Floating offshore wind turbine control",
+      "Wind speed estimation",
+      "OpenFAST"
+    ]
+  }
+}
+</script>
