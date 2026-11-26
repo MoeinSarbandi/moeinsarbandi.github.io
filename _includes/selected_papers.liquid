@@ -1,0 +1,30 @@
+<div class="publications selected-publications-compact">
+  {% bibliography --template bib_compact --query @*[selected=true] --group_by none %}
+</div>
+<p class="selected-publications-more">
+  <a href="{{ '/publications/' | relative_url }}">View all publications &rarr;</a>
+</p>
+<style>
+  .selected-publications-compact ol.bibliography {
+    list-style: square outside;
+    padding-left: 1.15rem;
+    margin: 0 0 .5rem;
+  }
+  .selected-publications-compact ol.bibliography > li {
+    display: list-item;
+    list-style: square outside;
+    margin: 0 0 .45rem;
+    padding: 0;
+    font-size: .91rem;
+    line-height: 1.45;
+  }
+  .selected-publications-compact .pub-marker { display: none; }
+  .selected-publications-compact .pub-authors,
+  .selected-publications-compact .pub-title,
+  .selected-publications-compact .pub-venue {
+    display: inline;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  .selected-publications-more { text-align: right; font-size: .85rem; margin: .3rem 0 1rem; }
+</style>
