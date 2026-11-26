@@ -65,3 +65,5 @@ For questions about the original software, the organizers maintain [GitHub discu
 - D. Schlipf et al., *IEA Wind Task 52 LAC Summer Games 2026*, Zenodo, 2026. [Benchmark and documentation](https://doi.org/10.5281/zenodo.21728616).
 - F. Guo, D. Schlipf, and P. W. Cheng, “Evaluation of LiDAR-Assisted Wind Turbine Control under Various Turbulence Characteristics,” *Wind Energy Science*, 2023. [DOI](https://doi.org/10.5194/wes-8-149-2023).
 - A. J. Russell et al., “LiDAR-Assisted Feedforward Individual Pitch Control of a 15 MW Floating Offshore Wind Turbine,” *Wind Energy*, 2024. [DOI](https://doi.org/10.1002/we.2891). *Further reading for advanced extensions; the 15 MW model is not needed for Phase 1.*
+
+For a complementary approach that infers rotor-effective wind speed from turbine measurements, see the [sliding-mode observers paper](https://wes.copernicus.org/articles/11/2405/2026/).

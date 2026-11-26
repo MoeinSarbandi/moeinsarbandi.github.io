@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /activities/
+seo_title: Academic Talks and Service | Moein Sarbandi
 title: academic activities
 description: Peer-review service, invited talks, and conference presentations.
 nav: true
@@ -94,7 +95,7 @@ Selected photographs from conferences, workshops, and research visits are availa
       <article class="activity-record">
         <p class="activity-meta">February 2026 · École Centrale Méditerranée, Marseille, France</p>
         <h2>Novel Wind Speed Estimation Method for Wind Turbines Using the Sliding-Mode Approach</h2>
-        <p><a href="https://www.jse-2026.fr/">Journées Scientifiques de l'Éolien 2026</a></p>
+        <p><a href="https://www.jse-2026.fr/">Journées Scientifiques de l'Éolien 2026</a>. <a href="https://wes.copernicus.org/articles/11/2405/2026/">Read the related journal paper</a>.</p>
       </article>
 
       <article class="activity-record">
@@ -138,7 +139,7 @@ Selected photographs from conferences, workshops, and research visits are availa
       <article class="activity-record">
         <p class="activity-meta">August 2026 · Busan, Republic of Korea</p>
         <h2>Robust Control Based on a New Wind Speed Observer for Floating Wind Turbines</h2>
-        <p>23rd IFAC World Congress</p>
+        <p>23rd IFAC World Congress. <a href="https://hal.science/hal-05755096">Open preprint on HAL</a>.</p>
       </article>
 
       <article class="activity-record">

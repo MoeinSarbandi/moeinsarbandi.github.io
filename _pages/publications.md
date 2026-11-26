@@ -1,11 +1,14 @@
 ---
 layout: page
 permalink: /publications/
+seo_title: Control and Wind Energy Papers | Moein Sarbandi
 title: publications
 description: Research papers, conference contributions, and manuscripts under review in automatic control and wind energy.
 nav: true
 nav_order: 2
 ---
+
+My research covers robust and data-driven control, with applications to [floating offshore wind turbines]({{ '/projects/' | relative_url }}). See [academic activities]({{ '/activities/' | relative_url }}) for related talks and conference presentations.
 
 {% include bib_search.liquid %}
 

@@ -84,7 +84,7 @@ al_folio:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: false
@@ -100,7 +100,9 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: /assets/img/prof_pic.jpg # Existing profile photo for link previews
+og_image: /assets/img/academic-preview.jpg
+og_image_alt: Moein Sarbandi, automatic control researcher at Centrale Nantes and LS2N
+og_locale: en_US
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -458,7 +460,7 @@ enable_google_verification: true # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)
 enable_masonry: true # enables automatic project cards arrangement
-enable_math: true # enables math typesetting (uses MathJax)
+enable_math: false # Enable MathJax when a page uses TeX equations.
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: false # dark mode intentionally disabled
 enable_navbar_social: false # enables displaying social links in the navbar on the about page

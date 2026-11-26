@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data-Based Power-Coefficient Approximation for Floating Wind Turbines
-description: Completed MSc project · EU-CORE · 2025
+description: EU-CORE MSc project comparing data-driven regression models for estimating the aerodynamic power coefficient of a floating wind turbine.
 img: assets/img/supervision/cp_approximation_method.jpg
 importance: 2
 category: supervision
@@ -26,7 +26,7 @@ topics: [Power coefficient, Data-driven modeling, Regression, OpenFAST]
 
 ## Project focus
 
-The aerodynamic power coefficient, $C_p$, is central to wind-turbine performance assessment and maximum-power-point tracking. This project investigated a data-based alternative to static analytical formulas and lookup tables by learning $C_p$ directly from high-fidelity OpenFAST simulation data.
+The aerodynamic power coefficient, C<sub>p</sub>, is central to wind-turbine performance assessment and maximum-power-point tracking. This project investigated a data-based alternative to static analytical formulas and lookup tables by learning C<sub>p</sub> directly from high-fidelity OpenFAST simulation data.
 
 ## Methods and outcomes
 
@@ -40,10 +40,10 @@ All three methods achieved strong agreement with the simulated reference data. T
 
 <div class="row">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/supervision/cp_approximation_models.jpg" title="Power-coefficient approximation models" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/supervision/cp_approximation_models.jpg" title="Power-coefficient approximation models" alt="Candidate models for approximating the wind turbine power coefficient" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/supervision/cp_approximation_results.jpg" title="Power-coefficient approximation results" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/supervision/cp_approximation_results.jpg" title="Power-coefficient approximation results" alt="Comparison of model results for wind turbine power-coefficient approximation" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">Compared model families and representative test-set predictions.</div>
