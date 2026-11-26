@@ -26,7 +26,7 @@ topics: [Power coefficient, Data-driven modeling, Regression, OpenFAST]
 
 ## Project focus
 
-The aerodynamic power coefficient, $C_p$, is central to wind-turbine performance assessment and maximum-power-point tracking. This project investigated a data-based alternative to static analytical formulas and lookup tables by learning $C_p$ directly from high-fidelity OpenFAST simulation data.
+The aerodynamic power coefficient, C<sub>p</sub>, is central to wind-turbine performance assessment and maximum-power-point tracking. This project investigated a data-based alternative to static analytical formulas and lookup tables by learning C<sub>p</sub> directly from high-fidelity OpenFAST simulation data.
 
 ## Methods and outcomes
 

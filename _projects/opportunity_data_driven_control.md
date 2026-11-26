@@ -31,7 +31,7 @@ This project develops and compares discrete-time data-driven controllers for the
 
 1. Obtain a linear wind-turbine model from OpenFAST or a validated reference model.
 2. Generate informative simulation data around a selected operating point.
-3. Implement data-driven state-feedback control, Data-enabled Predictive Control (DeePC) using Hankel matrices, and robust $H_\infty$ control.
+3. Implement data-driven state-feedback control, Data-enabled Predictive Control (DeePC) using Hankel matrices, and robust H<sub>∞</sub> control.
 4. Compare reference tracking, disturbance rejection, control effort, robustness to noisy data, and sensitivity to model uncertainty.
 5. Test the controllers at different wind speeds and study gain scheduling, adaptive control, or online data-driven control for a wider operating range.
 6. If time allows, validate the most promising controller on the high-fidelity OpenFAST model.
