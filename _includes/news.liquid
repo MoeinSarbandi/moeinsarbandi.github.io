@@ -1,0 +1,31 @@
+{% assign news_items = site.news | sort: 'date' | reverse %}
+{% if page.announcements.enabled and page.announcements.limit %}
+  {% assign news_limit = page.announcements.limit %}
+{% else %}
+  {% assign news_limit = news_items.size %}
+{% endif %}
+{% if news_items.size > 0 %}
+  <div class="academic-news{% if page.announcements.scrollable %} academic-news-scroll{% endif %}"{% if page.announcements.scrollable %} tabindex="0" role="region" aria-label="Research news, scroll for older updates"{% endif %}>
+    {% for item in news_items limit: news_limit %}
+      <article class="academic-news-row">
+        <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{% if item.display_date %}{{ item.display_date }}{% else %}{{ item.date | date: '%b %Y' }}{% endif %}</time>
+        <div class="academic-news-copy">{% if item.inline %}{{ item.content }}{% else %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endif %}</div>
+      </article>
+    {% endfor %}
+  </div>
+  {% if page.announcements.enabled %}
+    <p class="academic-news-archive"><a href="{{ '/news/' | relative_url }}">View all news &rarr;</a></p>
+  {% endif %}
+{% else %}
+  <p>No news yet.</p>
+{% endif %}
+<style>
+  .academic-news-scroll { max-height: 16.5rem; overflow-y: auto; scrollbar-width: thin; padding-right: .5rem; }
+  .academic-news-row { display: grid; grid-template-columns: 5.6rem minmax(0, 1fr); gap: .65rem; padding: .42rem 0; border-bottom: 1px solid var(--global-divider-color, #ddd); font-size: .92rem; line-height: 1.45; }
+  .academic-news-row:last-child { border-bottom: 0; }
+  .academic-news-row time { color: var(--global-text-color-light, #666); white-space: nowrap; font-size: .85rem; font-weight: 600; }
+  .academic-news-copy p { margin: 0; }
+  .academic-news-archive { text-align: right; font-size: .85rem; margin: .45rem 0 0; }
+  .academic-news-scroll:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 3px; }
+  @media (max-width: 480px) { .academic-news-row { grid-template-columns: 4.7rem minmax(0,1fr); gap: .4rem; font-size: .87rem; } .academic-news-row time { font-size: .77rem; } }
+</style>
