@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /gallery/
+seo_title: Academic Gallery | Moein Sarbandi
 title: gallery
 description: Selected moments from conferences, workshops, research visits, and the academic community.
 nav: true

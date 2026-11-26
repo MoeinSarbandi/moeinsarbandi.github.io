@@ -2,6 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
+seo_title: MSc Projects in Wind Turbine Control | Moein Sarbandi
 description: Current and completed MSc projects in control systems and wind energy.
 nav: true
 nav_order: 3

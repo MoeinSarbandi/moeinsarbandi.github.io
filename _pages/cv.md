@@ -1,6 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
+seo_title: Academic CV | Moein Sarbandi
 title: CV
 nav: true
 nav_order: 7

@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
+seo_title: Control Systems Teaching | Moein Sarbandi
 title: teaching
 description: Courses, laboratories, supervision, and teaching materials in automatic control.
 nav: true

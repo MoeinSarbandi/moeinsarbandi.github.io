@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+seo_title: Moein Sarbandi | Automatic Control, Centrale Nantes
 subtitle: >
   Marie Skłodowska-Curie PhD Fellow in Automatic Control ·
   <a href="https://www.ec-nantes.fr" target="_blank">Centrale Nantes</a> ·
@@ -11,17 +12,18 @@ subtitle: >
 profile:
   align: right
   image: prof_pic.jpg
+  image_alt: Portrait of Moein Sarbandi
   image_circular: true
   more_info: >
     <p>École Centrale Nantes</p>
     <p>Nantes, France</p>
-    <p>📧 <a href="mailto:moein.sarbandi@ec-nantes.fr">moein.sarbandi@ec-nantes.fr</a></p>
+    <p>Email: <a href="mailto:moein.sarbandi@ec-nantes.fr">moein.sarbandi@ec-nantes.fr</a></p>
 
-selected_papers: false
+selected_papers: true
 social: true
 
 announcements:
-  enabled: false
+  enabled: true
   scrollable: true
   limit: 5
 
@@ -33,7 +35,7 @@ latest_posts:
 
 I am an MSCA doctoral researcher in Automatic Control at the [Laboratory of Digital Sciences of Nantes (LS2N)](https://www.ls2n.fr/) (CODEx group), [École Centrale Nantes](https://www.ec-nantes.fr), funded by the [DENSE Doctoral Network](https://dense-dn.eu/) under Horizon Europe. My PhD research is supervised by [Prof. Franck Plestan](https://scholar.google.fr/citations?user=fJNH7aQAAAAJ&hl=en) and [Prof. Mohamed Assaad Hamida](https://scholar.google.com/citations?user=Bx-jJ64AAAAJ&hl=en).
 
-My research focuses on robust nonlinear control, data-driven control, and learning-enhanced control of uncertain dynamical systems, with applications to floating offshore wind turbine (FOWT) control. In particular, I study data-driven sliding-mode control, data informativity for control, super-twisting algorithms, adaptive integral sliding-mode control, and nonlinear observers, including wind-speed estimation. I use MATLAB/Simulink and OpenFAST for simulation and software-in-the-loop validation.
+My research focuses on robust nonlinear control, data-driven control, and learning-enhanced control of uncertain dynamical systems, with applications to floating offshore wind turbine (FOWT) control. In particular, I study data-driven sliding-mode control, data informativity for control, super-twisting algorithms, adaptive integral sliding-mode control, and nonlinear observers, including wind-speed estimation. I use MATLAB/Simulink and OpenFAST for simulation and software-in-the-loop validation. In [Wind Energy Science](https://wes.copernicus.org/articles/11/2405/2026/), my co-authors and I validated a sliding-mode approach to wind-speed estimation in OpenFAST and in a scaled experiment.
 
 ### Research interests
 
@@ -46,13 +48,13 @@ My research focuses on robust nonlinear control, data-driven control, and learni
 
 ### Research mobility and collaboration
 
-I undertook a research secondment at [Brandenburg University of Technology Cottbus–Senftenberg](https://www.b-tu.de/en/) with [Prof. Johannes Schiffer's group](https://scholar.google.com/citations?user=Zk26WrgAAAAJ&hl=en), focusing on data-driven control within the DENSE network. During **2–16 November 2026**, I visited Cyprus for [MEDPOWER 2026](https://cyprusconferences.org/medpower2026/), a technical visit to the Electricity Authority of Cyprus, and my second DENSE research secondment at the [Sustainable Power Systems Lab](https://sps-lab.org/), [Cyprus University of Technology](https://www.cut.ac.cy/), hosted by **Prof. Petros Aristidou**. The research visit explored data-driven control and voltage regulation in active distribution networks. [Visit gallery]({{ '/gallery/#cyprus-research-visit-2026' | relative_url }}). I also collaborate with [Prof. Antonella Ferrara's group](https://scholar.google.com/citations?user=r5JuMskAAAAJ&hl=en) at the University of Pavia.
+I have undertaken DENSE research secondments on data-driven control at [BTU Cottbus–Senftenberg](https://www.b-tu.de/en/) and at the [Sustainable Power Systems Lab](https://sps-lab.org/) at Cyprus University of Technology. I also collaborate with [Prof. Antonella Ferrara’s group](https://scholar.google.com/citations?user=r5JuMskAAAAJ&hl=en) at the University of Pavia.
 
 ### Academic service
 
-I have completed **35+ journal peer reviews across 12 journals**, including _Automatica_, _IEEE Transactions on Cybernetics_, _IEEE Transactions on Power Systems_, _IEEE Transactions on Aerospace and Electronic Systems_, _ISA Transactions_, _Energy_, _Energy Reports_, _Scientific Reports_, _Wind Engineering_, _The Journal of Supercomputing_, _International Journal of Intelligent Robotics and Applications_, and _International Journal of Machine Learning and Cybernetics_. I have also reviewed for the **IFAC World Congress 2026** and the **American Control Conference 2026**. Further details are available under [academic activities]({{ '/activities/' | relative_url }}).
+I have completed 35+ peer reviews across 12 journals and review for control conferences, as detailed under [academic activities]({{ '/activities/' | relative_url }}).
 
-My publications and verified researcher record are available through [ORCID](https://orcid.org/0000-0002-9936-5792) and the links below. I welcome research collaborations in nonlinear control, data-driven methods, wind energy, robotics, and autonomous systems.
+See my [publications]({{ '/publications/' | relative_url }}) and [ORCID record](https://orcid.org/0000-0002-9936-5792). I welcome research collaborations in nonlinear control, data-driven methods, wind energy, robotics, and autonomous systems.
 
 <script type="application/ld+json">
 {
@@ -60,7 +62,7 @@ My publications and verified researcher record are available through [ORCID](htt
   "@type": "ProfilePage",
   "@id": "https://moeinsarbandi.github.io/#profile",
   "url": "https://moeinsarbandi.github.io/",
-  "name": "Moein Sarbandi – Automatic Control Researcher",
+  "name": "Moein Sarbandi, Automatic Control Researcher",
   "mainEntity": {
     "@type": "Person",
     "@id": "https://moeinsarbandi.github.io/#person",
@@ -86,11 +88,16 @@ My publications and verified researcher record are available through [ORCID](htt
         "url": "https://dense-dn.eu/"
       }
     ],
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "K. N. Toosi University of Technology"
+    },
     "sameAs": [
       "https://orcid.org/0000-0002-9936-5792",
       "https://scholar.google.com/citations?user=gKYz7bcAAAAJ",
       "https://www.linkedin.com/in/moein-sarbandi-2a3310252/",
-      "https://github.com/MoeinSarbandi"
+      "https://github.com/MoeinSarbandi",
+      {{ site.data.socials.dblp_url | jsonify }}
     ],
     "knowsAbout": [
       "Automatic control",

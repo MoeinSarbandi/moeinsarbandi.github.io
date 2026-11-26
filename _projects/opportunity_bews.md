@@ -38,3 +38,5 @@ Our previous work estimated rotor-effective wind speed, an equivalent wind speed
 
 - M. Sarbandi, M. Viozelange, M. A. Hamida, and F. Plestan, “Wind Speed Estimation Using Second-Order Sliding-Mode Observers: Simulation and Experimental Validation on a Floating Offshore Wind Turbine,” _Wind Energy Science_, 2026. [DOI](https://doi.org/10.5194/wes-11-2405-2026)
 - Y. Liu, A. K. Pamososuryo, R. Ferrari, T. G. Hovgaard, and J.-W. van Wingerden, “Blade Effective Wind Speed Estimation: A Subspace Predictive Repetitive Estimator Approach,” _European Control Conference_, 2021.
+
+The [wind-speed estimation paper](https://wes.copernicus.org/articles/11/2405/2026/) develops observers for rotor-effective wind speed. This project asks how to estimate the wind experienced by each individual blade.

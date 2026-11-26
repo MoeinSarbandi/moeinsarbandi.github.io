@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Adaptive-Gain Laws for Rotor-Effective Wind-Speed Estimation
-description: Completed MSc project · EU-CORE · 2025
+description: EU-CORE MSc project comparing adaptive-gain sliding-mode observers for estimating rotor-effective wind speed on a floating wind turbine.
 img: assets/img/supervision/rews_estimator_model.jpg
 importance: 1
 category: supervision
@@ -38,14 +38,14 @@ The students implemented three adaptive laws from the literature and a constant-
 
 <div class="row">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/supervision/rews_estimator_model.jpg" title="REWS estimator project" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/supervision/rews_estimator_model.jpg" title="REWS estimator project" alt="Model used to compare rotor-effective wind-speed estimators" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/supervision/rews_estimator_results.jpg" title="REWS estimation results" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/supervision/rews_estimator_results.jpg" title="REWS estimation results" alt="Comparison of rotor-effective wind-speed estimation results" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">Project formulation and comparison of the estimator gain strategies.</div>
 
-**Related publication:** M. Sarbandi, M. Viozelange, M. A. Hamida, and F. Plestan, "Wind Speed Estimation Using Second-Order Sliding-Mode Observers: Simulation and Experimental Validation on a Floating Offshore Wind Turbine," _Wind Energy Science_, 2026. [DOI](https://doi.org/10.5194/wes-11-2405-2026)
+**Related publication:** [Wind speed estimation using second-order sliding-mode observers](https://wes.copernicus.org/articles/11/2405/2026/), published in *Wind Energy Science* (2026).
 
 <a href="{{ '/assets/pdf/WindPDF.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">View project presentation (PDF)</a>

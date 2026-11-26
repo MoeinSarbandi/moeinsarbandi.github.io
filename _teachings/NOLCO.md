@@ -1,6 +1,6 @@
 ---
 layout: course
-title: NOLCO — Nonlinear Control Lab for Wind Turbines
+title: NOLCO 2025, Nonlinear Wind Turbine Control Lab
 description: A two-part lab on nonlinear control design for variable-speed wind turbines, covering aerodynamic torque/pitch control and PMSG electrical control, from feedback linearization to sliding mode and super-twisting algorithms.
 instructor: Moein Sarbandi, Prof. Franck Plestan
 year: 2025
@@ -46,4 +46,4 @@ NOLCO is a hands-on lab for the EU-CORE Master Programme (European Master on Con
 
 ## Materials
 
-The full lab subject (Parts I and II) is attached to each session above, alongside the provided Simulink model used for evaluating all controllers.
+Download the [two-part lab handout (PDF)]({{ '/assets/pdf/teaching/nolco/lab_subject.pdf' | relative_url }}) covering aerodynamic and PMSG electrical control. See the [2026 course and lab]({{ '/teachings/NOLCO-2026/' | relative_url }}) for the expanded version.

@@ -5,6 +5,7 @@ title: Gallery preview
 description: An experimental, photo-first gallery layout for academic moments and research travel.
 nav: false
 sitemap: false
+noindex: true
 images:
   photoswipe: false
 ---

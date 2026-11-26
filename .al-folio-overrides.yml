@@ -1,0 +1,17 @@
+---
+version: 1
+overrides:
+  _includes/metadata.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.11
+    upstream_path: _includes/metadata.liquid
+    upstream_sha256: b9b8ea49980bb85109e344198a3b97818fcb6f5fec89e11f98e46af1529bc96a
+    local_sha256: 6174fdadecf6dd466314ebf9c25859dcbfbc310e3fdecdf6b8f4f517aff168af
+    acknowledged_at: '2026-11-26'
+  _layouts/about.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.11
+    upstream_path: _layouts/about.liquid
+    upstream_sha256: 2c28eb83b71fe65f252202c11f0b4a19a9b6f1faccdc870b4f91c4ea51d0c6f1
+    local_sha256: 07eaf429d91384c84106935a48a578a59afe24d15d8cfb5cfea77656825e6534
+    acknowledged_at: '2026-11-26'
