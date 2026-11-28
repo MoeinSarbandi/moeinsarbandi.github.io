@@ -97,6 +97,7 @@ See my [publications]({{ '/publications/' | relative_url }}) and [ORCID record](
       "https://scholar.google.com/citations?user=gKYz7bcAAAAJ",
       "https://www.linkedin.com/in/moein-sarbandi-2a3310252/",
       "https://github.com/MoeinSarbandi",
+      "https://www.ls2n.fr/membres/sarbandi-m/",
       {{ site.data.socials.dblp_url | jsonify }}
     ],
     "knowsAbout": [
